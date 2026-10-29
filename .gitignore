@@ -13,3 +13,6 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Notas privadas para Claude (no se suben a GitHub)
+CLAUDE.md
