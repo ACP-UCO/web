@@ -1,57 +1,61 @@
-# Miembros del grupo.
+# Miembros del grupo. Aparecen en la web en el mismo orden que aquí
+# (por orden alfabético del primer apellido), sin jerarquías.
 #
 # Cómo añadir a alguien: copia un bloque completo (desde "- nombre:" hasta la
-# siguiente línea en blanco), pégalo y cambia los datos. Respeta los espacios
-# del principio de cada línea.
+# siguiente línea en blanco), pégalo en su sitio y cambia los datos. Respeta los
+# espacios del principio de cada línea.
 #
-# categoria: una de  investigador | postdoc | doctorando | colaborador | antiguo
-# orcid:     opcional; si se pone, sus publicaciones aparecen solas en la web.
-# inspire:   opcional; enlace a su perfil de INSPIRE, solo si INSPIRE no lo encuentra
-#            por el ORCID (p. ej. https://inspirehep.net/authors/2052961).
+# cargo:       p. ej. "Profesor Titular de Universidad"
+# institucion: opcional; si se deja vacío se pone "Universidad de Córdoba".
+# orcid:       opcional; si se pone, sus publicaciones aparecen solas en la web.
+# inspire:     opcional; enlace a su perfil de INSPIRE, solo si INSPIRE no lo encuentra
+#              por el ORCID (p. ej. https://inspirehep.net/authors/2052961).
 # completar_con_orcid: true  → añade también lo que esté en ORCID y no en INSPIRE.
-# foto:      opcional; sube la foto a estatico/img/miembros/ y pon aquí el nombre del archivo.
-# web:       opcional; página personal.
+# foto:        opcional; sube la foto a estatico/img/miembros/ y pon aquí el nombre del archivo.
+# web:         opcional; página personal.
+# antiguo: true → pasa a la lista de "Antiguos miembros" (y sus publicaciones dejan de añadirse).
+#
 # Fuente inicial: web del Departamento de Física (29/10/2026). Fotos: web del
 # Departamento y, la de Víctor Miralles, su CV en la Universidad de Alicante.
 
 - nombre: Fernando Cornet Gómez
-  categoria: investigador
   cargo: Investigador responsable · Profesor Distinguido
+  institucion: ""
   orcid: 0000-0002-5242-3019
   correo: sc2cogof@uco.es
   foto: cornet-gomez-fernando.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/cornet-gomez-fernando/
 
 - nombre: Antonio José Cuesta Vázquez
-  categoria: investigador
   cargo: Profesor Titular de Universidad
+  institucion: ""
   orcid: 0000-0002-4153-9470
   correo: ajcuesta@uco.es
   foto: cuesta-vazquez-antonio-jose.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/cuesta-vazquez-antonio-jose/
 
+- nombre: Víctor Miralles Aznar
+  cargo: Investigador Distinguido
+  institucion: Universidad de Alicante
+  orcid: 0000-0002-8933-1281
+  correo: ""
+  foto: miralles-aznar-victor.jpg
+  web: https://observatorio-cientifico.ua.es/investigadores/2293527/detalle
+
 - nombre: Javier Román García
-  categoria: postdoc
   cargo: Investigador Posdoctoral
+  institucion: ""
   orcid: 0000-0002-3849-3467
   correo: f12rogaj@uco.es
   foto: roman-garcia-javier.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/roman-garcia-javier/
 
 - nombre: Yetli Mariana Rosas Guevara
-  categoria: postdoc
   cargo: Investigadora Posdoctoral
+  institucion: ""
   orcid: 0000-0003-2579-2676
   inspire: https://inspirehep.net/authors/2052961
   completar_con_orcid: true      # su perfil de INSPIRE no recoge todos sus artículos
   correo: fa2roguy@uco.es
   foto: rosas-guevara-yetli.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/rosas-guevara-yetli/
-
-- nombre: Víctor Miralles Aznar
-  categoria: colaborador
-  cargo: Universidad de Alicante
-  orcid: 0000-0002-8933-1281
-  correo: ""
-  foto: miralles-aznar-victor.jpg
-  web: https://observatorio-cientifico.ua.es/investigadores/2293527/detalle

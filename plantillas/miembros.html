@@ -1,29 +1,32 @@
 {% extends "base.html" %}
 {% block titulo %}Miembros · {% endblock %}
+{% macro tarjeta(p) %}
+<li class="persona">
+  {% if p.foto %}<img src="{{ recurso('img/miembros/' ~ p.foto) }}" alt="" width="96" height="96" loading="lazy">
+  {% else %}<span class="persona__inicial" aria-hidden="true">{{ p.nombre | iniciales }}</span>{% endif %}
+  <div>
+    <h3>{% if p.web %}<a href="{{ p.web }}">{{ p.nombre }}</a>{% else %}{{ p.nombre }}{% endif %}</h3>
+    {% if p.cargo %}<p class="tenue">{{ p.cargo }}</p>{% endif %}
+    <p class="tenue">{{ p.institucion or sitio.universidad }}</p>
+    <p class="persona__enlaces">
+      {% if p.correo %}<a href="mailto:{{ p.correo }}">Correo</a>{% endif %}
+      {% if p.orcid %}<a href="https://orcid.org/{{ p.orcid }}">ORCID</a>{% endif %}
+    </p>
+  </div>
+</li>
+{% endmacro %}
 {% block contenido %}
 <header class="titular"><div class="contenedor"><h1>Miembros</h1>
 <p>Personas que forman el grupo {{ sitio.codigo }}.</p></div></header>
 <div class="contenedor seccion">
-  {% for titulo, personas in grupos if personas %}
-  <section>
-    <h2>{{ titulo }}</h2>
-    <ul class="personas">
-      {% for p in personas %}
-      <li class="persona">
-        {% if p.foto %}<img src="img/miembros/{{ p.foto }}" alt="" width="96" height="96" loading="lazy">
-        {% else %}<span class="persona__inicial" aria-hidden="true">{{ p.nombre | iniciales }}</span>{% endif %}
-        <div>
-          <h3>{% if p.web %}<a href="{{ p.web }}">{{ p.nombre }}</a>{% else %}{{ p.nombre }}{% endif %}</h3>
-          {% if p.cargo %}<p class="tenue">{{ p.cargo }}</p>{% endif %}
-          <p class="persona__enlaces">
-            {% if p.correo %}<a href="mailto:{{ p.correo }}">Correo</a>{% endif %}
-            {% if p.orcid %}<a href="https://orcid.org/{{ p.orcid }}">ORCID</a>{% endif %}
-          </p>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endfor %}
+  <ul class="personas">
+    {% for p in actuales %}{{ tarjeta(p) }}{% endfor %}
+  </ul>
+  {% if antiguos %}
+  <h2>Antiguos miembros</h2>
+  <ul class="personas">
+    {% for p in antiguos %}{{ tarjeta(p) }}{% endfor %}
+  </ul>
+  {% endif %}
 </div>
 {% endblock %}

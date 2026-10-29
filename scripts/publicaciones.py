@@ -160,7 +160,7 @@ def main():
         for p in miembros:
             orcid = str(p.get("orcid") or "").strip()
             inspire = str(p.get("inspire") or "").strip()
-            if not (orcid or inspire) or p.get("categoria") == "antiguo":
+            if not (orcid or inspire) or p.get("antiguo"):
                 continue
             bai = bai_de_perfil(inspire) if inspire else inspire_bai(orcid)
             lista, fuentes = [], []

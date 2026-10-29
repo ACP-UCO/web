@@ -5,6 +5,7 @@ Todos los enlaces internos son relativos para que la web funcione tanto en
 /investiga/grupos/acp/ como en el alias /acp/.
 """
 import datetime as dt
+import hashlib
 import json
 import re
 import shutil
@@ -22,15 +23,6 @@ SITE = RAIZ / "_site"
 
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-
-CATEGORIAS = [
-    ("investigador", "Personal investigador"),
-    ("postdoc", "Investigadores posdoctorales"),
-    ("doctorando", "Doctorandos"),
-    ("colaborador", "Colaboradores"),
-    ("antiguo", "Antiguos miembros"),
-]
-
 
 def error(archivo, msg):
     sys.exit(f"\n❌ Error en {archivo}:\n   {msg}\n")
@@ -55,6 +47,13 @@ def fecha_larga(f):
     if isinstance(f, str):
         f = dt.date.fromisoformat(f)
     return f"{f.day} de {MESES[f.month - 1]} de {f.year}"
+
+
+def recurso(ruta):
+    """Ruta a un archivo de estatico/ con su huella (?v=...), para que el
+    navegador y el servidor descarguen la versión nueva cuando cambia."""
+    contenido = (RAIZ / "estatico" / ruta).read_bytes()
+    return f"{ruta}?v={hashlib.md5(contenido).hexdigest()[:8]}"
 
 
 def mes_corto(f):
@@ -104,13 +103,9 @@ def cargar_noticias():
 
 
 def comprobar_miembros(miembros):
-    validas = {c for c, _ in CATEGORIAS}
     for i, p in enumerate(miembros, 1):
         if not p.get("nombre"):
             error("miembros.yml", f"el miembro nº {i} no tiene 'nombre:'.")
-        if p.get("categoria") not in validas:
-            error("miembros.yml", f"{p['nombre']}: la categoría "
-                  f"'{p.get('categoria')}' no existe. Usa una de: {', '.join(validas)}.")
         foto = p.get("foto")
         if foto and not (RAIZ / "estatico/img/miembros" / foto).exists():
             error("miembros.yml", f"{p['nombre']}: no encuentro la foto "
@@ -135,12 +130,13 @@ def main():
     for p in publicaciones:
         por_anio.setdefault(p["anio"] or "Sin fecha", []).append(p)
 
-    grupos = [(titulo, [p for p in miembros if p["categoria"] == c])
-              for c, titulo in CATEGORIAS]
+    actuales = [p for p in miembros if not p.get("antiguo")]
+    antiguos = [p for p in miembros if p.get("antiguo")]
 
     env = Environment(loader=FileSystemLoader(RAIZ / "plantillas"),
                       undefined=StrictUndefined, autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
+    env.globals["recurso"] = recurso
     env.filters.update(md=md, fecha=fecha_larga, latex=latex_ligero, mes=mes_corto,
                        iniciales=iniciales, saltos=saltos)
 
@@ -149,7 +145,7 @@ def main():
         "index.html": dict(lineas=lineas, noticias=cargar_noticias()[:3],
                            proximos=proximos[:3], recientes=publicaciones[:4]),
         "investigacion.html": dict(lineas=lineas),
-        "miembros.html": dict(grupos=grupos),
+        "miembros.html": dict(actuales=actuales, antiguos=antiguos),
         "publicaciones.html": dict(por_anio=por_anio, total=len(publicaciones)),
         "seminarios.html": dict(proximos=proximos, pasados=pasados),
         "noticias.html": dict(noticias=cargar_noticias()),
