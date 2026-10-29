@@ -4,19 +4,19 @@
 # "resumen" es el texto corto de la tarjeta de la portada.
 # El campo "icono" puede ser: particulas, cosmologia, astrofisica, ondas, neutrinos, materia-oscura
 
-- titulo: Cosmología
-  icono: cosmologia
-  resumen: |
-    La expansión del universo y su estructura a gran escala.
-  lineas:
-    - Interpretación cosmológica de medidas de expansión del Universo basadas en observaciones de la estructura a gran escala
-
 - titulo: Astrofísica
   icono: astrofisica
   resumen: |
     Galaxias, simulaciones cosmológicas y el universo observado.
   lineas:
     - Astrofísica y Cosmología
+    
+- titulo: Cosmología
+  icono: cosmologia
+  resumen: |
+    La expansión del universo y su estructura a gran escala.
+  lineas:
+    - Interpretación cosmológica de medidas de expansión del Universo basadas en observaciones de la estructura a gran escala
 
 - titulo: Física de partículas
   icono: particulas
