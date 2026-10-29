@@ -169,7 +169,18 @@ time { color: var(--tenue); font-size: .88rem; }
 .persona img, .persona__inicial { width: 4.5rem; height: 4.5rem; border-radius: 50%; flex: none; object-fit: cover; }
 .persona__inicial { display: grid; place-items: center; background: linear-gradient(160deg, var(--noche), var(--noche-2)); color: #fff; font: 600 1.4rem var(--serif); }
 .persona p { margin: 0; font-size: .92rem; }
-.persona__enlaces { display: flex; gap: .75rem; }
+.persona__enlaces { display: flex; gap: .55rem; margin-top: .35rem !important; }
+.red { display: inline-flex; padding: 2px; border-radius: 6px; color: var(--tenue); transition: transform .15s; }
+.red:hover { transform: translateY(-1px); }
+.red__icono { width: 22px; height: 22px; display: block; }
+.red--correo:hover { color: var(--enlace); }
+.red--orcid { color: #a6ce39; }
+.red--inspire { color: #001529; }
+.red--researchgate { color: #00ccbb; }
+.red--x { color: #000; }
+@media (prefers-color-scheme: dark) {
+  .red--inspire, .red--x { color: #e6e8ef; }
+}
 
 .destacado { font-size: 1.3rem; }
 address { font-style: normal; }

@@ -12,7 +12,10 @@
 #              por el ORCID (p. ej. https://inspirehep.net/authors/2052961).
 # completar_con_orcid: true  → añade también lo que esté en ORCID y no en INSPIRE.
 # foto:        opcional; sube la foto a estatico/img/miembros/ y pon aquí el nombre del archivo.
-# web:         opcional; página personal.
+# web:         opcional; página personal (se enlaza desde el nombre).
+# researchgate: opcional; enlace a su perfil (o solo el nombre de usuario).
+# x:           opcional; cuenta de X, antes Twitter (enlace o @usuario).
+# El enlace a INSPIRE se pone solo si INSPIRE tiene perfil de esa persona.
 # antiguo: true → pasa a la lista de "Antiguos miembros" (y sus publicaciones dejan de añadirse).
 #
 # Fuente inicial: web del Departamento de Física (29/10/2026). Fotos: web del
@@ -25,6 +28,8 @@
   correo: sc2cogof@uco.es
   foto: cornet-gomez-fernando.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/cornet-gomez-fernando/
+  researchgate: ""
+  x: ""
 
 - nombre: Antonio José Cuesta Vázquez
   cargo: Profesor Titular de Universidad
@@ -33,6 +38,8 @@
   correo: ajcuesta@uco.es
   foto: cuesta-vazquez-antonio-jose.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/cuesta-vazquez-antonio-jose/
+  researchgate: ""
+  x: ""
 
 - nombre: Víctor Miralles Aznar
   cargo: Investigador Distinguido
@@ -41,6 +48,8 @@
   correo: ""
   foto: miralles-aznar-victor.jpg
   web: https://observatorio-cientifico.ua.es/investigadores/2293527/detalle
+  researchgate: ""
+  x: ""
 
 - nombre: Javier Román García
   cargo: Investigador Posdoctoral
@@ -49,6 +58,8 @@
   correo: f12rogaj@uco.es
   foto: roman-garcia-javier.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/roman-garcia-javier/
+  researchgate: ""
+  x: ""
 
 - nombre: Yetli Mariana Rosas Guevara
   cargo: Investigadora Posdoctoral
@@ -59,3 +70,5 @@
   correo: fa2roguy@uco.es
   foto: rosas-guevara-yetli.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/rosas-guevara-yetli/
+  researchgate: ""
+  x: ""

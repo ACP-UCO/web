@@ -24,6 +24,7 @@ import yaml
 
 RAIZ = Path(__file__).resolve().parent.parent
 SALIDA = RAIZ / "datos" / "publicaciones.json"
+PERFILES = RAIZ / "datos" / "perfiles_inspire.json"  # nombre → nº de perfil INSPIRE
 INSPIRE = "https://inspirehep.net/api"
 ORCID = "https://pub.orcid.org/v3.0"
 CAMPOS = ",".join([
@@ -49,26 +50,27 @@ def pedir(url, cabeceras=None):
             time.sleep(2 * (intento + 1))
 
 
-def inspire_bai(orcid):
-    q = urllib.parse.urlencode({"q": f'ids.value:"{orcid}"', "fields": "ids"})
-    hits = pedir(f"{INSPIRE}/authors?{q}")["hits"]["hits"]
+def perfil_inspire(orcid="", inspire=""):
+    """Devuelve (BAI, número de perfil) del autor en INSPIRE, o (None, None).
+
+    "inspire" puede ser el BAI (p. ej. Y.RosasGuevara.1), el número del perfil
+    o su URL; si está vacío se busca el perfil por el ORCID."""
+    numero = re.search(r"(\d+)/?$", inspire)
+    if inspire.startswith("http") or (numero and "." not in inspire):
+        if not numero:
+            return None, None
+        hits = [pedir(f"{INSPIRE}/authors/{numero.group(1)}?fields=ids,control_number")]
+    else:
+        valor = inspire or orcid
+        q = urllib.parse.urlencode({"q": f'ids.value:"{valor}"',
+                                    "fields": "ids,control_number"})
+        hits = pedir(f"{INSPIRE}/authors?{q}")["hits"]["hits"]
     for h in hits:
-        for i in h["metadata"].get("ids", []):
+        m = h["metadata"]
+        for i in m.get("ids", []):
             if i["schema"] == "INSPIRE BAI":
-                return i["value"]
-    return None
-
-
-def bai_de_perfil(valor):
-    """Acepta el BAI (p. ej. Y.RosasGuevara.1), el número del perfil o su URL."""
-    numero = re.search(r"(?:authors/)?(\d+)(?:\D|$)", valor)
-    if "." in valor and not valor.startswith("http"):
-        return valor
-    if not numero:
-        return None
-    m = pedir(f"{INSPIRE}/authors/{numero.group(1)}?fields=ids")["metadata"]
-    return next((i["value"] for i in m.get("ids", [])
-                 if i["schema"] == "INSPIRE BAI"), None)
+                return i["value"], m["control_number"]
+    return None, None
 
 
 def trabajos_inspire(bai):
@@ -155,14 +157,16 @@ def main():
     desde = opciones.get("desde_anio") or 0
     excluir = set(opciones.get("excluir") or [])
 
-    todos = {}
+    todos, perfiles = {}, {}
     try:
         for p in miembros:
             orcid = str(p.get("orcid") or "").strip()
             inspire = str(p.get("inspire") or "").strip()
             if not (orcid or inspire) or p.get("antiguo"):
                 continue
-            bai = bai_de_perfil(inspire) if inspire else inspire_bai(orcid)
+            bai, perfil = perfil_inspire(orcid, inspire)
+            if perfil:
+                perfiles[p["nombre"]] = perfil
             lista, fuentes = [], []
             if bai:
                 lista += trabajos_inspire(bai)
@@ -192,6 +196,7 @@ def main():
     lista.sort(key=lambda t: (t["anio"] or 0, t["id"]), reverse=True)
     SALIDA.parent.mkdir(exist_ok=True)
     SALIDA.write_text(json.dumps(lista, ensure_ascii=False, indent=1))
+    PERFILES.write_text(json.dumps(perfiles, ensure_ascii=False, indent=1))
     print(f"{len(lista)} publicaciones guardadas en {SALIDA.relative_to(RAIZ)}")
 
 

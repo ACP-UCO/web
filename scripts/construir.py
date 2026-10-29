@@ -102,6 +102,29 @@ def cargar_noticias():
     return noticias
 
 
+def enlaces_miembro(p, perfil_inspire):
+    """Lista de (red, texto, url) con los enlaces que tenga rellenos el miembro."""
+    def campo(nombre):
+        return str(p.get(nombre) or "").strip()
+    x = campo("x") or campo("twitter")
+    if x and not x.startswith("http"):
+        x = "https://x.com/" + x.lstrip("@")
+    rg = campo("researchgate")
+    if rg and not rg.startswith("http"):
+        rg = "https://www.researchgate.net/profile/" + rg
+    inspire = campo("inspire")
+    if not inspire.startswith("http"):
+        inspire = f"https://inspirehep.net/authors/{perfil_inspire}" if perfil_inspire else ""
+    candidatos = [
+        ("correo", "Correo electrónico", "mailto:" + campo("correo") if campo("correo") else ""),
+        ("orcid", "ORCID", "https://orcid.org/" + campo("orcid") if campo("orcid") else ""),
+        ("inspire", "INSPIRE-HEP", inspire),
+        ("researchgate", "ResearchGate", rg),
+        ("x", "X (Twitter)", x),
+    ]
+    return [(red, texto, url) for red, texto, url in candidatos if url]
+
+
 def comprobar_miembros(miembros):
     for i, p in enumerate(miembros, 1):
         if not p.get("nombre"):
@@ -130,6 +153,10 @@ def main():
     for p in publicaciones:
         por_anio.setdefault(p["anio"] or "Sin fecha", []).append(p)
 
+    perfiles_json = RAIZ / "datos/perfiles_inspire.json"
+    perfiles = json.loads(perfiles_json.read_text()) if perfiles_json.exists() else {}
+    for p in miembros:
+        p["enlaces"] = enlaces_miembro(p, perfiles.get(p["nombre"]))
     actuales = [p for p in miembros if not p.get("antiguo")]
     antiguos = [p for p in miembros if p.get("antiguo")]
 

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_redes.html" import icono_red %}
 {% block titulo %}Miembros · {% endblock %}
 {% macro tarjeta(p) %}
 <li class="persona">
@@ -8,10 +9,13 @@
     <h3>{% if p.web %}<a href="{{ p.web }}">{{ p.nombre }}</a>{% else %}{{ p.nombre }}{% endif %}</h3>
     {% if p.cargo %}<p class="tenue">{{ p.cargo }}</p>{% endif %}
     <p class="tenue">{{ p.institucion or sitio.universidad }}</p>
+    {% if p.enlaces %}
     <p class="persona__enlaces">
-      {% if p.correo %}<a href="mailto:{{ p.correo }}">Correo</a>{% endif %}
-      {% if p.orcid %}<a href="https://orcid.org/{{ p.orcid }}">ORCID</a>{% endif %}
+      {% for red, texto, url in p.enlaces %}
+      <a class="red red--{{ red }}" href="{{ url }}" title="{{ texto }}" aria-label="{{ texto }} de {{ p.nombre }}">{{ icono_red(red) }}</a>
+      {% endfor %}
     </p>
+    {% endif %}
   </div>
 </li>
 {% endmacro %}
