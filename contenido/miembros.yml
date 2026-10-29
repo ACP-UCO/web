@@ -11,14 +11,15 @@
 # completar_con_orcid: true  → añade también lo que esté en ORCID y no en INSPIRE.
 # foto:      opcional; sube la foto a estatico/img/miembros/ y pon aquí el nombre del archivo.
 # web:       opcional; página personal.
-# Fuente inicial: web del Departamento de Física (29/10/2026).
+# Fuente inicial: web del Departamento de Física (29/10/2026). Fotos: web del
+# Departamento y, la de Víctor Miralles, su CV en la Universidad de Alicante.
 
 - nombre: Fernando Cornet Gómez
   categoria: investigador
   cargo: Investigador responsable · Profesor Distinguido
   orcid: 0000-0002-5242-3019
   correo: sc2cogof@uco.es
-  foto: ""
+  foto: cornet-gomez-fernando.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/cornet-gomez-fernando/
 
 - nombre: Antonio José Cuesta Vázquez
@@ -26,7 +27,7 @@
   cargo: Profesor Titular de Universidad
   orcid: 0000-0002-4153-9470
   correo: ajcuesta@uco.es
-  foto: ""
+  foto: cuesta-vazquez-antonio-jose.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/cuesta-vazquez-antonio-jose/
 
 - nombre: Javier Román García
@@ -34,7 +35,7 @@
   cargo: Investigador Posdoctoral
   orcid: 0000-0002-3849-3467
   correo: f12rogaj@uco.es
-  foto: ""
+  foto: roman-garcia-javier.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/roman-garcia-javier/
 
 - nombre: Yetli Mariana Rosas Guevara
@@ -44,7 +45,7 @@
   inspire: https://inspirehep.net/authors/2052961
   completar_con_orcid: true      # su perfil de INSPIRE no recoge todos sus artículos
   correo: fa2roguy@uco.es
-  foto: ""
+  foto: rosas-guevara-yetli.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/rosas-guevara-yetli/
 
 - nombre: Víctor Miralles Aznar
@@ -52,5 +53,5 @@
   cargo: Universidad de Alicante
   orcid: 0000-0002-8933-1281
   correo: ""
-  foto: ""
+  foto: miralles-aznar-victor.jpg
   web: https://observatorio-cientifico.ua.es/investigadores/2293527/detalle
