@@ -1,0 +1,13 @@
+# Seminarios del grupo. Los futuros salen en la portada; los pasados, en el archivo.
+# fecha: AAAA-MM-DD   hora: HH:MM   (entre comillas)
+# Copia un bloque completo para añadir otro.
+
+- fecha: 2026-11-20
+  hora: "12:00"
+  ponente: Nombre del ponente (ejemplo)
+  institucion: Universidad de ejemplo
+  titulo: Título del seminario
+  lugar: Aula por confirmar, Campus de Rabanales
+  resumen: |
+    Resumen opcional del seminario.
+  enlace: ""        # opcional: enlace a vídeo, transparencias...

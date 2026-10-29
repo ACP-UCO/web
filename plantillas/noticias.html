@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block titulo %}Noticias · {% endblock %}
+{% block contenido %}
+<header class="titular"><div class="contenedor"><h1>Noticias</h1></div></header>
+<div class="contenedor seccion estrecho">
+  {% for n in noticias %}
+  <article class="noticia" id="{{ n.id }}">
+    <time datetime="{{ n.fecha }}">{{ n.fecha | fecha }}</time>
+    <h2>{{ n.titulo }}</h2>
+    {{ n.html }}
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

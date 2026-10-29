@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icono %}
+{% block titulo %}Investigación · {% endblock %}
+{% block contenido %}
+<header class="titular"><div class="contenedor"><h1>Investigación</h1>
+<p>Líneas de investigación del grupo {{ sitio.codigo }}.</p></div></header>
+<div class="contenedor seccion">
+  {% for l in lineas %}
+  <section class="linea" id="linea-{{ loop.index }}">
+    {{ icono(l.icono) }}
+    <div><h2>{{ l.titulo }}</h2>{{ l.resumen | md }}
+      {% if l.lineas is defined and l.lineas %}
+      <ul class="linea__lista">{% for x in l.lineas %}<li>{{ x }}</li>{% endfor %}</ul>
+      {% endif %}</div>
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}

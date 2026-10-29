@@ -1,0 +1,7 @@
+# Configuración de la lista de publicaciones (se actualiza sola desde INSPIRE-HEP).
+# Se usan los ORCID de miembros.yml. Aquí solo se ajustan opciones.
+
+desde_anio: 2015        # no mostrar publicaciones anteriores a este año
+solo_revisadas: false
+incluir_congresos: false # true = mostrar también las contribuciones a congresos (proceedings)   # true = ocultar preprints que aún no están publicados en revista
+excluir: []             # números de registro INSPIRE a ocultar, p. ej. [1234567, 2345678]

@@ -1,0 +1,53 @@
+# Construye la web y la publica en lucano.uco.es.
+# Se ejecuta: al guardar cambios en main, cada lunes (para refrescar publicaciones)
+# y a mano desde la pestaña "Actions" → "Publicar web" → "Run workflow".
+#
+# Requiere el secreto cifrado del repositorio SFTP_PASSWORD
+# (Settings → Secrets and variables → Actions → New repository secret).
+name: Publicar web
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Descargar publicaciones (INSPIRE / ORCID)
+        run: python scripts/publicaciones.py
+
+      - name: Construir la web
+        run: python scripts/construir.py
+
+      - name: Subir al servidor
+        env:
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          if [ -z "$SFTP_PASSWORD" ]; then
+            echo "::error::Falta el secreto SFTP_PASSWORD en la configuración del repositorio."; exit 1
+          fi
+          scripts/publicar.sh

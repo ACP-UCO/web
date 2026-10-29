@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block titulo %}Contacto · {% endblock %}
+{% block contenido %}
+<header class="titular"><div class="contenedor"><h1>Contacto</h1></div></header>
+<div class="contenedor seccion dos-columnas">
+  <section>
+    <h2>Correo</h2>
+    <p class="destacado"><a href="mailto:{{ sitio.correo }}">{{ sitio.correo }}</a></p>
+    <p>Si te interesa hacer un TFG, TFM o una tesis doctoral con nosotros, escríbenos.</p>
+  </section>
+  <section>
+    <h2>Dirección</h2>
+    <address>{{ sitio.departamento }}<br>{{ sitio.universidad }}<br>{{ sitio.direccion | saltos }}</address>
+  </section>
+</div>
+{% endblock %}

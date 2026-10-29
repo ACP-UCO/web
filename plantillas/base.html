@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block titulo %}{% endblock %}{{ sitio.siglas }} · {{ sitio.codigo }} · {{ sitio.universidad }}</title>
+<meta name="description" content="Grupo de investigación {{ sitio.codigo }} «{{ sitio.nombre }}» de la {{ sitio.universidad }}.">
+<link rel="stylesheet" href="{{ raiz }}css/estilo.css">
+<link rel="icon" href="{{ raiz }}img/icono.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="saltar" href="#principal">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a class="marca" href="{{ raiz }}index.html">
+      <img src="{{ raiz }}img/logo-acp-blanco.svg" alt="ACP" width="113" height="34">
+      <span>
+        <strong>{{ sitio.nombre }}</strong>
+        <small>{{ sitio.codigo }} · {{ sitio.universidad }}</small>
+      </span>
+    </a>
+    <input type="checkbox" id="menu-abierto" class="menu-check" aria-hidden="true">
+    <label for="menu-abierto" class="menu-boton" aria-label="Abrir menú">☰</label>
+    <nav class="menu" aria-label="Principal">
+      {% set enlaces = [
+        ("index.html", "Inicio"), ("investigacion.html", "Investigación"),
+        ("miembros.html", "Miembros"), ("publicaciones.html", "Publicaciones"),
+        ("seminarios.html", "Seminarios"), ("noticias.html", "Noticias"),
+        ("contacto.html", "Contacto")] %}
+      {% for url, texto in enlaces %}
+      <a href="{{ raiz }}{{ url }}"{% if pagina == url %} aria-current="page"{% endif %}>{{ texto }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main id="principal">
+{% block contenido %}{% endblock %}
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie__fila">
+    <div>
+      <strong>{{ sitio.codigo }} · {{ sitio.nombre }}</strong><br>
+      {{ sitio.departamento }} · {{ sitio.universidad }}
+    </div>
+    <div>
+      <a href="mailto:{{ sitio.correo }}">{{ sitio.correo }}</a><br>
+      <a href="https://www.uco.es">www.uco.es</a>
+    </div>
+  </div>
+  <p class="contenedor pie__nota">© {{ anio }} {{ sitio.universidad }} · Actualizado el {{ actualizado }}</p>
+</footer>
+</body>
+</html>

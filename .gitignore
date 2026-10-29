@@ -1,0 +1,15 @@
+# Web generada (se reconstruye siempre)
+_site/
+
+# Nunca subir contraseñas ni ficheros de protección del servidor
+.env
+.env.*
+*.secret
+.htpasswd
+.netrc
+
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/

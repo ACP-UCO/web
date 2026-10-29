@@ -1,0 +1,24 @@
+# Datos generales de la web.
+# Para cambiar un texto, edita lo que va después de los dos puntos.
+# Las líneas que empiezan por # son comentarios y no se muestran.
+
+nombre: Astrofísica, Cosmología y Partículas
+siglas: ACP
+codigo: FQM-429
+universidad: Universidad de Córdoba
+departamento: Departamento de Física
+correo: acpu@uco.es
+direccion: |
+  Campus de Rabanales, Edificio Albert Einstein (C2)   ⚠️ confirmar
+  Ctra. N-IV, km 396
+  14071 Córdoba (España)
+
+# Frase corta que aparece en la portada.
+lema: Del mundo subatómico a la estructura del universo.
+
+# Texto de presentación de la portada (admite Markdown: **negrita**, [enlace](url)).
+presentacion: |
+  El grupo de investigación **FQM-429** de la Universidad de Córdoba estudia
+  la física fundamental en todas sus escalas: desde las partículas elementales
+  y sus interacciones hasta la astrofísica y la cosmología.
+  ⚠️ Texto provisional: sustituir por la presentación del grupo.

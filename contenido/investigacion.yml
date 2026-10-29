@@ -1,0 +1,30 @@
+# Áreas y líneas de investigación.
+# Cada área empieza por "- titulo:". Dentro, "lineas:" es la lista oficial de
+# líneas del grupo (cada una en una línea que empieza por "    - ").
+# "resumen" es el texto corto de la tarjeta de la portada.
+# El campo "icono" puede ser: particulas, cosmologia, astrofisica, ondas, neutrinos, materia-oscura
+
+- titulo: Cosmología
+  icono: cosmologia
+  resumen: |
+    La expansión del universo y su estructura a gran escala.
+  lineas:
+    - Interpretación cosmológica de medidas de expansión del Universo basadas en observaciones de la estructura a gran escala
+
+- titulo: Astrofísica
+  icono: astrofisica
+  resumen: |
+    Galaxias, simulaciones cosmológicas y el universo observado.
+  lineas:
+    - Astrofísica y Cosmología
+
+- titulo: Física de partículas
+  icono: particulas
+  resumen: |
+    El Modelo Estándar y lo que hay más allá, del LHC a los futuros aceleradores.
+  lineas:
+    - El Modelo Estándar y sus extensiones
+    - Teorías del sabor en extensiones del Modelo Estándar
+    - Estudios fenomenológicos en el LHC y futuros aceleradores
+    - Simulación y análisis de datos en experimentos de aceleradores de partículas del CERN
+    - I+D en detectores de partículas para los actuales y futuros experimentos de física de altas energías en colisionadores de partículas

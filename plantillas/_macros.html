@@ -1,0 +1,47 @@
+{% macro publicacion(p) %}
+<li class="pub">
+  <span class="pub__titulo">{{ p.titulo | latex }}</span>
+  <span class="pub__autores">
+    {%- if p.autores %}{{ p.autores[:5] | join("; ") }}{% if p.num_autores > 5 %} <em>et al.</em> ({{ p.num_autores }} autores){% endif %}{% endif -%}
+  </span>
+  <span class="pub__datos">
+    {% if p.revista %}<span>{{ p.revista }} ({{ p.anio }})</span>{% else %}<span class="etiqueta">Preprint</span>{% endif %}
+    {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
+    {% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>{% endif %}
+    {% if p.inspire %}<a href="https://inspirehep.net/literature/{{ p.inspire }}">INSPIRE</a>{% endif %}
+  </span>
+</li>
+{% endmacro %}
+
+{% macro seminario(s, completo=false) %}
+<article class="seminario">
+  <time class="seminario__fecha" datetime="{{ s.fecha }}">
+    <span>{{ s.fecha.day }}</span>{{ s.fecha | mes }} {{ s.fecha.year }}
+  </time>
+  <div>
+    <h3>{{ s.titulo }}</h3>
+    <p class="seminario__ponente">{{ s.ponente }}{% if s.institucion %} · {{ s.institucion }}{% endif %}</p>
+    <p class="tenue">{{ s.hora }} h · {{ s.lugar }}</p>
+    {% if completo and s.resumen %}<div class="seminario__resumen">{{ s.resumen | md }}</div>{% endif %}
+    {% if s.enlace %}<p><a href="{{ s.enlace }}">Más información →</a></p>{% endif %}
+  </div>
+</article>
+{% endmacro %}
+
+{% macro icono(nombre) %}
+<svg class="icono" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+{% if nombre == "particulas" %}
+  <circle cx="24" cy="24" r="3" fill="currentColor"/><ellipse cx="24" cy="24" rx="19" ry="7"/><ellipse cx="24" cy="24" rx="19" ry="7" transform="rotate(60 24 24)"/><ellipse cx="24" cy="24" rx="19" ry="7" transform="rotate(120 24 24)"/>
+{% elif nombre == "cosmologia" %}
+  <path d="M24 24c0-3 3-5 6-4s5 5 3 9-8 6-12 4-7-8-5-13 9-9 15-7 10 8 8 14"/><circle cx="24" cy="24" r="1.5" fill="currentColor"/>
+{% elif nombre == "ondas" %}
+  <path d="M4 24c4 0 4-10 8-10s4 20 8 20 4-28 8-28 4 36 8 36 4-18 8-18"/>
+{% elif nombre == "neutrinos" %}
+  <path d="M6 38 L42 10"/><path d="M6 30 L30 12" stroke-dasharray="3 4"/><circle cx="42" cy="10" r="3" fill="currentColor"/>
+{% elif nombre == "materia-oscura" %}
+  <circle cx="24" cy="24" r="16" stroke-dasharray="2 4"/><circle cx="24" cy="24" r="6" fill="currentColor"/>
+{% else %}
+  <circle cx="24" cy="24" r="8"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M10 10l4 4M34 34l4 4M38 10l-4 4M10 38l4-4"/>
+{% endif %}
+</svg>
+{% endmacro %}

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% from "_macros.html" import publicacion, seminario, icono %}
+{% block contenido %}
+<section class="portada">
+  <div class="contenedor">
+    <img class="portada__logo" src="img/logo-acp-blanco.svg" alt="" width="711" height="214">
+    <p class="portada__codigo">Grupo de investigación {{ sitio.codigo }} · {{ sitio.universidad }}</p>
+    <h1>{{ sitio.nombre }}</h1>
+    <p class="portada__lema">{{ sitio.lema }}</p>
+    <p class="portada__botones">
+      <a class="boton" href="investigacion.html">Nuestra investigación</a>
+      <a class="boton boton--claro" href="publicaciones.html">Publicaciones</a>
+    </p>
+  </div>
+</section>
+
+<section class="contenedor seccion intro">
+  {{ sitio.presentacion | md }}
+</section>
+
+<section class="contenedor seccion">
+  <h2>Líneas de investigación</h2>
+  <div class="tarjetas">
+    {% for l in lineas %}
+    <a class="tarjeta" href="investigacion.html#linea-{{ loop.index }}">
+      {{ icono(l.icono) }}
+      <h3>{{ l.titulo }}</h3>
+      <div>{{ l.resumen | md }}</div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<div class="contenedor seccion dos-columnas">
+  <section>
+    <h2>Próximos seminarios</h2>
+    {% for s in proximos %}{{ seminario(s) }}{% else %}<p class="tenue">No hay seminarios programados.</p>{% endfor %}
+    <p><a href="seminarios.html">Todos los seminarios →</a></p>
+  </section>
+  <section>
+    <h2>Noticias</h2>
+    {% for n in noticias %}
+    <article class="noticia-breve">
+      <time datetime="{{ n.fecha }}">{{ n.fecha | fecha }}</time>
+      <h3><a href="noticias.html#{{ n.id }}">{{ n.titulo }}</a></h3>
+    </article>
+    {% else %}<p class="tenue">Sin noticias.</p>{% endfor %}
+    <p><a href="noticias.html">Todas las noticias →</a></p>
+  </section>
+</div>
+
+{% if recientes %}
+<section class="contenedor seccion">
+  <h2>Publicaciones recientes</h2>
+  <ol class="pubs">{% for p in recientes %}{{ publicacion(p) }}{% endfor %}</ol>
+  <p><a href="publicaciones.html">Todas las publicaciones →</a></p>
+</section>
+{% endif %}
+{% endblock %}
