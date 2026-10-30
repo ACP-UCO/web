@@ -11,7 +11,19 @@
     {{ icono(l.icono) }}
     <div><h2>{{ l.titulo }}</h2>{{ l.resumen | md }}
       {% if l.lineas is defined and l.lineas %}
-      <ul class="linea__lista">{% for x in l.lineas %}<li>{{ x }}</li>{% endfor %}</ul>
+      <ul class="linea__lista">
+      {% for x in l.lineas %}
+        {% if x is mapping %}
+          {% for principal, subs in x.items() %}
+          <li>{{ principal }}
+            {% if subs %}<ul>{% for s in subs %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+          </li>
+          {% endfor %}
+        {% else %}
+          <li>{{ x }}</li>
+        {% endif %}
+      {% endfor %}
+      </ul>
       {% endif %}</div>
   </section>
   {% endfor %}

@@ -132,6 +132,7 @@ h3 { font-size: 1.15rem; margin: 0 0 .25rem; }
 .linea .icono { width: 3rem; height: 3rem; }
 .linea__lista { padding-left: 1.2rem; }
 .linea__lista li { margin: .35rem 0; }
+.linea__lista ul { padding-left: 1.2rem; margin: .25rem 0 .5rem; list-style: circle; color: var(--tenue); }
 
 /* Página Investigación: líneas a la izquierda, colaboraciones a la derecha */
 .investigacion { display: grid; gap: 2rem 3rem; }

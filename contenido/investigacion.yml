@@ -1,6 +1,11 @@
 # Áreas y líneas de investigación.
 # Cada área empieza por "- titulo:". Dentro, "lineas:" es la lista oficial de
 # líneas del grupo (cada una en una línea que empieza por "    - ").
+# Para poner subapartados dentro de una línea, termina esa línea con dos
+# puntos ":" y escribe debajo los subapartados con 4 espacios más:
+#     - Línea principal:
+#         - Subapartado 1
+#         - Subapartado 2
 # "resumen" es el texto corto de la tarjeta de la portada.
 # El campo "icono" puede ser: particulas, cosmologia, astrofisica, ondas, neutrinos, materia-oscura
 
@@ -16,18 +21,21 @@
   resumen: |
     La expansión del universo y su estructura a gran escala.
   lineas:
-    - Interpretación cosmológica de medidas de expansión del Universo basadas en observaciones de la estructura a gran escala
-      - Estructura a gran escala del universo (LSS)
-      - Energía oscura y expansión cósmica
-      - Oscilaciones Acústicas de Bariones (BAO)
-      - Materia oscura y extensiones del Modelo Estándar
+    - Interpretación cosmológica de medidas de expansión del Universo basadas en observaciones de la estructura a gran escala:
+        - Estructura a gran escala del universo (LSS)
+        - Energía oscura y expansión cósmica
+        - Oscilaciones Acústicas de Bariones (BAO)
+        - Materia oscura y extensiones del Modelo Estándar
+    - Topología del Universo:
+        - Búsqueda de la topología del Universo en los mapas del fondo cósmico de microondas (CMB)
+        - Anomalías del CMB y su posible origen topológico
+        - Aprendizaje automático (machine learning) para identificar la forma del Universo
 
 - titulo: Física de partículas
   icono: particulas
   resumen: |
     El Modelo Estándar y lo que hay más allá, del LHC a los futuros aceleradores.
   lineas:
-    - El Modelo Estándar y sus extensiones
     - Teorías del sabor en extensiones del Modelo Estándar
     - Estudios fenomenológicos en el LHC y futuros aceleradores
     - Simulación y análisis de datos en experimentos de aceleradores de partículas del CERN
