@@ -22,14 +22,9 @@
     <p class="tenue">Colaboraciones experimentales y teóricas de las que forman parte miembros del grupo.</p>
     <ul>
       {% for c in colaboraciones %}
-      <li>
-        <a class="colaboracion" href="{{ c.web }}">
-          {% if c.logo %}<img src="{{ raiz }}{{ recurso('img/colaboraciones/' ~ c.logo) }}" alt="" width="120" height="120" loading="lazy">{% endif %}
-          <strong>{{ c.nombre }}</strong>
-          {% if c.descripcion %}<span class="tenue">{{ c.descripcion }}</span>{% endif %}
-          {% if c.tipo %}<span class="etiqueta">{{ c.tipo }}</span>{% endif %}
-        </a>
-      </li>
+      <li><a class="colaboracion" href="{{ c.web }}" title="{{ c.nombre }}">
+        <img src="{{ raiz }}{{ recurso('img/colaboraciones/' ~ c.logo) }}" alt="{{ c.nombre }}" width="120" height="120" loading="lazy">
+      </a></li>
       {% endfor %}
     </ul>
   </aside>

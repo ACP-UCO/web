@@ -143,7 +143,9 @@ def comprobar_colaboraciones(colaboraciones):
             error("colaboraciones.yml", f"{c['nombre']}: falta 'web:' (la dirección "
                   "a la que lleva el logo).")
         logo = c.get("logo")
-        if logo and not (RAIZ / "estatico/img/colaboraciones" / logo).exists():
+        if not logo:
+            error("colaboraciones.yml", f"{c['nombre']}: falta 'logo:'.")
+        if not (RAIZ / "estatico/img/colaboraciones" / logo).exists():
             error("colaboraciones.yml", f"{c['nombre']}: no encuentro el logo "
                   f"estatico/img/colaboraciones/{logo}")
 
