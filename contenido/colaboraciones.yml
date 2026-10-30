@@ -5,7 +5,8 @@
 #   nombre: nombre de la colaboración (no se ve, pero lo leen los lectores
 #           de pantalla y aparece al pasar el ratón por encima del logo)
 #   logo:   archivo de imagen subido a estatico/img/colaboraciones/
-#           (mejor cuadrado, PNG o JPG, unos 300×300 píxeles)
+#           (PNG o JPG, de unos 600 píxeles de ancho; si tiene versión para
+#           fondo claro y para fondo oscuro, usa la de fondo claro)
 #   web:    dirección a la que lleva el logo al pulsarlo
 
 - nombre: COMPACT (Collaboration for Observations, Models and Predictions of Anomalies and Cosmic Topology)
@@ -14,4 +15,4 @@
 
 - nombre: FCC (Future Circular Collider, CERN)
   logo: fcc.png
-  web: https://home.cern/science/accelerators/future-circular-collider
+  web: https://fcc-ped.web.cern.ch/

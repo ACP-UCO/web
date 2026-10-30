@@ -141,9 +141,9 @@ h3 { font-size: 1.15rem; margin: 0 0 .25rem; }
 }
 .colaboraciones { padding-top: 1.5rem; }
 .colaboraciones h2 { margin-top: 0; }
-.colaboraciones ul { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); }
+.colaboraciones ul { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 1rem; }
 /* Fondo blanco fijo: los logos suelen estar pensados para fondo claro, también en modo oscuro */
-.colaboracion { display: block; aspect-ratio: 1; padding: .75rem; background: #fff; border: 1px solid var(--borde); border-radius: var(--radio); transition: border-color .2s, transform .2s; }
+.colaboracion { display: block; height: 8.5rem; padding: 1rem 1.25rem; background: #fff; border: 1px solid var(--borde); border-radius: var(--radio); transition: border-color .2s, transform .2s; }
 .colaboracion:hover, .colaboracion:focus-visible { border-color: var(--acento); transform: translateY(-2px); }
 .colaboracion img { display: block; width: 100%; height: 100%; object-fit: contain; }
 

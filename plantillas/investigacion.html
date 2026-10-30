@@ -23,7 +23,7 @@
     <ul>
       {% for c in colaboraciones %}
       <li><a class="colaboracion" href="{{ c.web }}" title="{{ c.nombre }}">
-        <img src="{{ raiz }}{{ recurso('img/colaboraciones/' ~ c.logo) }}" alt="{{ c.nombre }}" width="120" height="120" loading="lazy">
+        <img src="{{ raiz }}{{ recurso('img/colaboraciones/' ~ c.logo) }}" alt="{{ c.nombre }}" loading="lazy">
       </a></li>
       {% endfor %}
     </ul>
