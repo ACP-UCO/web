@@ -1,0 +1,16 @@
+# Colaboraciones (experimentales o teóricas) de las que somos miembros.
+# Aparecen en la columna derecha de la página «Investigación».
+# Para añadir una, copia un bloque entero (desde "- nombre:") y cambia los datos.
+#
+#   nombre:      nombre corto de la colaboración (obligatorio)
+#   descripcion: frase corta que aparece debajo del logo (opcional)
+#   tipo:        Experimental o Teórica (opcional)
+#   logo:        archivo de imagen subido a estatico/img/colaboraciones/
+#                (mejor cuadrado, PNG o JPG, unos 300×300 píxeles)
+#   web:         dirección a la que lleva el logo al pulsarlo
+
+- nombre: COMPACT
+  descripcion: Collaboration for Observations, Models and Predictions of Anomalies and Cosmic Topology
+  tipo: Teórica
+  logo: compact.jpg
+  web: https://github.com/CompactCollaboration

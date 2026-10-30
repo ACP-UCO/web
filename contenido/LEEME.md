@@ -10,6 +10,7 @@ pulsa **Commit changes**. En unos 2 minutos la web se actualiza sola.
 | Anunciar un seminario           | `seminarios.yml`                          |
 | Publicar una noticia            | crear un archivo nuevo en `noticias/`     |
 | Cambiar las líneas de investigación | `investigacion.yml`                   |
+| Añadir una colaboración (logo y enlace) | `colaboraciones.yml` (el logo se sube a `estatico/img/colaboraciones/`) |
 | Cambiar textos generales, correo, dirección | `sitio.yml`                   |
 | Ocultar una publicación         | `publicaciones.yml`                       |
 

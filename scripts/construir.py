@@ -135,11 +135,26 @@ def comprobar_miembros(miembros):
                   f"estatico/img/miembros/{foto}")
 
 
+def comprobar_colaboraciones(colaboraciones):
+    for i, c in enumerate(colaboraciones, 1):
+        if not c.get("nombre"):
+            error("colaboraciones.yml", f"la colaboración nº {i} no tiene 'nombre:'.")
+        if not c.get("web"):
+            error("colaboraciones.yml", f"{c['nombre']}: falta 'web:' (la dirección "
+                  "a la que lleva el logo).")
+        logo = c.get("logo")
+        if logo and not (RAIZ / "estatico/img/colaboraciones" / logo).exists():
+            error("colaboraciones.yml", f"{c['nombre']}: no encuentro el logo "
+                  f"estatico/img/colaboraciones/{logo}")
+
+
 def main():
     sitio = leer_yaml("sitio.yml")
     miembros = leer_yaml("miembros.yml") or []
     comprobar_miembros(miembros)
     lineas = leer_yaml("investigacion.yml") or []
+    colaboraciones = leer_yaml("colaboraciones.yml") or []
+    comprobar_colaboraciones(colaboraciones)
     seminarios = leer_yaml("seminarios.yml") or []
     for s in seminarios:
         s["fecha"] = dt.date.fromisoformat(str(s["fecha"]))
@@ -171,7 +186,7 @@ def main():
     paginas = {
         "index.html": dict(lineas=lineas, noticias=cargar_noticias()[:3],
                            proximos=proximos[:3], recientes=publicaciones[:4]),
-        "investigacion.html": dict(lineas=lineas),
+        "investigacion.html": dict(lineas=lineas, colaboraciones=colaboraciones),
         "miembros.html": dict(actuales=actuales, antiguos=antiguos),
         "publicaciones.html": dict(por_anio=por_anio, total=len(publicaciones)),
         "seminarios.html": dict(proximos=proximos, pasados=pasados),
