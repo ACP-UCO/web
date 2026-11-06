@@ -23,8 +23,8 @@
     <label for="menu-abierto" class="menu-boton" aria-label="Abrir menú">☰</label>
     <nav class="menu" aria-label="Principal">
       {% set enlaces = [
-        ("index.html", "Inicio"), ("investigacion.html", "Investigación"),
-        ("miembros.html", "Miembros"), ("publicaciones.html", "Publicaciones"),
+        ("index.html", "Inicio"), ("miembros.html", "Miembros"),
+        ("investigacion.html", "Investigación"), ("publicaciones.html", "Publicaciones"),
         ("seminarios.html", "Seminarios"), ("noticias.html", "Noticias"),
         ("contacto.html", "Contacto")] %}
       {% for url, texto in enlaces if hay_seminarios or url != "seminarios.html" %}

@@ -10,6 +10,7 @@ import json
 import re
 import shutil
 import sys
+import unicodedata
 from pathlib import Path
 
 import markdown
@@ -63,6 +64,36 @@ def mes_corto(f):
 def iniciales(nombre):
     partes = [x for x in re.split(r"[\s-]+", nombre) if x[:1].isupper()]
     return "".join(x[0] for x in partes[:2])
+
+
+def _normal(t):
+    """Minúsculas, sin acentos y con guiones como espacios."""
+    t = unicodedata.normalize("NFD", t.lower())
+    return "".join(c for c in t if not unicodedata.combining(c)).replace("-", " ")
+
+
+def es_autor(autor, miembro):
+    """¿El autor «Apellidos, Nombre» de una publicación es este miembro del grupo?
+    Basta con que coincida el primer apellido y la inicial del nombre."""
+    palabras = _normal(miembro).split()
+    n_nombre = len(palabras) - 2 if len(palabras) >= 3 else 1
+    apellido, inicial = palabras[n_nombre], palabras[0][0]
+    apellidos, _, nombre = _normal(autor).partition(",")
+    return apellido in apellidos.split() and nombre.strip()[:1] == inicial
+
+
+def marcar_autores(p, mostrados=5):
+    """Prepara la lista de autores de una publicación: los primeros, con los
+    miembros del grupo marcados, y los miembros que quedan dentro del «et al.»."""
+    vistos = set()
+    p["autores_web"] = []
+    for a in p["autores"][:mostrados]:
+        quien = next((m for m in p["miembros"] if es_autor(a, m)), None)
+        if quien:
+            vistos.add(quien)
+        p["autores_web"].append((a, bool(quien)))
+    p["miembros_et_al"] = ([m for m in p["miembros"] if m not in vistos]
+                           if p["num_autores"] > mostrados else [])
 
 
 def saltos(texto):
@@ -166,6 +197,8 @@ def main():
 
     pub_json = RAIZ / "datos/publicaciones.json"
     publicaciones = json.loads(pub_json.read_text()) if pub_json.exists() else []
+    for p in publicaciones:
+        marcar_autores(p)
     por_anio = {}
     for p in publicaciones:
         por_anio.setdefault(p["anio"] or "Sin fecha", []).append(p)

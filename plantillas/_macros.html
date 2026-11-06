@@ -2,7 +2,9 @@
 <li class="pub">
   <span class="pub__titulo">{{ p.titulo | latex }}</span>
   <span class="pub__autores">
-    {%- if p.autores %}{{ p.autores[:5] | join("; ") }}{% if p.num_autores > 5 %} <em>et al.</em> ({{ p.num_autores }} autores){% endif %}{% endif -%}
+    {%- for a, miembro in p.autores_web %}{% if miembro %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}
+    {%- if p.autores and p.num_autores > 5 %} <em>et al.</em> ({{ p.num_autores }} autores
+      {%- if p.miembros_et_al %}, incluyendo a {% for m in p.miembros_et_al %}<strong>{{ m }}</strong>{% if not loop.last %} y {% endif %}{% endfor %}{% endif %}){% endif -%}
   </span>
   <span class="pub__datos">
     {% if p.revista %}<span>{{ p.revista }} ({{ p.anio }})</span>{% else %}<span class="etiqueta">Preprint</span>{% endif %}
