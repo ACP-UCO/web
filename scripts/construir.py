@@ -184,14 +184,17 @@ def main():
     env.filters.update(md=md, fecha=fecha_larga, latex=latex_ligero, mes=mes_corto,
                        iniciales=iniciales, saltos=saltos)
 
-    comun = dict(sitio=sitio, anio=hoy.year, actualizado=fecha_larga(hoy))
+    # Sin seminarios en seminarios.yml, la sección se oculta (menú, portada y página)
+    comun = dict(sitio=sitio, anio=hoy.year, actualizado=fecha_larga(hoy),
+                 hay_seminarios=bool(seminarios))
     paginas = {
         "index.html": dict(lineas=lineas, noticias=cargar_noticias()[:3],
                            proximos=proximos[:3], recientes=publicaciones[:4]),
         "investigacion.html": dict(lineas=lineas, colaboraciones=colaboraciones),
         "miembros.html": dict(actuales=actuales, antiguos=antiguos),
         "publicaciones.html": dict(por_anio=por_anio, total=len(publicaciones)),
-        "seminarios.html": dict(proximos=proximos, pasados=pasados),
+        **({"seminarios.html": dict(proximos=proximos, pasados=pasados)}
+           if seminarios else {}),
         "noticias.html": dict(noticias=cargar_noticias()),
         "contacto.html": dict(),
     }

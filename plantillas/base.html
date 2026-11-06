@@ -27,7 +27,7 @@
         ("miembros.html", "Miembros"), ("publicaciones.html", "Publicaciones"),
         ("seminarios.html", "Seminarios"), ("noticias.html", "Noticias"),
         ("contacto.html", "Contacto")] %}
-      {% for url, texto in enlaces %}
+      {% for url, texto in enlaces if hay_seminarios or url != "seminarios.html" %}
       <a href="{{ raiz }}{{ url }}"{% if pagina == url %} aria-current="page"{% endif %}>{{ texto }}</a>
       {% endfor %}
     </nav>
