@@ -8,7 +8,8 @@
     {% if p.revista %}<span>{{ p.revista }} ({{ p.anio }})</span>{% else %}<span class="etiqueta">Preprint</span>{% endif %}
     {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
     {% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>{% endif %}
-    {% if p.inspire %}<a href="https://inspirehep.net/literature/{{ p.inspire }}">INSPIRE</a>{% endif %}
+    {% if p.inspire %}<a href="https://inspirehep.net/literature/{{ p.inspire }}">INSPIRE</a>
+    {% elif p.ads %}<a href="https://ui.adsabs.harvard.edu/abs/{{ p.ads | urlencode }}">ADS</a>{% endif %}
   </span>
 </li>
 {% endmacro %}

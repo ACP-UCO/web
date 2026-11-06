@@ -45,5 +45,6 @@ escribe el nombre del archivo en el campo `foto:` del miembro.
 
 ## Publicaciones
 
-No hay que hacer nada: se descargan solas de INSPIRE-HEP (o de ORCID) cada lunes
-y cada vez que se cambia algo, a partir del campo `orcid:` de cada miembro.
+No hay que hacer nada: se descargan solas de INSPIRE-HEP (y de NASA ADS u ORCID
+si se indica en `miembros.yml`) cada lunes y cada vez que se cambia algo, a partir
+del campo `orcid:` de cada miembro. Los artículos repetidos se juntan solos.

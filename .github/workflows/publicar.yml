@@ -37,7 +37,9 @@ jobs:
           pip install -r requirements.txt
           sudo apt-get update -qq && sudo apt-get install -y -qq lftp
 
-      - name: Descargar publicaciones (INSPIRE / ORCID)
+      - name: Descargar publicaciones (INSPIRE / ADS / ORCID)
+        env:
+          ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
         run: python scripts/publicaciones.py
 
       - name: Construir la web

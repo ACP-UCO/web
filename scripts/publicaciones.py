@@ -1,18 +1,24 @@
 #!/usr/bin/env python3
-"""Descarga las publicaciones del grupo desde INSPIRE-HEP (y ORCID como respaldo)
-y las guarda en datos/publicaciones.json.
+"""Descarga las publicaciones del grupo desde INSPIRE-HEP (con NASA ADS y ORCID
+como complemento) y las guarda en datos/publicaciones.json.
 
 Para cada miembro de contenido/miembros.yml:
   1. Localiza su perfil de INSPIRE (campo "inspire:" o, si no, a partir del ORCID)
      y descarga sus trabajos.
-  2. Si no tiene perfil en INSPIRE, o tiene "completar_con_orcid: true", añade
-     los trabajos de su ORCID que no estén ya en INSPIRE.
-Los trabajos compartidos por varios miembros se fusionan (por DOI, arXiv o título).
+  2. Si tiene "ads: true", añade los trabajos que ADS asocia a su ORCID.
+     Necesita una clave de la API de ADS en la variable de entorno ADS_TOKEN
+     (o en ~/.ads/dev_key); sin ella se avisa y se sigue sin ADS.
+  3. Si no tiene perfil en INSPIRE, o tiene "completar_con_orcid: true", añade
+     los trabajos de su ORCID.
+El mismo trabajo visto en varias fuentes, o por varios miembros, se fusiona en uno
+solo si coincide el DOI, el número de arXiv o el título. De cada campo se toma el
+valor de la fuente más completa (INSPIRE, luego ADS, luego ORCID).
 
 Si la red falla, se conserva el archivo anterior y se sale con aviso (no error),
 para que la web se pueda seguir construyendo.
 """
 import json
+import os
 import re
 import sys
 import time
@@ -27,6 +33,15 @@ SALIDA = RAIZ / "datos" / "publicaciones.json"
 PERFILES = RAIZ / "datos" / "perfiles_inspire.json"  # nombre → nº de perfil INSPIRE
 INSPIRE = "https://inspirehep.net/api"
 ORCID = "https://pub.orcid.org/v3.0"
+ADS = "https://api.adsabs.harvard.edu/v1/search/query"
+CAMPOS_ADS = ("bibcode,title,author,author_count,pub,volume,page,year,doi,"
+              "identifier,doctype,citation_count")
+# Tipos de documento de ADS → nombres usados por INSPIRE (lo que no está aquí,
+# como resúmenes de congresos, catálogos o software, no se muestra)
+TIPOS_ADS = {"article": "article", "eprint": "article", "erratum": "erratum",
+             "inproceedings": "conference paper", "phdthesis": "thesis",
+             "mastersthesis": "thesis", "book": "book", "inbook": "book chapter"}
+PRIORIDAD = {"inspire": 0, "ads": 1, "orcid": 2}
 CAMPOS = ",".join([
     "control_number", "titles", "authors.full_name", "author_count",
     "publication_info", "dois", "arxiv_eprints", "preprint_date",
@@ -106,6 +121,7 @@ def normalizar_inspire(m):
     return {
         "id": f"inspire:{m['control_number']}",
         "inspire": m["control_number"],
+        "ads": None,
         "titulo": m["titles"][0]["title"],
         "autores": autores[:10],
         "num_autores": m.get("author_count") or len(autores),
@@ -118,6 +134,57 @@ def normalizar_inspire(m):
     }
 
 
+def clave_ads():
+    clave = os.environ.get("ADS_TOKEN", "").strip()
+    fichero = Path.home() / ".ads" / "dev_key"
+    if not clave and fichero.exists():
+        clave = fichero.read_text().strip()
+    return clave
+
+
+def trabajos_ads(orcid, token):
+    res, inicio = [], 0
+    while True:
+        q = urllib.parse.urlencode({
+            "q": f"orcid:{orcid}", "fl": CAMPOS_ADS, "rows": 200,
+            "start": inicio, "sort": "date desc",
+        })
+        d = pedir(f"{ADS}?{q}", {"Authorization": f"Bearer {token}"})["response"]
+        res += [normalizar_ads(m) for m in d["docs"]]
+        inicio += len(d["docs"])
+        if inicio >= d["numFound"] or not d["docs"]:
+            return res
+
+
+def normalizar_ads(m):
+    revista = m.get("pub")
+    if revista and not revista.lower().startswith("arxiv"):
+        revista = " ".join(x for x in [revista, m.get("volume")] if x)
+        pag = (m.get("page") or [None])[0]
+        if pag:
+            revista += f", {pag}"
+    else:
+        revista = None
+    arxiv = next((i[6:] for i in m.get("identifier", [])
+                  if i.lower().startswith("arxiv:")), None)
+    autores = m.get("author", [])
+    anio = m.get("year")
+    return {
+        "id": f"ads:{m['bibcode']}",
+        "inspire": None,
+        "ads": m["bibcode"],
+        "titulo": (m.get("title") or [""])[0],
+        "autores": autores[:10],
+        "num_autores": m.get("author_count") or len(autores),
+        "revista": revista,
+        "anio": int(anio) if anio and anio.isdigit() else None,
+        "doi": (m.get("doi") or [None])[0],
+        "arxiv": arxiv,
+        "tipo": TIPOS_ADS.get(m.get("doctype"), "note"),
+        "citas": m.get("citation_count"),
+    }
+
+
 def trabajos_orcid(orcid):
     d = pedir(f"{ORCID}/{orcid}/works")
     res = []
@@ -127,13 +194,15 @@ def trabajos_orcid(orcid):
                for e in (s.get("external-ids") or {}).get("external-id", [])}
         fecha = s.get("publication-date") or {}
         anio = (fecha.get("year") or {}).get("value")
+        revista = (s.get("journal-title") or {}).get("value")
         res.append({
             "id": f"orcid:{orcid}:{s['put-code']}",
             "inspire": None,
+            "ads": None,
             "titulo": s["title"]["title"]["value"],
             "autores": [],
             "num_autores": 0,
-            "revista": (s.get("journal-title") or {}).get("value"),
+            "revista": revista if revista and "arxiv" not in revista.lower() else None,
             "anio": int(anio) if anio else None,
             "doi": ids.get("doi"),
             "arxiv": ids.get("arxiv"),
@@ -143,12 +212,55 @@ def trabajos_orcid(orcid):
     return res
 
 
-def clave(t):
+def claves(t):
+    """Identificadores con los que se reconoce el mismo trabajo en otra fuente."""
+    res = []
     if t.get("doi"):
-        return "doi:" + t["doi"].lower()
+        res.append("doi:" + t["doi"].lower().strip())
     if t.get("arxiv"):
-        return "arxiv:" + t["arxiv"].lower().removeprefix("arxiv:")
-    return "titulo:" + re.sub(r"\W+", "", t["titulo"].lower())
+        res.append("arxiv:" + t["arxiv"].lower().removeprefix("arxiv:"))
+    # Título sin LaTeX, etiquetas HTML, acentos ni signos (solo si es largo,
+    # para no confundir títulos genéricos)
+    titulo = re.sub(r"<[^>]+>|\\[a-zA-Z]+", "", t["titulo"] or "").lower()
+    titulo = re.sub(r"[^a-z0-9]+", "", titulo)
+    if len(titulo) >= 25:
+        res.append("titulo:" + titulo)
+    return res
+
+
+def fusionar(grupo):
+    """Une varias versiones del mismo trabajo, campo a campo, empezando por la
+    fuente preferida."""
+    grupo = sorted(grupo, key=lambda t: PRIORIDAD[t["id"].split(":")[0]])
+    res = dict(grupo[0])
+    for t in grupo[1:]:
+        for k, v in t.items():
+            if k == "miembros":
+                res[k] = res[k] + [m for m in v if m not in res[k]]
+            elif res.get(k) in (None, "", [], 0) and v:
+                res[k] = v
+    return res
+
+
+class Catalogo:
+    """Conjunto de trabajos sin duplicados."""
+
+    def __init__(self):
+        self.trabajos = {}   # nº interno → trabajo
+        self.indice = {}     # clave (DOI, arXiv o título) → nº interno
+        self.siguiente = 0
+
+    def anadir(self, t, miembro):
+        t = {**t, "miembros": [miembro]}
+        ks = claves(t)
+        iguales = {self.indice[k] for k in ks if k in self.indice}
+        grupo = [t] + [self.trabajos.pop(n) for n in iguales]
+        nuevo = fusionar(grupo)
+        n, self.siguiente = self.siguiente, self.siguiente + 1
+        self.trabajos[n] = nuevo
+        for k in {k for g in grupo for k in claves(g)}:
+            self.indice[k] = n
+        return not iguales
 
 
 def main():
@@ -157,7 +269,11 @@ def main():
     desde = opciones.get("desde_anio") or 0
     excluir = set(opciones.get("excluir") or [])
 
-    todos, perfiles = {}, {}
+    catalogo, perfiles = Catalogo(), {}
+    token_ads = clave_ads()
+    if not token_ads and any(p.get("ads") for p in miembros):
+        print("AVISO: falta la clave de NASA ADS (variable ADS_TOKEN); "
+              "se sigue sin consultar ADS.", file=sys.stderr)
     try:
         for p in miembros:
             orcid = str(p.get("orcid") or "").strip()
@@ -167,27 +283,26 @@ def main():
             bai, perfil = perfil_inspire(orcid, inspire)
             if perfil:
                 perfiles[p["nombre"]] = perfil
-            lista, fuentes = [], []
+            fuentes = []
             if bai:
-                lista += trabajos_inspire(bai)
-                fuentes.append("INSPIRE")
+                fuentes.append(("INSPIRE", trabajos_inspire(bai)))
+            if orcid and p.get("ads") and token_ads:
+                fuentes.append(("ADS", trabajos_ads(orcid, token_ads)))
             # Sin perfil en INSPIRE, o con perfil incompleto: se completa con ORCID
             if orcid and (not bai or p.get("completar_con_orcid")):
-                vistos = {clave(t) for t in lista}
-                lista += [t for t in trabajos_orcid(orcid) if clave(t) not in vistos]
-                fuentes.append("ORCID")
-            print(f"  {p['nombre']}: {len(lista)} trabajos ({' + '.join(fuentes)})")
-            for t in lista:
-                t = todos.setdefault(clave(t), {**t, "miembros": []})
-                if p["nombre"] not in t["miembros"]:
-                    t["miembros"].append(p["nombre"])
+                fuentes.append(("ORCID", trabajos_orcid(orcid)))
+            resumen = []
+            for nombre, lista in fuentes:
+                nuevos = sum(catalogo.anadir(t, p["nombre"]) for t in lista)
+                resumen.append(f"{nombre} {len(lista)} ({nuevos} nuevos)")
+            print(f"  {p['nombre']}: {' + '.join(resumen)}")
     except Exception as e:
         print(f"AVISO: no se pudieron descargar las publicaciones ({e}). "
               "Se mantiene la lista anterior.", file=sys.stderr)
         return
 
     lista = [
-        t for t in todos.values()
+        t for t in catalogo.trabajos.values()
         if (t["anio"] or 0) >= desde and t["inspire"] not in excluir
         and t["tipo"] not in ("thesis", "note", "proceedings")
         and (opciones.get("incluir_congresos") or t["tipo"] != "conference paper")

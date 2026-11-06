@@ -138,7 +138,8 @@ h3 { font-size: 1.15rem; margin: 0 0 .25rem; }
 .investigacion { display: grid; gap: 2rem 3rem; }
 @media (min-width: 60rem) {
   .investigacion { grid-template-columns: 1fr 17rem; align-items: start; }
-  .colaboraciones { position: sticky; top: 1.5rem; }
+  /* Se queda fija al bajar, justo por debajo de la cabecera (4rem de alto) */
+  .colaboraciones { position: sticky; top: 5.5rem; }
 }
 .colaboraciones { padding-top: 1.5rem; }
 .colaboraciones h2 { margin-top: 0; }

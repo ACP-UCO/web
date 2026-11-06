@@ -4,7 +4,8 @@
 {% block contenido %}
 <header class="titular"><div class="contenedor"><h1>Publicaciones</h1>
 <p>{{ total }} trabajos de miembros del grupo, actualizados automáticamente desde
-<a href="https://inspirehep.net">INSPIRE-HEP</a> y <a href="https://orcid.org">ORCID</a>.</p></div></header>
+<a href="https://inspirehep.net">INSPIRE-HEP</a>, <a href="https://ui.adsabs.harvard.edu">NASA ADS</a>
+y <a href="https://orcid.org">ORCID</a>.</p></div></header>
 <div class="contenedor seccion">
   {% if por_anio %}
   <nav class="anios" aria-label="Años">{% for anio in por_anio %}<a href="#a{{ anio }}">{{ anio }}</a>{% endfor %}</nav>

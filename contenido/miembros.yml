@@ -11,6 +11,8 @@
 # inspire:     opcional; enlace a su perfil de INSPIRE, solo si INSPIRE no lo encuentra
 #              por el ORCID (p. ej. https://inspirehep.net/authors/2052961).
 # completar_con_orcid: true  → añade también lo que esté en ORCID y no en INSPIRE.
+# ads: true   → añade también lo que NASA ADS asocia a su ORCID (útil en astrofísica).
+#              Los artículos repetidos entre INSPIRE, ADS y ORCID se juntan solos.
 # foto:        opcional; sube la foto a estatico/img/miembros/ y pon aquí el nombre del archivo.
 # web:         opcional; página personal (se enlaza desde el nombre).
 # researchgate: opcional; enlace a su perfil (o solo el nombre de usuario).
@@ -35,6 +37,7 @@
   cargo: Profesor Titular de Universidad
   institucion: ""
   orcid: 0000-0002-4153-9470
+  ads: true
   correo: ajcuesta@uco.es
   foto: cuesta-vazquez-antonio-jose.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/cuesta-vazquez-antonio-jose/
@@ -55,6 +58,7 @@
   cargo: Investigador Posdoctoral
   institucion: ""
   orcid: 0000-0002-3849-3467
+  ads: true
   correo: f12rogaj@uco.es
   foto: roman-garcia-javier.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/roman-garcia-javier/
@@ -67,6 +71,7 @@
   orcid: 0000-0003-2579-2676
   inspire: https://inspirehep.net/authors/2052961
   completar_con_orcid: true      # su perfil de INSPIRE no recoge todos sus artículos
+  ads: true
   correo: fa2roguy@uco.es
   foto: rosas-guevara-yetli.jpg
   web: https://www.uco.es/organiza/departamentos/fisica/rosas-guevara-yetli/

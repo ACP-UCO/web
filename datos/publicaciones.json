@@ -2,12 +2,13 @@
  {
   "id": "orcid:0000-0003-2579-2676:226636527",
   "inspire": null,
+  "ads": null,
   "titulo": "Stellar bar occurrence in TNG50 and TNG100: disentangling environmental effects and assembly history at z = 0",
   "autores": [],
   "num_autores": 0,
-  "revista": "arXiv e-prints",
+  "revista": null,
   "anio": 2026,
-  "doi": null,
+  "doi": "10.1093/mnras/stag2101",
   "arxiv": "2609.12339",
   "tipo": "working paper",
   "citas": null,
@@ -18,6 +19,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:219371350",
   "inspire": null,
+  "ads": null,
   "titulo": "How to isolate galactic bars in simulations",
   "autores": [],
   "num_autores": 0,
@@ -32,24 +34,9 @@
   ]
  },
  {
-  "id": "orcid:0000-0003-2579-2676:214373027",
-  "inspire": null,
-  "titulo": "Bulgeless Evolution And the Rise of Discs (BEARD)",
-  "autores": [],
-  "num_autores": 0,
-  "revista": "Astronomy & Astrophysics",
-  "anio": 2026,
-  "doi": "10.1051/0004-6361/202557194",
-  "arxiv": null,
-  "tipo": "journal article",
-  "citas": null,
-  "miembros": [
-   "Yetli Mariana Rosas Guevara"
-  ]
- },
- {
   "id": "orcid:0000-0003-2579-2676:205411070",
   "inspire": null,
+  "ads": null,
   "titulo": "Bulgeless Evolution And the Rise of Discs (BEARD): I. Physical drivers of the mass─size relation for Milky Way-like galaxies",
   "autores": [],
   "num_autores": 0,
@@ -66,6 +53,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:205251212",
   "inspire": null,
+  "ads": null,
   "titulo": "Bulgeless Evolution And the Rise of Discs (BEARD)",
   "autores": [],
   "num_autores": 0,
@@ -82,6 +70,7 @@
  {
   "id": "inspire:3214436",
   "inspire": 3214436,
+  "ads": null,
   "titulo": "Beyond the Kullback--Leibler divergence: the likelihood-ratio distribution as a detectability measure",
   "autores": [
    "Samandar, Amirhossein",
@@ -109,6 +98,7 @@
  {
   "id": "inspire:3212982",
   "inspire": 3212982,
+  "ads": null,
   "titulo": "Cosmic topology. Part IId. Eigenmodes and correlation matrices of lens spaces",
   "autores": [
    "Martin Barandiaran, Mikel",
@@ -136,6 +126,7 @@
  {
   "id": "inspire:3171567",
   "inspire": 3171567,
+  "ads": null,
   "titulo": "The topology of the Universe",
   "autores": [
    "Copi, Craig J.",
@@ -163,6 +154,7 @@
  {
   "id": "inspire:3167591",
   "inspire": 3167591,
+  "ads": null,
   "titulo": "Sensitivity to top-quark couplings in diboson production at lepton colliders",
   "autores": [
    "Celada, Eugenia",
@@ -183,6 +175,7 @@
  {
   "id": "inspire:3129136",
   "inspire": 3129136,
+  "ads": null,
   "titulo": "Quantum Signatures of Cosmic Topology: How Casimir Backreaction Transmits Isotropy Violation",
   "autores": [
    "Negro, Anna",
@@ -210,6 +203,7 @@
  {
   "id": "inspire:3121048",
   "inspire": 3121048,
+  "ads": null,
   "titulo": "Cosmic topology. Part IIc. Detectability with non-standard primordial power spectrum",
   "autores": [
    "Noltmann, Joline",
@@ -237,6 +231,7 @@
  {
   "id": "inspire:3111673",
   "inspire": 3111673,
+  "ads": null,
   "titulo": "Euclid: Early Release Observations – The extended stellar component of the IC10 dwarf galaxy",
   "autores": [
    "Annibali, F.",
@@ -264,6 +259,7 @@
  {
   "id": "inspire:3098644",
   "inspire": 3098644,
+  "ads": null,
   "titulo": "The impact of cosmic voids on AGN activity",
   "autores": [
    "Rouse, Benedict L.",
@@ -285,6 +281,7 @@
  {
   "id": "inspire:3091989",
   "inspire": 3091989,
+  "ads": null,
   "titulo": "Euclid preparation - LXXXI. The impact of nonparametric star formation histories on spatially resolved galaxy property estimation using synthetic Euclid images",
   "autores": [
    "Nersesian, A.",
@@ -312,6 +309,7 @@
  {
   "id": "inspire:3088509",
   "inspire": 3088509,
+  "ads": null,
   "titulo": "Impact of Higgs-boson measurements on SMEFT fits",
   "autores": [
    "de Blas, Jorge",
@@ -327,7 +325,7 @@
   "doi": "10.21468/SciPostPhysCommRep.28",
   "arxiv": "2512.02256",
   "tipo": "article",
-  "citas": 5,
+  "citas": 6,
   "miembros": [
    "Víctor Miralles Aznar"
   ]
@@ -335,6 +333,7 @@
  {
   "id": "inspire:3063358",
   "inspire": 3063358,
+  "ads": null,
   "titulo": "Cosmic topology. Part IIb. Eigenmodes, correlation matrices, and detectability of non-orientable Euclidean manifolds",
   "autores": [
    "Copi, Craig J.",
@@ -362,6 +361,7 @@
  {
   "id": "inspire:2970260",
   "inspire": 2970260,
+  "ads": null,
   "titulo": "Euclid preparation - LXXIX. Using mock low surface brightness dwarf galaxies to probe Euclid Wide Survey detection capabilities",
   "autores": [
    "Urbano, M.",
@@ -389,6 +389,7 @@
  {
   "id": "inspire:2943470",
   "inspire": 2943470,
+  "ads": null,
   "titulo": "Constraining new physics effective interactions via a global fit of electroweak, Drell-Yan, Higgs, top, and flavour observables",
   "autores": [
    "de Blas, Jorge",
@@ -404,7 +405,7 @@
   "doi": "10.1007/JHEP03(2026)013",
   "arxiv": "2507.06191",
   "tipo": "article",
-  "citas": 50,
+  "citas": 54,
   "miembros": [
    "Víctor Miralles Aznar"
   ]
@@ -412,6 +413,7 @@
  {
   "id": "inspire:2919209",
   "inspire": 2919209,
+  "ads": null,
   "titulo": "J-PAS and PFS Surveys in the Era of Dark Energy and Neutrino Mass Measurements",
   "autores": [
    "Qin, Fuxing",
@@ -439,6 +441,7 @@
  {
   "id": "inspire:2904473",
   "inspire": 2904473,
+  "ads": null,
   "titulo": "A linear collider vision for the future of particle physics",
   "autores": [
    "Abramowicz, H.",
@@ -458,15 +461,16 @@
   "doi": "10.1140/epjs/s11734-026-02153-w",
   "arxiv": "2503.19983",
   "tipo": "article",
-  "citas": 124,
+  "citas": 127,
   "miembros": [
-   "Fernando Cornet Gómez",
-   "Víctor Miralles Aznar"
+   "Víctor Miralles Aznar",
+   "Fernando Cornet Gómez"
   ]
  },
  {
   "id": "orcid:0000-0003-2579-2676:184613245",
   "inspire": null,
+  "ads": null,
   "titulo": "Galaxy formation physics behind bar formation: A view from cosmological hydrodynamical simulations",
   "autores": [],
   "num_autores": 0,
@@ -483,10 +487,11 @@
  {
   "id": "orcid:0000-0003-2579-2676:182623783",
   "inspire": null,
+  "ads": null,
   "titulo": "Hidden Figures in the Sky: Evolution of low-surface brightness galaxies from a hydro-dynamical perspective",
   "autores": [],
   "num_autores": 0,
-  "revista": "arXiv e-prints",
+  "revista": null,
   "anio": 2025,
   "doi": null,
   "arxiv": "2504.13395",
@@ -499,10 +504,11 @@
  {
   "id": "orcid:0000-0003-2579-2676:181583531",
   "inspire": null,
+  "ads": null,
   "titulo": "Study of barred galaxies in IllustrisTNG100: the case of low surface brightness galaxies",
   "autores": [],
   "num_autores": 0,
-  "revista": "arXiv e-prints",
+  "revista": "Highlights of Spanish Astrophysics XII",
   "anio": 2025,
   "doi": null,
   "arxiv": "2504.02145",
@@ -515,6 +521,7 @@
  {
   "id": "inspire:3069542",
   "inspire": 3069542,
+  "ads": null,
   "titulo": "Euclid preparation - LXXIII. Spatially resolved stellar populations of local galaxies with Euclid: A proof of concept using synthetic images with the TNG50 simulation",
   "autores": [
    "Abdurro’uf",
@@ -542,6 +549,7 @@
  {
   "id": "inspire:2967185",
   "inspire": 2967185,
+  "ads": null,
   "titulo": "Euclid: Early Release Observations – Interplay between dwarf galaxies and their globular clusters in the Perseus galaxy cluster",
   "autores": [
    "Saifollahi, T.",
@@ -569,6 +577,7 @@
  {
   "id": "inspire:2943086",
   "inspire": 2943086,
+  "ads": null,
   "titulo": "J-PAS: forecasting constraints on neutrino masses",
   "autores": [
    "Rodrigues, Gabriel",
@@ -596,6 +605,7 @@
  {
   "id": "inspire:2936712",
   "inspire": 2936712,
+  "ads": null,
   "titulo": "ECFA Higgs, electroweak, and top Factory Study",
   "autores": [
    "Altmann, J.",
@@ -617,13 +627,14 @@
   "tipo": "book",
   "citas": 67,
   "miembros": [
-   "Fernando Cornet Gómez",
-   "Víctor Miralles Aznar"
+   "Víctor Miralles Aznar",
+   "Fernando Cornet Gómez"
   ]
  },
  {
   "id": "inspire:2906639",
   "inspire": 2906639,
+  "ads": null,
   "titulo": "The Linear Collider Facility (LCF) at CERN",
   "autores": [
    "Abramowicz, H.",
@@ -643,15 +654,16 @@
   "doi": null,
   "arxiv": "2503.24049",
   "tipo": "article",
-  "citas": 66,
+  "citas": 69,
   "miembros": [
-   "Fernando Cornet Gómez",
-   "Víctor Miralles Aznar"
+   "Víctor Miralles Aznar",
+   "Fernando Cornet Gómez"
   ]
  },
  {
   "id": "inspire:2900488",
   "inspire": 2900488,
+  "ads": null,
   "titulo": "Future collider constraints on top-quark operators",
   "autores": [
    "Cornet-Gomez, Fernando",
@@ -666,15 +678,16 @@
   "doi": "10.1007/JHEP10(2025)156",
   "arxiv": "2503.11518",
   "tipo": "article",
-  "citas": 26,
+  "citas": 28,
   "miembros": [
-   "Fernando Cornet Gómez",
-   "Víctor Miralles Aznar"
+   "Víctor Miralles Aznar",
+   "Fernando Cornet Gómez"
   ]
  },
  {
   "id": "inspire:2898851",
   "inspire": 2898851,
+  "ads": null,
   "titulo": "Cosmic topology. Part IIIb. Eigenmodes and correlation matrices of spin-2 perturbations in orientable Euclidean manifolds",
   "autores": [
    "Samandar, Amirhossein",
@@ -702,6 +715,7 @@
  {
   "id": "inspire:2872388",
   "inspire": 2872388,
+  "ads": null,
   "titulo": "Euclid preparation - LXVIII. Extracting physical parameters from galaxies with machine learning",
   "autores": [
    "Kovačić, I.",
@@ -729,6 +743,7 @@
  {
   "id": "inspire:2861445",
   "inspire": 2861445,
+  "ads": null,
   "titulo": "Light scalars within the $ \\mathcal{CP} $-conserving Aligned-two-Higgs-doublet model",
   "autores": [
    "Coutinho, Antonio M.",
@@ -750,6 +765,7 @@
  {
   "id": "inspire:2859423",
   "inspire": 2859423,
+  "ads": null,
   "titulo": "Sensitivity to $ \\mathcal{CP} $-violating effective couplings in the top-Higgs sector",
   "autores": [
    "Miralles, Víctor",
@@ -771,6 +787,7 @@
  {
   "id": "inspire:2824834",
   "inspire": 2824834,
+  "ads": null,
   "titulo": "Cosmic topology. Part Ic. Limits on lens spaces from circle searches",
   "autores": [
    "Saha, Samanta",
@@ -798,6 +815,7 @@
  {
   "id": "inspire:2789521",
   "inspire": 2789521,
+  "ads": null,
   "titulo": "Euclid: Early Release Observations – Globular clusters in the Fornax galaxy cluster, from dwarf galaxies to the intracluster field",
   "autores": [
    "Saifollahi, T.",
@@ -825,6 +843,7 @@
  {
   "id": "inspire:2789516",
   "inspire": 2789516,
+  "ads": null,
   "titulo": "Euclid: Early Release Observations – Programme overview and pipeline for compact- and diffuse-emission photometry",
   "autores": [
    "Cuillandre, J.-C.",
@@ -852,6 +871,7 @@
  {
   "id": "inspire:2789514",
   "inspire": 2789514,
+  "ads": null,
   "titulo": "Euclid: Early Release Observations – Deep anatomy of nearby galaxies",
   "autores": [
    "Hunt, L.K.",
@@ -879,6 +899,7 @@
  {
   "id": "inspire:2789425",
   "inspire": 2789425,
+  "ads": null,
   "titulo": "Euclid - I. Overview of the Euclid mission",
   "autores": [
    "Mellier, Y.",
@@ -898,7 +919,7 @@
   "doi": "10.1051/0004-6361/202450810",
   "arxiv": "2405.13491",
   "tipo": "article",
-  "citas": 990,
+  "citas": 1013,
   "miembros": [
    "Javier Román García"
   ]
@@ -906,6 +927,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805446",
   "inspire": null,
+  "ads": null,
   "titulo": "The metallicity gradients of star-forming regions store information of the assembly history of galaxies",
   "autores": [],
   "num_autores": 0,
@@ -922,6 +944,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805444",
   "inspire": null,
+  "ads": null,
   "titulo": "The rise and fall of bars in disc galaxies from z = 1 to z = 0 The role of environment",
   "autores": [],
   "num_autores": 0,
@@ -936,24 +959,9 @@
   ]
  },
  {
-  "id": "orcid:0000-0003-2579-2676:172622455",
-  "inspire": null,
-  "titulo": "Large-scale dual AGN in large-scale cosmological hydrodynamical simulations",
-  "autores": [],
-  "num_autores": 0,
-  "revista": "arXiv e-prints",
-  "anio": 2024,
-  "doi": null,
-  "arxiv": "2411.15297",
-  "tipo": "working paper",
-  "citas": null,
-  "miembros": [
-   "Yetli Mariana Rosas Guevara"
-  ]
- },
- {
   "id": "inspire:2851805",
   "inspire": 2851805,
+  "ads": null,
   "titulo": "Large-scale dual AGN in large-scale cosmological hydrodynamical simulations",
   "autores": [
    "Puerto-Sánchez, Clara",
@@ -981,6 +989,7 @@
  {
   "id": "inspire:2807389",
   "inspire": 2807389,
+  "ads": null,
   "titulo": "Cosmic topology. Part IIIa. Microwave background parity violation without parity-violating microphysics",
   "autores": [
    "Samandar, Amirhossein",
@@ -1008,6 +1017,7 @@
  {
   "id": "inspire:2773433",
   "inspire": 2773433,
+  "ads": null,
   "titulo": "Cosmic topology. Part IVa. Classification of manifolds using machine learning: a case study with small toroidal universes",
   "autores": [
    "Tamosiunas, Andrius",
@@ -1035,6 +1045,7 @@
  {
   "id": "inspire:2756109",
   "inspire": 2756109,
+  "ads": null,
   "titulo": "BAO cosmology in non-spatially flat background geometry from BOSS+eBOSS and lessons for future surveys",
   "autores": [
    "Sanz-Wuhl, Santiago",
@@ -1056,6 +1067,7 @@
  {
   "id": "inspire:2747164",
   "inspire": 2747164,
+  "ads": null,
   "titulo": "Focus topics for the ECFA study on Higgs / Top / EW factories",
   "autores": [
    "de Blas, Jorge",
@@ -1083,6 +1095,7 @@
  {
   "id": "inspire:2685220",
   "inspire": 2685220,
+  "ads": null,
   "titulo": "Updated global fit of the aligned two-Higgs-doublet model with heavy scalars",
   "autores": [
    "Karan, Anirban",
@@ -1103,6 +1116,7 @@
  {
   "id": "inspire:2631595",
   "inspire": 2631595,
+  "ads": null,
   "titulo": "New physics hints from τ scalar interactions and (g − 2)$_{e,μ}$",
   "autores": [
    "Botella, Francisco J.",
@@ -1124,6 +1138,7 @@
  {
   "id": "inspire:2669406",
   "inspire": 2669406,
+  "ads": null,
   "titulo": "Evidence for baryon acoustic oscillations from galaxy–ellipticity correlations",
   "autores": [
    "Xu, Kun",
@@ -1145,6 +1160,7 @@
  {
   "id": "inspire:2663041",
   "inspire": 2663041,
+  "ads": null,
   "titulo": "Photon to axion conversion during Big Bang Nucleosynthesis",
   "autores": [
    "Cuesta, Antonio J.",
@@ -1165,6 +1181,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805449",
   "inspire": null,
+  "ads": null,
   "titulo": "Morphological decomposition of TNG50 galaxies: methodology and catalogue",
   "autores": [],
   "num_autores": 0,
@@ -1181,6 +1198,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805443",
   "inspire": null,
+  "ads": null,
   "titulo": "Revealing the properties of void galaxies and their assembly using the eagle simulation",
   "autores": [],
   "num_autores": 0,
@@ -1197,6 +1215,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805441",
   "inspire": null,
+  "ads": null,
   "titulo": "The evolution of the oxygen abundance gradients in star-forming galaxies in the eagle simulations",
   "autores": [],
   "num_autores": 0,
@@ -1213,6 +1232,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805434",
   "inspire": null,
+  "ads": null,
   "titulo": "Supermassive black holes in cosmological simulations-II: The AGN population and predictions for upcoming X-ray missions",
   "autores": [],
   "num_autores": 0,
@@ -1229,6 +1249,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805430",
   "inspire": null,
+  "ads": null,
   "titulo": "The evolution of the barred galaxy population in the TNG50 simulation",
   "autores": [],
   "num_autores": 0,
@@ -1245,6 +1266,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805426",
   "inspire": null,
+  "ads": null,
   "titulo": "Milky Way-like galaxies: stellar population properties of dynamically defined discs, bulges and stellar haloes",
   "autores": [],
   "num_autores": 0,
@@ -1261,6 +1283,7 @@
  {
   "id": "inspire:2161664",
   "inspire": 2161664,
+  "ads": null,
   "titulo": "TF07 Snowmass Report: Theory of Collider Phenomena",
   "autores": [
    "Maltoni, F.",
@@ -1288,6 +1311,7 @@
  {
   "id": "inspire:2155820",
   "inspire": 2155820,
+  "ads": null,
   "titulo": "Report of the Topical Group on Top quark physics and heavy flavor production for Snowmass 2021",
   "autores": [
    "Schwienhorst, Reinhard",
@@ -1315,6 +1339,7 @@
  {
   "id": "inspire:2153048",
   "inspire": 2153048,
+  "ads": null,
   "titulo": "Report of the Topical Group on Electroweak Precision Physics and Constraining New Physics for Snowmass 2021",
   "autores": [
    "Belloni, Alberto",
@@ -1342,6 +1367,7 @@
  {
   "id": "inspire:2129614",
   "inspire": 2129614,
+  "ads": null,
   "titulo": "Testing the key role of the stellar mass–halo mass relation in galaxy merger rates and morphologies via DECODE, a novel Discrete statistical sEmi-empiriCal mODEl",
   "autores": [
    "Fu, Hao",
@@ -1369,6 +1395,7 @@
  {
   "id": "inspire:2075894",
   "inspire": 2075894,
+  "ads": null,
   "titulo": "Muon and electron $g-2$ anomalies in a flavor conserving 2HDM with an oblique view on the CDF $M_W$ value",
   "autores": [
    "Botella, Francisco J.",
@@ -1390,6 +1417,7 @@
  {
   "id": "inspire:2052956",
   "inspire": 2052956,
+  "ads": null,
   "titulo": "Disc instability and bar formation: view from the IllustrisTNG simulations",
   "autores": [
    "Izquierdo-Villalba, David",
@@ -1417,6 +1445,7 @@
  {
   "id": "inspire:2052751",
   "inspire": 2052751,
+  "ads": null,
   "titulo": "The International Linear Collider: Report to Snowmass 2021",
   "autores": [
    "Aryshev, Alexander",
@@ -1444,6 +1473,7 @@
  {
   "id": "inspire:2009268",
   "inspire": 2009268,
+  "ads": null,
   "titulo": "Rubin-Euclid Derived Data Products: Initial Recommendations",
   "autores": [
    "Guy, Leanne P.",
@@ -1471,6 +1501,7 @@
  {
   "id": "inspire:1970917",
   "inspire": 1970917,
+  "ads": null,
   "titulo": "Electric dipole moments from colour-octet scalars",
   "autores": [
    "Gisbert, Hector",
@@ -1491,6 +1522,7 @@
  {
   "id": "inspire:1922155",
   "inspire": 1922155,
+  "ads": null,
   "titulo": "Cosmology of an axion-like majoron",
   "autores": [
    "Cuesta, Antonio J.",
@@ -1512,6 +1544,7 @@
  {
   "id": "inspire:1895175",
   "inspire": 1895175,
+  "ads": null,
   "titulo": "The top quark electro-weak couplings after LHC Run 2",
   "autores": [
    "Miralles, Víctor",
@@ -1527,7 +1560,7 @@
   "doi": "10.1007/JHEP02(2022)032",
   "arxiv": "2107.13917",
   "tipo": "article",
-  "citas": 51,
+  "citas": 53,
   "miembros": [
    "Víctor Miralles Aznar"
   ]
@@ -1535,6 +1568,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805437",
   "inspire": null,
+  "ads": null,
   "titulo": "Supermassive black holes in cosmological simulations I: M<sub>BH</sub> − M<sub>*</sub> relation and black hole mass function",
   "autores": [],
   "num_autores": 0,
@@ -1551,6 +1585,7 @@
  {
   "id": "inspire:1869958",
   "inspire": 1869958,
+  "ads": null,
   "titulo": "Constraints on coloured scalars from global fits",
   "autores": [
    "Eberhardt, Otto",
@@ -1571,6 +1606,7 @@
  {
   "id": "inspire:1866114",
   "inspire": 1866114,
+  "ads": null,
   "titulo": "The framework for a common origin of $\\delta _{\\mathrm{CKM}}$ and $\\delta _{\\mathrm{PMNS}}$",
   "autores": [
    "Alves, João M.",
@@ -1593,6 +1629,7 @@
  {
   "id": "inspire:1799192",
   "inspire": 1799192,
+  "ads": null,
   "titulo": "Electron and muon $g-2$ anomalies in general flavour conserving two Higgs doublets models",
   "autores": [
    "Botella, Francisco J.",
@@ -1613,6 +1650,7 @@
  {
   "id": "inspire:1777828",
   "inspire": 1777828,
+  "ads": null,
   "titulo": "From galactic nuclei to the halo outskirts: tracing supermassive black holes across cosmic history and environments",
   "autores": [
    "Izquierdo-Villalba, David",
@@ -1636,6 +1674,7 @@
  {
   "id": "inspire:1766079",
   "inspire": 1766079,
+  "ads": null,
   "titulo": "Modelling the large-scale mass density field of the universe as a function of cosmology and baryonic physics",
   "autores": [
    "Aricò, Giovanni",
@@ -1660,6 +1699,7 @@
  {
   "id": "inspire:1762216",
   "inspire": 1762216,
+  "ads": null,
   "titulo": "$\\texttt{HEPfit}$: a code for the combination of indirect and direct constraints on high energy physics models",
   "autores": [
    "De Blas, J.",
@@ -1679,7 +1719,7 @@
   "doi": "10.1140/epjc/s10052-020-7904-z",
   "arxiv": "1910.14012",
   "tipo": "article",
-  "citas": 202,
+  "citas": 205,
   "miembros": [
    "Víctor Miralles Aznar"
   ]
@@ -1687,6 +1727,7 @@
  {
   "id": "inspire:1747797",
   "inspire": 1747797,
+  "ads": null,
   "titulo": "The buildup of strongly barred galaxies in the TNG100 simulation",
   "autores": [
    "Rosas-Guevara, Yetli",
@@ -1714,6 +1755,7 @@
  {
   "id": "inspire:1743798",
   "inspire": 1743798,
+  "ads": null,
   "titulo": "Effective interactions in Ricci-Based Gravity below the non-metricity scale",
   "autores": [
    "Delhom, Adrià",
@@ -1734,6 +1776,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805451",
   "inspire": null,
+  "ads": null,
   "titulo": "The oxygen abundance gradients in the gas discs of galaxies in the EAGLE simulation",
   "autores": [],
   "num_autores": 0,
@@ -1750,6 +1793,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805438",
   "inspire": null,
+  "ads": null,
   "titulo": "The build-up of pseudo-bulges in a hierarchical universe",
   "autores": [],
   "num_autores": 0,
@@ -1766,6 +1810,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805435",
   "inspire": null,
+  "ads": null,
   "titulo": "Assembly of spheroid-dominated galaxies in the EAGLE simulation",
   "autores": [],
   "num_autores": 0,
@@ -1782,6 +1827,7 @@
  {
   "id": "inspire:1759623",
   "inspire": 1759623,
+  "ads": null,
   "titulo": "LHC bounds on colored scalars",
   "autores": [
    "Miralles, Víctor",
@@ -1801,6 +1847,7 @@
  {
   "id": "inspire:1746315",
   "inspire": 1746315,
+  "ads": null,
   "titulo": "The electro-weak couplings of the top and bottom quarks — Global fit and future prospects",
   "autores": [
    "Durieux, Gauthier",
@@ -1825,6 +1872,7 @@
  {
   "id": "inspire:1671834",
   "inspire": 1671834,
+  "ads": null,
   "titulo": "The abundances and properties of Dual AGN and their host galaxies in the EAGLE simulations",
   "autores": [
    "Rosas-Guevara, Yetli",
@@ -1839,7 +1887,7 @@
   "doi": "10.1093/mnras/sty3251",
   "arxiv": "1805.01479",
   "tipo": "article",
-  "citas": 27,
+  "citas": 26,
   "miembros": [
    "Yetli Mariana Rosas Guevara"
   ]
@@ -1847,6 +1895,7 @@
  {
   "id": "inspire:1665448",
   "inspire": 1665448,
+  "ads": null,
   "titulo": "Symmetry Constrained Two Higgs Doublet Models",
   "autores": [
    "Alves, João M.",
@@ -1870,6 +1919,7 @@
  {
   "id": "inspire:1663949",
   "inspire": 1663949,
+  "ads": null,
   "titulo": "Flavor conservation in two-Higgs-doublet models",
   "autores": [
    "Botella, Francisco J.",
@@ -1890,6 +1940,7 @@
  {
   "id": "inspire:1491346",
   "inspire": 1491346,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: theoretical systematics and Baryon Acoustic Oscillations in the galaxy correlation function",
   "autores": [
    "Vargas-Magaña, Mariana",
@@ -1917,6 +1968,7 @@
  {
   "id": "inspire:1516921",
   "inspire": 1516921,
+  "ads": null,
   "titulo": "Controlled Flavour Changing Neutral Couplings in Two Higgs Doublet Models",
   "autores": [
    "Alves, Joao M.",
@@ -1939,6 +1991,7 @@
  {
   "id": "inspire:1511397",
   "inspire": 1511397,
+  "ads": null,
   "titulo": "Running of featureful primordial power spectra",
   "autores": [
    "Gariazzo, Stefano",
@@ -1961,6 +2014,7 @@
  {
   "id": "inspire:1511241",
   "inspire": 1511241,
+  "ads": null,
   "titulo": "Dynamical dark energy in light of the latest observations",
   "autores": [
    "Zhao, Gong-Bo",
@@ -1980,7 +2034,7 @@
   "doi": "10.1038/s41550-017-0216-z",
   "arxiv": "1701.08165",
   "tipo": "article",
-  "citas": 559,
+  "citas": 560,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -1988,6 +2042,7 @@
  {
   "id": "inspire:1475241",
   "inspire": 1475241,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: cosmological analysis of the DR12 galaxy sample",
   "autores": [
    "Alam, Shadab",
@@ -2007,7 +2062,7 @@
   "doi": "10.1093/mnras/stx721",
   "arxiv": "1607.03155",
   "tipo": "article",
-  "citas": 3495,
+  "citas": 3501,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2015,6 +2070,7 @@
  {
   "id": "inspire:1475240",
   "inspire": 1475240,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: tomographic BAO analysis of DR12 combined sample in configuration space",
   "autores": [
    "Wang, Yuting",
@@ -2042,6 +2098,7 @@
  {
   "id": "inspire:1475239",
   "inspire": 1475239,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: tomographic BAO analysis of DR12 combined sample in Fourier space",
   "autores": [
    "Zhao, Gong-Bo",
@@ -2069,6 +2126,7 @@
  {
   "id": "inspire:1475238",
   "inspire": 1475238,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: towards a computationally efficient analysis without informative priors",
   "autores": [
    "Pellejero-Ibanez, Marcos",
@@ -2096,6 +2154,7 @@
  {
   "id": "inspire:1475237",
   "inspire": 1475237,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: single-probe measurements from DR12 galaxy clustering – towards an accurate model",
   "autores": [
    "Chuang, Chia-Hsun",
@@ -2123,6 +2182,7 @@
  {
   "id": "inspire:1475236",
   "inspire": 1475236,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: Anisotropic galaxy clustering in Fourier-space",
   "autores": [
    "Beutler, Florian",
@@ -2142,7 +2202,7 @@
   "doi": "10.1093/mnras/stw3298",
   "arxiv": "1607.03150",
   "tipo": "article",
-  "citas": 398,
+  "citas": 399,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2150,6 +2210,7 @@
  {
   "id": "inspire:1475235",
   "inspire": 1475235,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: baryon acoustic oscillations in the Fourier space",
   "autores": [
    "Beutler, Florian",
@@ -2169,7 +2230,7 @@
   "doi": "10.1093/mnras/stw2373",
   "arxiv": "1607.03149",
   "tipo": "article",
-  "citas": 290,
+  "citas": 292,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2177,6 +2238,7 @@
  {
   "id": "inspire:1475232",
   "inspire": 1475232,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: combining correlated Gaussian posterior distributions",
   "autores": [
    "Sanchez, Ariel G.",
@@ -2204,6 +2266,7 @@
  {
   "id": "inspire:1475231",
   "inspire": 1475231,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: Observational systematics and baryon acoustic oscillations in the correlation function",
   "autores": [
    "Ross, Ashley J.",
@@ -2231,6 +2294,7 @@
  {
   "id": "inspire:1475229",
   "inspire": 1475229,
+  "ads": null,
   "titulo": "The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: Cosmological implications of the Fourier space wedges of the final sample",
   "autores": [
    "Grieb, Jan Niklas",
@@ -2258,6 +2322,7 @@
  {
   "id": "inspire:1408696",
   "inspire": 1408696,
+  "ads": null,
   "titulo": "The large-scale three-point correlation function of the SDSS BOSS DR12 CMASS galaxies",
   "autores": [
    "Slepian, Zachary",
@@ -2285,6 +2350,7 @@
  {
   "id": "inspire:1394345",
   "inspire": 1394345,
+  "ads": null,
   "titulo": "The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: Effect of smoothing of density field on reconstruction and anisotropic BAO analysis",
   "autores": [
    "Vargas-Magaña, M.",
@@ -2306,6 +2372,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805445",
   "inspire": null,
+  "ads": null,
   "titulo": "Supermassive black holes in the EAGLE Universe. Revealing the observables of their growth",
   "autores": [],
   "num_autores": 0,
@@ -2322,6 +2389,7 @@
  {
   "id": "inspire:1464797",
   "inspire": 1464797,
+  "ads": null,
   "titulo": "Red, Straight, no bends: primordial power spectrum reconstruction from CMB and large-scale structure",
   "autores": [
    "Ravenni, Andrea",
@@ -2342,6 +2410,7 @@
  {
   "id": "inspire:1405403",
   "inspire": 1405403,
+  "ads": null,
   "titulo": "Neutrino mass limits: robust information from the power spectrum of galaxy surveys",
   "autores": [
    "Cuesta, Antonio J.",
@@ -2362,6 +2431,7 @@
  {
   "id": "inspire:1403766",
   "inspire": 1403766,
+  "ads": null,
   "titulo": "Parameter splitting in dark energy: is dark energy the same in the background and in the cosmic structures?",
   "autores": [
    "Bernal, José Luis",
@@ -2382,6 +2452,7 @@
  {
   "id": "inspire:1396271",
   "inspire": 1396271,
+  "ads": null,
   "titulo": "The EAGLE simulations of galaxy formation: public release of halo and galaxy catalogues",
   "autores": [
    "McAlpine, Stuart",
@@ -2409,6 +2480,7 @@
  {
   "id": "inspire:1394845",
   "inspire": 1394845,
+  "ads": null,
   "titulo": "Constraints on deviations from ΛCDM within Horndeski gravity",
   "autores": [
    "Bellini, Emilio",
@@ -2430,6 +2502,7 @@
  {
   "id": "inspire:1394348",
   "inspire": 1394348,
+  "ads": null,
   "titulo": "The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: mock galaxy catalogues for the BOSS Final Data Release",
   "autores": [
    "Kitaura, Francisco-Shu",
@@ -2449,7 +2522,7 @@
   "doi": "10.1093/mnras/stv2826",
   "arxiv": "1509.06400",
   "tipo": "article",
-  "citas": 344,
+  "citas": 346,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2457,6 +2530,7 @@
  {
   "id": "inspire:1394341",
   "inspire": 1394341,
+  "ads": null,
   "titulo": "The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: BAO measurement from the LOS-dependent power spectrum of DR12 BOSS galaxies",
   "autores": [
    "Gil-Marín, Héctor",
@@ -2476,7 +2550,7 @@
   "doi": "10.1093/mnras/stw1264",
   "arxiv": "1509.06373",
   "tipo": "article",
-  "citas": 199,
+  "citas": 200,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2484,6 +2558,7 @@
  {
   "id": "inspire:1394340",
   "inspire": 1394340,
+  "ads": null,
   "titulo": "The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: Baryon Acoustic Oscillations in the correlation function of LOWZ and CMASS galaxies in Data Release 12",
   "autores": [
    "Cuesta, Antonio J.",
@@ -2511,6 +2586,7 @@
  {
   "id": "inspire:1386656",
   "inspire": 1386656,
+  "ads": null,
   "titulo": "Cosmic explosions, life in the Universe and the Cosmological Constant",
   "autores": [
    "Piran, Tsvi",
@@ -2533,6 +2609,7 @@
  {
   "id": "inspire:1375965",
   "inspire": 1375965,
+  "ads": null,
   "titulo": "The BOSS–WiggleZ overlap region – I. Baryon acoustic oscillations",
   "autores": [
    "Beutler, Florian",
@@ -2557,6 +2634,7 @@
  {
   "id": "inspire:1269706",
   "inspire": 1269706,
+  "ads": null,
   "titulo": "The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: single-probe measurements from CMASS anisotropic galaxy clustering",
   "autores": [
    "Chuang, Chia-Hsun",
@@ -2584,6 +2662,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805455",
   "inspire": null,
+  "ads": null,
   "titulo": "The impact of angular momentum on black hole accretion rates in simulations of galaxy formation",
   "autores": [],
   "num_autores": 0,
@@ -2600,6 +2679,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805453",
   "inspire": null,
+  "ads": null,
   "titulo": "The EAGLE simulations of galaxy formation: Calibration of subgrid physics and model variations",
   "autores": [],
   "num_autores": 0,
@@ -2616,6 +2696,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805450",
   "inspire": null,
+  "ads": null,
   "titulo": "The EAGLE project: Simulating the evolution and assembly of galaxies and their environments",
   "autores": [],
   "num_autores": 0,
@@ -2632,6 +2713,7 @@
  {
   "id": "orcid:0000-0003-2579-2676:176805439",
   "inspire": null,
+  "ads": null,
   "titulo": "Evolution of galaxy stellar masses and star formation rates in the EAGLE simulations",
   "autores": [],
   "num_autores": 0,
@@ -2648,6 +2730,7 @@
  {
   "id": "inspire:1336557",
   "inspire": 1336557,
+  "ads": null,
   "titulo": "The Eleventh and Twelfth Data Releases of the Sloan Digital Sky Survey: Final Data from SDSS-III",
   "autores": [
    "Alam, Shadab",
@@ -2667,7 +2750,7 @@
   "doi": "10.1088/0067-0049/219/1/12",
   "arxiv": "1501.00963",
   "tipo": "article",
-  "citas": 1178,
+  "citas": 1180,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2675,6 +2758,7 @@
  {
   "id": "inspire:1334903",
   "inspire": 1334903,
+  "ads": null,
   "titulo": "Robustness of cosmic neutrino background detection in the cosmic microwave background",
   "autores": [
    "Audren, Benjamin",
@@ -2702,6 +2786,7 @@
  {
   "id": "inspire:1326104",
   "inspire": 1326104,
+  "ads": null,
   "titulo": "Calibrating the cosmic distance scale ladder: the role of the sound horizon scale and the local expansion rate as distance anchors",
   "autores": [
    "Cuesta, Antonio J.",
@@ -2723,6 +2808,7 @@
  {
   "id": "inspire:1326102",
   "inspire": 1326102,
+  "ads": null,
   "titulo": "Cosmological implications of baryon acoustic oscillation measurements",
   "autores": [
    "Aubourg, Éric",
@@ -2742,7 +2828,7 @@
   "doi": "10.1103/PhysRevD.92.123516",
   "arxiv": "1411.1074",
   "tipo": "article",
-  "citas": 875,
+  "citas": 878,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2750,6 +2836,7 @@
  {
   "id": "inspire:1309413",
   "inspire": 1309413,
+  "ads": null,
   "titulo": "The power spectrum and bispectrum of SDSS DR11 BOSS galaxies – II. Cosmological interpretation",
   "autores": [
    "Gil-Marín, Héctor",
