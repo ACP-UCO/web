@@ -205,6 +205,9 @@ address { font-style: normal; }
 .pie { background: var(--noche); color: var(--sobre-noche); padding: 2.5rem 0 1rem; margin-top: 3rem; font-size: .93rem; }
 .pie a { color: #ffc9c5; }
 .pie__fila { display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+/* Logo de la UCO (versión en blanco del manual de identidad corporativa) */
+.pie__uco { display: block; flex-shrink: 0; }
+.pie__uco img { display: block; height: 4rem; width: auto; }
 .pie__nota { opacity: .6; font-size: .82rem; margin-top: 2rem; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
