@@ -3,11 +3,11 @@
   <span class="pub__titulo">{{ p.titulo | latex }}</span>
   <span class="pub__autores">
     {%- for a, miembro in p.autores_web %}{% if miembro %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}
-    {%- if p.autores and p.num_autores > 5 %} <em>et al.</em> ({{ p.num_autores }} autores
-      {%- if p.miembros_et_al %}, incluyendo a {% for m in p.miembros_et_al %}<strong>{{ m }}</strong>{% if not loop.last %} y {% endif %}{% endfor %}{% endif %}){% endif -%}
+    {%- if p.autores and p.num_autores > 5 %} <em>et al.</em> ({{ t("{n} autores", n=p.num_autores) }}
+      {%- if p.miembros_et_al %}, {{ t("incluyendo a") }} {% for m in p.miembros_et_al %}<strong>{{ m }}</strong>{% if not loop.last %} {{ t("y") }} {% endif %}{% endfor %}{% endif %}){% endif -%}
   </span>
   <span class="pub__datos">
-    {% if p.revista %}<span>{{ p.revista }} ({{ p.anio }})</span>{% else %}<span class="etiqueta">Preprint</span>{% endif %}
+    {% if p.revista %}<span>{{ p.revista }} ({{ p.anio }})</span>{% else %}<span class="etiqueta">{{ t("Preprint") }}</span>{% endif %}
     {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
     {% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>{% endif %}
     {% if p.inspire %}<a href="https://inspirehep.net/literature/{{ p.inspire }}">INSPIRE</a>
@@ -26,7 +26,7 @@
     <p class="seminario__ponente">{{ s.ponente }}{% if s.institucion %} · {{ s.institucion }}{% endif %}</p>
     <p class="tenue">{{ s.hora }} h · {{ s.lugar }}</p>
     {% if completo and s.resumen %}<div class="seminario__resumen">{{ s.resumen | md }}</div>{% endif %}
-    {% if s.enlace %}<p><a href="{{ s.enlace }}">Más información →</a></p>{% endif %}
+    {% if s.enlace %}<p><a href="{{ s.enlace }}">{{ t("Más información") }} →</a></p>{% endif %}
   </div>
 </article>
 {% endmacro %}

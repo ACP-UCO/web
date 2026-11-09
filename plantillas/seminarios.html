@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% from "_macros.html" import seminario %}
-{% block titulo %}Seminarios · {% endblock %}
+{% block titulo %}{{ t("Seminarios") }} · {% endblock %}
 {% block contenido %}
-<header class="titular"><div class="contenedor"><h1>Seminarios</h1>
-<p>Seminarios organizados por el grupo. Son abiertos a toda la comunidad universitaria.</p></div></header>
+<header class="titular"><div class="contenedor"><h1>{{ t("Seminarios") }}</h1>
+<p>{{ t("Seminarios organizados por el grupo. Son abiertos a toda la comunidad universitaria.") }}</p></div></header>
 <div class="contenedor seccion">
-  <h2>Próximos</h2>
-  {% for s in proximos %}{{ seminario(s, true) }}{% else %}<p class="tenue">No hay seminarios programados por ahora.</p>{% endfor %}
-  {% if pasados %}<h2>Anteriores</h2>{% for s in pasados %}{{ seminario(s, true) }}{% endfor %}{% endif %}
+  <h2>{{ t("Próximos") }}</h2>
+  {% for s in proximos %}{{ seminario(s, true) }}{% else %}<p class="tenue">{{ t("No hay seminarios programados por ahora.") }}</p>{% endfor %}
+  {% if pasados %}<h2>{{ t("Anteriores") }}</h2>{% for s in pasados %}{{ seminario(s, true) }}{% endfor %}{% endif %}
 </div>
 {% endblock %}

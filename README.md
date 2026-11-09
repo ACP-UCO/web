@@ -6,6 +6,9 @@ https://www.uco.es/investiga/grupos/acp/ · https://www.uco.es/acp/
 - **¿Cómo se publica?** Automáticamente con GitHub Actions al guardar en `main`
   (ver `.github/workflows/publicar.yml`). La contraseña SFTP está guardada como
   secreto cifrado `SFTP_PASSWORD`; nunca en el código.
+- **Versión en inglés** (`en/`): se genera a la vez que la española. Los textos
+  nuevos o cambiados se traducen solos con Claude (secreto `ANTHROPIC_API_KEY`)
+  y se guardan en `datos/traducciones.json` mediante un commit automático.
 
 ## Trabajar en local
 

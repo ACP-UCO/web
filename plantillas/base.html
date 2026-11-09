@@ -1,18 +1,19 @@
 <!doctype html>
-<html lang="es">
+<html lang="{{ idioma }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block titulo %}{% endblock %}{{ sitio.siglas }} · {{ sitio.codigo }} · {{ sitio.universidad }}</title>
-<meta name="description" content="Grupo de investigación {{ sitio.codigo }} «{{ sitio.nombre }}» de la {{ sitio.universidad }}.">
+<meta name="description" content="{{ t('Grupo de investigación {codigo} «{nombre}» de la {universidad}.', codigo=sitio.codigo, nombre=sitio.nombre, universidad=sitio.universidad) }}">
+<link rel="alternate" hreflang="{{ 'en' if idioma == 'es' else 'es' }}" href="{{ otro_idioma }}{{ pagina }}">
 <link rel="stylesheet" href="{{ raiz }}{{ recurso('css/estilo.css') }}">
 <link rel="icon" href="{{ raiz }}{{ recurso('img/icono.svg') }}" type="image/svg+xml">
 </head>
 <body>
-<a class="saltar" href="#principal">Saltar al contenido</a>
+<a class="saltar" href="#principal">{{ t("Saltar al contenido") }}</a>
 <header class="cabecera">
   <div class="contenedor cabecera__fila">
-    <a class="marca" href="{{ raiz }}index.html">
+    <a class="marca" href="index.html">
       <img src="{{ raiz }}{{ recurso('img/logo-acp-blanco.svg') }}" alt="ACP" width="100" height="34">
       <span>
         <strong>{{ sitio.nombre }}</strong>
@@ -20,16 +21,21 @@
       </span>
     </a>
     <input type="checkbox" id="menu-abierto" class="menu-check" aria-hidden="true">
-    <label for="menu-abierto" class="menu-boton" aria-label="Abrir menú">☰</label>
-    <nav class="menu" aria-label="Principal">
+    <label for="menu-abierto" class="menu-boton" aria-label="{{ t('Abrir menú') }}">☰</label>
+    <nav class="menu" aria-label="{{ t('Principal') }}">
       {% set enlaces = [
         ("index.html", "Inicio"), ("miembros.html", "Miembros"),
         ("investigacion.html", "Investigación"), ("publicaciones.html", "Publicaciones"),
         ("seminarios.html", "Seminarios"), ("noticias.html", "Noticias"),
         ("contacto.html", "Contacto")] %}
       {% for url, texto in enlaces if hay_seminarios or url != "seminarios.html" %}
-      <a href="{{ raiz }}{{ url }}"{% if pagina == url %} aria-current="page"{% endif %}>{{ texto }}</a>
+      <a href="{{ url }}"{% if pagina == url %} aria-current="page"{% endif %}>{{ t(texto) }}</a>
       {% endfor %}
+      {% if idioma == "es" %}
+      <a class="menu__idioma" href="{{ otro_idioma }}{{ pagina }}" hreflang="en" lang="en">English</a>
+      {% else %}
+      <a class="menu__idioma" href="{{ otro_idioma }}{{ pagina }}" hreflang="es" lang="es">Español</a>
+      {% endif %}
     </nav>
   </div>
 </header>
@@ -49,10 +55,10 @@
       <a href="https://www.uco.es">www.uco.es</a>
     </div>
     <a class="pie__uco" href="https://www.uco.es">
-      <img src="{{ raiz }}{{ recurso('img/logo-uco-blanco.svg') }}" alt="Universidad de Córdoba" width="132" height="66">
+      <img src="{{ raiz }}{{ recurso('img/logo-uco-blanco.svg') }}" alt="{{ t('Universidad de Córdoba') }}" width="132" height="66">
     </a>
   </div>
-  <p class="contenedor pie__nota">© {{ anio }} {{ sitio.universidad }} · Actualizado el {{ actualizado }}</p>
+  <p class="contenedor pie__nota">© {{ anio }} {{ sitio.universidad }} · {{ t("Actualizado el {fecha}", fecha=actualizado) }}</p>
 </footer>
 </body>
 </html>

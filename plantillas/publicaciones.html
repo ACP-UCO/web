@@ -1,18 +1,18 @@
 {% extends "base.html" %}
 {% from "_macros.html" import publicacion %}
-{% block titulo %}Publicaciones · {% endblock %}
+{% block titulo %}{{ t("Publicaciones") }} · {% endblock %}
 {% block contenido %}
-<header class="titular"><div class="contenedor"><h1>Publicaciones</h1>
-<p>{{ total }} trabajos de miembros del grupo.</p></div></header>
+<header class="titular"><div class="contenedor"><h1>{{ t("Publicaciones") }}</h1>
+<p>{{ t("{total} trabajos de miembros del grupo.", total=total) }}</p></div></header>
 <div class="contenedor seccion">
   {% if por_anio %}
-  <nav class="anios" aria-label="Años">{% for anio in por_anio %}<a href="#a{{ anio }}">{{ anio }}</a>{% endfor %}</nav>
+  <nav class="anios" aria-label="{{ t('Años') }}">{% for anio in por_anio %}<a href="#a{{ anio | string | replace(' ', '-') }}">{{ t(anio) if anio is string else anio }}</a>{% endfor %}</nav>
   {% for anio, lista in por_anio.items() %}
-  <section id="a{{ anio }}">
-    <h2 class="anio">{{ anio }}</h2>
+  <section id="a{{ anio | string | replace(' ', '-') }}">
+    <h2 class="anio">{{ t(anio) if anio is string else anio }}</h2>
     <ol class="pubs">{% for p in lista %}{{ publicacion(p) }}{% endfor %}</ol>
   </section>
   {% endfor %}
-  {% else %}<p>Lista de publicaciones en preparación.</p>{% endif %}
+  {% else %}<p>{{ t("Lista de publicaciones en preparación.") }}</p>{% endif %}
 </div>
 {% endblock %}

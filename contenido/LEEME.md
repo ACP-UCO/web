@@ -23,6 +23,16 @@ pulsa **Commit changes**. En unos 2 minutos la web se actualiza sola.
 4. Si te equivocas, la web **no** se rompe: la publicación se detiene y GitHub
    te envía un correo con el error en español. Corrígelo y vuelve a guardar.
 
+## Versión en inglés
+
+La web tiene una copia en inglés (botón **English** del menú). **Solo hay que
+editar en español**: al guardar, los textos nuevos o cambiados se traducen solos
+y la versión inglesa queda igual que la española en un par de minutos.
+
+Las traducciones se guardan en `datos/traducciones.json`. Si una traducción no
+te convence, puedes corregirla ahí (cambia solo el texto de la derecha); se
+respetará mientras no cambies el texto en español.
+
 ## Publicar una noticia
 
 Pulsa **Add file → Create new file** dentro de `contenido/noticias/` y llámalo

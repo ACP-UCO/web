@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% from "_redes.html" import icono_red %}
-{% block titulo %}Miembros · {% endblock %}
+{% block titulo %}{{ t("Miembros") }} · {% endblock %}
 {% macro tarjeta(p) %}
 <li class="persona">
-  {% if p.foto %}<img src="{{ recurso('img/miembros/' ~ p.foto) }}" alt="" width="96" height="96" loading="lazy">
+  {% if p.foto %}<img src="{{ raiz }}{{ recurso('img/miembros/' ~ p.foto) }}" alt="" width="96" height="96" loading="lazy">
   {% else %}<span class="persona__inicial" aria-hidden="true">{{ p.nombre | iniciales }}</span>{% endif %}
   <div>
     <h3>{% if p.web %}<a href="{{ p.web }}">{{ p.nombre }}</a>{% else %}{{ p.nombre }}{% endif %}</h3>
@@ -12,7 +12,7 @@
     {% if p.enlaces %}
     <p class="persona__enlaces">
       {% for red, texto, url in p.enlaces %}
-      <a class="red red--{{ red }}" href="{{ url }}" title="{{ texto }}" aria-label="{{ texto }} de {{ p.nombre }}">{{ icono_red(red) }}</a>
+      <a class="red red--{{ red }}" href="{{ url }}" title="{{ t(texto) }}" aria-label="{{ t('{red} de {nombre}', red=t(texto), nombre=p.nombre) }}">{{ icono_red(red) }}</a>
       {% endfor %}
     </p>
     {% endif %}
@@ -20,14 +20,14 @@
 </li>
 {% endmacro %}
 {% block contenido %}
-<header class="titular"><div class="contenedor"><h1>Miembros</h1>
-<p>Personas que forman el grupo {{ sitio.codigo }}.</p></div></header>
+<header class="titular"><div class="contenedor"><h1>{{ t("Miembros") }}</h1>
+<p>{{ t("Personas que forman el grupo {codigo}.", codigo=sitio.codigo) }}</p></div></header>
 <div class="contenedor seccion">
   <ul class="personas">
     {% for p in actuales %}{{ tarjeta(p) }}{% endfor %}
   </ul>
   {% if antiguos %}
-  <h2>Antiguos miembros</h2>
+  <h2>{{ t("Antiguos miembros") }}</h2>
   <ul class="personas">
     {% for p in antiguos %}{{ tarjeta(p) }}{% endfor %}
   </ul>

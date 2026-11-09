@@ -3,13 +3,13 @@
 {% block contenido %}
 <section class="portada">
   <div class="contenedor">
-    <img class="portada__logo" src="{{ recurso('img/logo-acp-blanco.svg') }}" alt="" width="555" height="189">
-    <p class="portada__codigo">Grupo de investigación {{ sitio.codigo }} · {{ sitio.universidad }}</p>
+    <img class="portada__logo" src="{{ raiz }}{{ recurso('img/logo-acp-blanco.svg') }}" alt="" width="555" height="189">
+    <p class="portada__codigo">{{ t("Grupo de investigación") }} {{ sitio.codigo }} · {{ sitio.universidad }}</p>
     <h1>{{ sitio.nombre }}</h1>
     <p class="portada__lema">{{ sitio.lema }}</p>
     <p class="portada__botones">
-      <a class="boton" href="investigacion.html">Nuestra investigación</a>
-      <a class="boton boton--claro" href="publicaciones.html">Publicaciones</a>
+      <a class="boton" href="investigacion.html">{{ t("Nuestra investigación") }}</a>
+      <a class="boton boton--claro" href="publicaciones.html">{{ t("Publicaciones") }}</a>
     </p>
   </div>
 </section>
@@ -19,7 +19,7 @@
 </section>
 
 <section class="contenedor seccion">
-  <h2>Líneas de investigación</h2>
+  <h2>{{ t("Líneas de investigación") }}</h2>
   <div class="tarjetas">
     {% for l in lineas %}
     <a class="tarjeta" href="investigacion.html#linea-{{ loop.index }}">
@@ -34,28 +34,28 @@
 <div class="contenedor seccion{% if hay_seminarios %} dos-columnas{% endif %}">
   {% if hay_seminarios %}
   <section>
-    <h2>Próximos seminarios</h2>
-    {% for s in proximos %}{{ seminario(s) }}{% else %}<p class="tenue">No hay seminarios programados.</p>{% endfor %}
-    <p><a href="seminarios.html">Todos los seminarios →</a></p>
+    <h2>{{ t("Próximos seminarios") }}</h2>
+    {% for s in proximos %}{{ seminario(s) }}{% else %}<p class="tenue">{{ t("No hay seminarios programados.") }}</p>{% endfor %}
+    <p><a href="seminarios.html">{{ t("Todos los seminarios") }} →</a></p>
   </section>
   {% endif %}
   <section>
-    <h2>Noticias</h2>
+    <h2>{{ t("Noticias") }}</h2>
     {% for n in noticias %}
     <article class="noticia-breve">
       <time datetime="{{ n.fecha }}">{{ n.fecha | fecha }}</time>
       <h3><a href="noticias.html#{{ n.id }}">{{ n.titulo }}</a></h3>
     </article>
-    {% else %}<p class="tenue">Sin noticias.</p>{% endfor %}
-    <p><a href="noticias.html">Todas las noticias →</a></p>
+    {% else %}<p class="tenue">{{ t("Sin noticias.") }}</p>{% endfor %}
+    <p><a href="noticias.html">{{ t("Todas las noticias") }} →</a></p>
   </section>
 </div>
 
 {% if recientes %}
 <section class="contenedor seccion">
-  <h2>Publicaciones recientes</h2>
+  <h2>{{ t("Publicaciones recientes") }}</h2>
   <ol class="pubs">{% for p in recientes %}{{ publicacion(p) }}{% endfor %}</ol>
-  <p><a href="publicaciones.html">Todas las publicaciones →</a></p>
+  <p><a href="publicaciones.html">{{ t("Todas las publicaciones") }} →</a></p>
 </section>
 {% endif %}
 {% endblock %}

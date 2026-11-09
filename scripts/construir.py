@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Genera la web estática en _site/ a partir de contenido/, plantillas/ y estatico/.
 
+Se generan dos versiones con las mismas páginas: español (en la raíz) e inglés
+americano (en en/). Los textos en inglés salen de datos/traducciones.json, que
+se completa solo con Claude (ver scripts/traduccion.py).
+
 Todos los enlaces internos son relativos para que la web funcione tanto en
 /investiga/grupos/acp/ como en el alias /acp/.
 """
+import copy
 import datetime as dt
 import hashlib
 import json
@@ -18,12 +23,19 @@ import yaml
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from markupsafe import Markup, escape
 
+from traduccion import Traductor
+
 RAIZ = Path(__file__).resolve().parent.parent
 CONTENIDO = RAIZ / "contenido"
 SITE = RAIZ / "_site"
 
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December"]
+
+# Idiomas de la web: carpeta (relativa a _site/) y prefijo para llegar a la raíz
+IDIOMAS = {"es": dict(carpeta="", raiz=""), "en": dict(carpeta="en/", raiz="../")}
 
 def error(archivo, msg):
     sys.exit(f"\n❌ Error en {archivo}:\n   {msg}\n")
@@ -44,9 +56,11 @@ def md(texto):
     return Markup(markdown.markdown(texto or "", extensions=["smarty"]))
 
 
-def fecha_larga(f):
+def fecha_larga(f, idioma="es"):
     if isinstance(f, str):
-        f = dt.date.fromisoformat(f)
+        f = dt.date.fromisoformat(str(f))
+    if idioma == "en":
+        return f"{MONTHS[f.month - 1]} {f.day}, {f.year}"
     return f"{f.day} de {MESES[f.month - 1]} de {f.year}"
 
 
@@ -57,8 +71,8 @@ def recurso(ruta):
     return f"{ruta}?v={hashlib.md5(contenido).hexdigest()[:8]}"
 
 
-def mes_corto(f):
-    return MESES[f.month - 1][:3]
+def mes_corto(f, idioma="es"):
+    return (MONTHS if idioma == "en" else MESES)[f.month - 1][:3]
 
 
 def iniciales(nombre):
@@ -128,7 +142,7 @@ def cargar_noticias():
         for campo in ("titulo", "fecha"):
             if campo not in cab:
                 error(f"noticias/{ruta.name}", f"falta el campo '{campo}:'.")
-        noticias.append({**cab, "id": ruta.stem, "html": md(m.group(2))})
+        noticias.append({**cab, "id": ruta.stem, "cuerpo": m.group(2)})
     noticias.sort(key=lambda n: str(n["fecha"]), reverse=True)
     return noticias
 
@@ -181,6 +195,69 @@ def comprobar_colaboraciones(colaboraciones):
                   f"estatico/img/colaboraciones/{logo}")
 
 
+def traducir_contenido(d, tr):
+    """Copia del contenido con los textos pasados por el traductor tr."""
+    d = copy.deepcopy(d)
+    for campo in ("nombre", "universidad", "departamento", "direccion", "lema",
+                  "presentacion"):
+        d["sitio"][campo] = tr(d["sitio"].get(campo))
+
+    def lista(xs):
+        return [{tr(k): [tr(v) for v in (vs or [])] for k, vs in x.items()}
+                if isinstance(x, dict) else tr(x) for x in (xs or [])]
+    for l in d["lineas"]:
+        l["titulo"], l["resumen"] = tr(l.get("titulo")), tr(l.get("resumen"))
+        if l.get("lineas"):
+            l["lineas"] = lista(l["lineas"])
+    for p in d["actuales"] + d["antiguos"]:
+        p["cargo"], p["institucion"] = tr(p.get("cargo")), tr(p.get("institucion"))
+    for s in d["proximos"] + d["pasados"]:
+        for campo in ("titulo", "resumen", "lugar"):
+            s[campo] = tr(s.get(campo))
+    for n in d["noticias"]:
+        n["titulo"], n["cuerpo"] = tr(n["titulo"]), tr(n["cuerpo"])
+    return d
+
+
+def generar(idioma, tr, datos_es, comun):
+    """Genera todas las páginas de un idioma. Devuelve la lista de páginas."""
+    d = traducir_contenido(datos_es, tr)
+    for n in d["noticias"]:
+        n["html"] = md(n["cuerpo"])
+
+    env = Environment(loader=FileSystemLoader(RAIZ / "plantillas"),
+                      undefined=StrictUndefined, autoescape=True,
+                      trim_blocks=True, lstrip_blocks=True)
+    env.globals.update(recurso=recurso, t=tr, idioma=idioma)
+    env.filters.update(md=md, fecha=lambda f: fecha_larga(f, idioma),
+                       mes=lambda f: mes_corto(f, idioma), latex=latex_ligero,
+                       iniciales=iniciales, saltos=saltos)
+
+    hoy = comun["hoy"]
+    # Sin seminarios en seminarios.yml, la sección se oculta (menú, portada y página)
+    base = dict(sitio=d["sitio"], anio=hoy.year, actualizado=fecha_larga(hoy, idioma),
+                hay_seminarios=comun["hay_seminarios"], **IDIOMAS[idioma],
+                otro_idioma=("en/" if idioma == "es" else "../"))
+    paginas = {
+        "index.html": dict(lineas=d["lineas"], noticias=d["noticias"][:3],
+                           proximos=d["proximos"][:3], recientes=comun["recientes"]),
+        "investigacion.html": dict(lineas=d["lineas"],
+                                   colaboraciones=comun["colaboraciones"]),
+        "miembros.html": dict(actuales=d["actuales"], antiguos=d["antiguos"]),
+        "publicaciones.html": dict(por_anio=comun["por_anio"], total=comun["total"]),
+        **({"seminarios.html": dict(proximos=d["proximos"], pasados=d["pasados"])}
+           if comun["hay_seminarios"] else {}),
+        "noticias.html": dict(noticias=d["noticias"]),
+        "contacto.html": dict(),
+    }
+    carpeta = SITE / IDIOMAS[idioma]["carpeta"]
+    carpeta.mkdir(parents=True, exist_ok=True)
+    for nombre, datos in paginas.items():
+        html = env.get_template(nombre).render(**base, **datos, pagina=nombre)
+        (carpeta / nombre).write_text(html, encoding="utf-8")
+    return list(paginas)
+
+
 def main():
     sitio = leer_yaml("sitio.yml")
     miembros = leer_yaml("miembros.yml") or []
@@ -210,40 +287,31 @@ def main():
     actuales = [p for p in miembros if not p.get("antiguo")]
     antiguos = [p for p in miembros if p.get("antiguo")]
 
-    env = Environment(loader=FileSystemLoader(RAIZ / "plantillas"),
-                      undefined=StrictUndefined, autoescape=True,
-                      trim_blocks=True, lstrip_blocks=True)
-    env.globals["recurso"] = recurso
-    env.filters.update(md=md, fecha=fecha_larga, latex=latex_ligero, mes=mes_corto,
-                       iniciales=iniciales, saltos=saltos)
-
-    # Sin seminarios en seminarios.yml, la sección se oculta (menú, portada y página)
-    comun = dict(sitio=sitio, anio=hoy.year, actualizado=fecha_larga(hoy),
-                 hay_seminarios=bool(seminarios))
-    paginas = {
-        "index.html": dict(lineas=lineas, noticias=cargar_noticias()[:3],
-                           proximos=proximos[:3], recientes=publicaciones[:4]),
-        "investigacion.html": dict(lineas=lineas, colaboraciones=colaboraciones),
-        "miembros.html": dict(actuales=actuales, antiguos=antiguos),
-        "publicaciones.html": dict(por_anio=por_anio, total=len(publicaciones)),
-        **({"seminarios.html": dict(proximos=proximos, pasados=pasados)}
-           if seminarios else {}),
-        "noticias.html": dict(noticias=cargar_noticias()),
-        "contacto.html": dict(),
-    }
+    noticias = cargar_noticias()
+    datos_es = dict(sitio=sitio, lineas=lineas, actuales=actuales, antiguos=antiguos,
+                    proximos=proximos, pasados=pasados, noticias=noticias)
 
     if SITE.exists():
         shutil.rmtree(SITE)
     shutil.copytree(RAIZ / "estatico", SITE, ignore=shutil.ignore_patterns(".gitkeep"))
-    for nombre, datos in paginas.items():
-        html = env.get_template(nombre).render(**comun, **datos, raiz="",
-                                               pagina=nombre)
-        (SITE / nombre).write_text(html, encoding="utf-8")
+
+    comun = dict(colaboraciones=colaboraciones, por_anio=por_anio,
+                 total=len(publicaciones), recientes=publicaciones[:4], hoy=hoy,
+                 hay_seminarios=bool(seminarios))
+    trad = Traductor(RAIZ / "datos/traducciones.json", "en")
+    for idioma in IDIOMAS:
+        tr = trad if idioma == "en" else Traductor(None, "es")
+        paginas = generar(idioma, tr, datos_es, comun)
+        # Si faltan traducciones, se piden a Claude y se vuelve a generar el inglés
+        if idioma == "en" and trad.completar():
+            paginas = generar(idioma, tr, datos_es, comun)
+    trad.guardar()
 
     # Salvaguarda: nunca publicar archivos .ht* (protegen el .htpasswd del servidor)
     for f in SITE.rglob(".ht*"):
         f.unlink()
-    print(f"✅ Web generada en {SITE.relative_to(RAIZ)}/ ({len(paginas)} páginas)")
+    print(f"✅ Web generada en {SITE.relative_to(RAIZ)}/ "
+          f"({len(paginas)} páginas en español y {len(paginas)} en inglés)")
 
 
 if __name__ == "__main__":

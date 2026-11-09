@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% from "_macros.html" import icono %}
-{% block titulo %}Investigación · {% endblock %}
+{% block titulo %}{{ t("Investigación") }} · {% endblock %}
 {% block contenido %}
-<header class="titular"><div class="contenedor"><h1>Investigación</h1>
-<p>Líneas de investigación del grupo {{ sitio.codigo }}.</p></div></header>
+<header class="titular"><div class="contenedor"><h1>{{ t("Investigación") }}</h1>
+<p>{{ t("Líneas de investigación del grupo {codigo}.", codigo=sitio.codigo) }}</p></div></header>
 <div class="contenedor seccion investigacion">
   <div>
   {% for l in lineas %}
@@ -30,8 +30,8 @@
   </div>
   {% if colaboraciones %}
   <aside class="colaboraciones" aria-labelledby="titulo-colaboraciones">
-    <h2 id="titulo-colaboraciones">Colaboraciones</h2>
-    <p class="tenue">Colaboraciones experimentales y teóricas de las que forman parte miembros del grupo.</p>
+    <h2 id="titulo-colaboraciones">{{ t("Colaboraciones") }}</h2>
+    <p class="tenue">{{ t("Colaboraciones experimentales y teóricas de las que forman parte miembros del grupo.") }}</p>
     <ul>
       {% for c in colaboraciones %}
       <li><a class="colaboracion" href="{{ c.web }}" title="{{ c.nombre }}">
