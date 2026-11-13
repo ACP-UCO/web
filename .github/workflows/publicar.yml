@@ -5,10 +5,10 @@
 # Requiere el secreto cifrado del repositorio SFTP_PASSWORD
 # (Settings → Secrets and variables → Actions → New repository secret).
 #
-# Versión en inglés: si algún texto en español es nuevo o ha cambiado, se
-# traduce solo con Claude (secreto ANTHROPIC_API_KEY) y la traducción se guarda
-# en datos/traducciones.json con un commit automático. Sin ese secreto la web
-# se publica igual, pero lo nuevo sale en español también en la versión inglesa.
+# Versión en inglés: las traducciones están en datos/traducciones.json y se
+# preparan en local antes de subir. Si alguien cambia un texto en español desde
+# GitHub, la web se publica igual (lo nuevo sale en español también en la
+# versión inglesa) y el registro de la ejecución muestra un aviso.
 name: Publicar web
 
 on:
@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write   # para guardar las traducciones nuevas en el repositorio
+  contents: read
 
 jobs:
   publicar:
@@ -48,22 +48,7 @@ jobs:
         run: python scripts/publicaciones.py
 
       - name: Construir la web (español e inglés)
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/construir.py
-
-      - name: Guardar las traducciones nuevas en el repositorio
-        run: |
-          if git diff --quiet -- datos/traducciones.json && \
-             [ -z "$(git ls-files --others --exclude-standard datos/traducciones.json)" ]; then
-            echo "Traducciones al día."; exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add datos/traducciones.json
-          git commit -m "Traducciones al inglés actualizadas automáticamente [skip ci]"
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
 
       - name: Subir al servidor
         env:

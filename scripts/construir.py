@@ -2,8 +2,10 @@
 """Genera la web estática en _site/ a partir de contenido/, plantillas/ y estatico/.
 
 Se generan dos versiones con las mismas páginas: español (en la raíz) e inglés
-americano (en en/). Los textos en inglés salen de datos/traducciones.json, que
-se completa solo con Claude (ver scripts/traduccion.py).
+americano (en en/). Los textos en inglés salen de datos/traducciones.json
+(ver scripts/traduccion.py). Con --estricto, la construcción falla si falta
+alguna traducción (se usa antes de cada commit para comprobar que las dos
+versiones son iguales).
 
 Todos los enlaces internos son relativos para que la web funcione tanto en
 /investiga/grupos/acp/ como en el alias /acp/.
@@ -302,16 +304,15 @@ def main():
     for idioma in IDIOMAS:
         tr = trad if idioma == "en" else Traductor(None, "es")
         paginas = generar(idioma, tr, datos_es, comun)
-        # Si faltan traducciones, se piden a Claude y se vuelve a generar el inglés
-        if idioma == "en" and trad.completar():
-            paginas = generar(idioma, tr, datos_es, comun)
-    trad.guardar()
+    sin_traducir = trad.guardar()
 
     # Salvaguarda: nunca publicar archivos .ht* (protegen el .htpasswd del servidor)
     for f in SITE.rglob(".ht*"):
         f.unlink()
     print(f"✅ Web generada en {SITE.relative_to(RAIZ)}/ "
           f"({len(paginas)} páginas en español y {len(paginas)} en inglés)")
+    if sin_traducir and "--estricto" in sys.argv:
+        sys.exit("❌ Las versiones en español e inglés no coinciden: faltan traducciones.")
 
 
 if __name__ == "__main__":

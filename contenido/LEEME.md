@@ -26,8 +26,8 @@ pulsa **Commit changes**. En unos 2 minutos la web se actualiza sola.
 ## Versión en inglés
 
 La web tiene una copia en inglés (botón **English** del menú). **Solo hay que
-editar en español**: al guardar, los textos nuevos o cambiados se traducen solos
-y la versión inglesa queda igual que la española en un par de minutos.
+editar en español.** Los textos nuevos o cambiados aparecerán en español también
+en la versión inglesa hasta que el responsable de la web los traduzca.
 
 Las traducciones se guardan en `datos/traducciones.json`. Si una traducción no
 te convence, puedes corregirla ahí (cambia solo el texto de la derecha); se
