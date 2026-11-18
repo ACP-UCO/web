@@ -14,5 +14,6 @@ __pycache__/
 .vscode/
 .idea/
 
-# Notas privadas para Claude (no se suben a GitHub)
+# Notas privadas (Claude y desarrolladores; no se suben a GitHub)
 CLAUDE.md
+DESARROLLO.md

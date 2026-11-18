@@ -1,24 +1,33 @@
-# Web del grupo FQM-429 · Astrofísica, Cosmología y Partículas (UCO)
+# Astrofísica, Cosmología y Partículas (ACP) · FQM-429
 
-https://www.uco.es/investiga/grupos/acp/ · https://www.uco.es/acp/
+Página web del grupo de investigación **FQM-429 «Astrofísica, Cosmología y
+Partículas»** del Departamento de Física de la **Universidad de Córdoba**.
 
-- **¿Quieres cambiar el contenido?** Lee [`contenido/LEEME.md`](contenido/LEEME.md).
-- **¿Cómo se publica?** Automáticamente con GitHub Actions al guardar en `main`
-  (ver `.github/workflows/publicar.yml`). La contraseña SFTP está guardada como
-  secreto cifrado `SFTP_PASSWORD`; nunca en el código.
-- **Versión en inglés** (`en/`): se genera a la vez que la española con las
-  traducciones de `datos/traducciones.json`, que se preparan en local antes de
-  subir. `python scripts/construir.py --estricto` falla si falta alguna.
+🌐 **https://www.uco.es/acp/** · English version: **https://www.uco.es/acp/en/**
 
-## Trabajar en local
+Estudiamos la física fundamental en todas sus escalas: desde las partículas
+elementales y sus interacciones hasta la astrofísica y la cosmología.
 
-```bash
-pip install -r requirements.txt
-python scripts/publicaciones.py      # descarga publicaciones
-python scripts/construir.py          # genera _site/
-python -m http.server -d _site 8000  # vista previa: http://localhost:8000
-scripts/publicar.sh --prueba         # ver qué se subiría
-scripts/publicar.sh                  # subir (pide la contraseña)
-```
+## Qué encontrarás en la web
 
-Contacto: acpu@uco.es
+- **Miembros** del grupo y sus perfiles.
+- **Investigación**: nuestras líneas de trabajo.
+- **Publicaciones**, actualizadas automáticamente desde
+  [INSPIRE-HEP](https://inspirehep.net/), [NASA ADS](https://ui.adsabs.harvard.edu/)
+  y [ORCID](https://orcid.org/).
+- **Seminarios** y **noticias** del grupo.
+- **Contacto** y cómo llegar.
+
+## Sobre este repositorio
+
+Aquí está el código y el contenido de la web. Es una web estática, sencilla y
+respetuosa con la privacidad: no usa cookies, analíticas ni recursos de terceros;
+todo se sirve desde los servidores de la Universidad de Córdoba.
+
+¿Eres miembro del grupo y quieres añadir una noticia, un seminario o actualizar
+tu ficha? Consulta [`contenido/LEEME.md`](contenido/LEEME.md).
+
+## Contacto
+
+📧 infoacp@uco.es
+📍 Campus de Rabanales, Edificio Albert Einstein (C2), 14071 Córdoba (España)

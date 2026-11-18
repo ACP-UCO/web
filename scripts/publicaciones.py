@@ -52,7 +52,7 @@ CAMPOS = ",".join([
 def pedir(url, cabeceras=None):
     req = urllib.request.Request(url, headers={
         "Accept": "application/json",
-        "User-Agent": "web-FQM429-UCO (acpu@uco.es)",
+        "User-Agent": "web-FQM429-UCO (infoacp@uco.es)",
         **(cabeceras or {}),
     })
     for intento in range(3):
