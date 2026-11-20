@@ -167,9 +167,37 @@
   "doi": null,
   "arxiv": "2606.12312",
   "tipo": "article",
-  "citas": 1,
+  "citas": 2,
   "miembros": [
    "Víctor Miralles Aznar"
+  ]
+ },
+ {
+  "id": "inspire:3159175",
+  "inspire": 3159175,
+  "ads": null,
+  "titulo": "Studies of Z $\\to$ 4$\\ell$ decays in proton-proton collisions at $\\sqrt{s}$ = 8 and 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2358,
+  "revista": null,
+  "anio": 2026,
+  "doi": null,
+  "arxiv": "2605.25158",
+  "tipo": "article",
+  "citas": 1,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -195,7 +223,7 @@
   "doi": null,
   "arxiv": "2603.12319",
   "tipo": "article",
-  "citas": 9,
+  "citas": 8,
   "miembros": [
    "Fernando Cornet Gómez"
   ]
@@ -223,7 +251,7 @@
   "doi": null,
   "arxiv": "2602.15527",
   "tipo": "article",
-  "citas": 7,
+  "citas": 6,
   "miembros": [
    "Fernando Cornet Gómez"
   ]
@@ -301,7 +329,7 @@
   "doi": "10.1051/0004-6361/202556464",
   "arxiv": "2511.22399",
   "tipo": "article",
-  "citas": 1,
+  "citas": 2,
   "miembros": [
    "Javier Román García"
   ]
@@ -353,7 +381,7 @@
   "doi": "10.1088/1475-7516/2026/07/004",
   "arxiv": "2510.05030",
   "tipo": "article",
-  "citas": 10,
+  "citas": 9,
   "miembros": [
    "Fernando Cornet Gómez"
   ]
@@ -381,7 +409,7 @@
   "doi": "10.1051/0004-6361/202557270",
   "arxiv": "2509.13163",
   "tipo": "article",
-  "citas": 0,
+  "citas": 1,
   "miembros": [
    "Javier Román García"
   ]
@@ -405,7 +433,7 @@
   "doi": "10.1007/JHEP03(2026)013",
   "arxiv": "2507.06191",
   "tipo": "article",
-  "citas": 54,
+  "citas": 55,
   "miembros": [
    "Víctor Miralles Aznar"
   ]
@@ -461,10 +489,11 @@
   "doi": "10.1140/epjs/s11734-026-02153-w",
   "arxiv": "2503.19983",
   "tipo": "article",
-  "citas": 127,
+  "citas": 128,
   "miembros": [
    "Víctor Miralles Aznar",
-   "Fernando Cornet Gómez"
+   "Fernando Cornet Gómez",
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -541,9 +570,37 @@
   "doi": "10.1051/0004-6361/202554516",
   "arxiv": "2503.15635",
   "tipo": "article",
-  "citas": 3,
+  "citas": 4,
   "miembros": [
    "Javier Román García"
+  ]
+ },
+ {
+  "id": "inspire:3064336",
+  "inspire": 3064336,
+  "ads": null,
+  "titulo": "CEPC Technical Design Report - Reference Detector",
+  "autores": [
+   "Adhya, Souvik Priyam",
+   "Afanaciev, Konstantin",
+   "Ahmad, Shakeel",
+   "Ahmed, Ijaz",
+   "Ai, Xiaocong",
+   "Alhakami, Mohammad",
+   "Alioli, Simone",
+   "Alshehri, Azzah",
+   "Althubiti, Numa",
+   "Alvi, Atif Rahman"
+  ],
+  "num_autores": 1337,
+  "revista": null,
+  "anio": 2025,
+  "doi": null,
+  "arxiv": "2510.05260",
+  "tipo": "article",
+  "citas": 73,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -654,10 +711,11 @@
   "doi": null,
   "arxiv": "2503.24049",
   "tipo": "article",
-  "citas": 69,
+  "citas": 70,
   "miembros": [
    "Víctor Miralles Aznar",
-   "Fernando Cornet Gómez"
+   "Fernando Cornet Gómez",
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -735,7 +793,7 @@
   "doi": "10.1051/0004-6361/202453111",
   "arxiv": "2501.14408",
   "tipo": "article",
-  "citas": 4,
+  "citas": 5,
   "miembros": [
    "Javier Román García"
   ]
@@ -813,6 +871,34 @@
   ]
  },
  {
+  "id": "inspire:2809450",
+  "inspire": 2809450,
+  "ads": null,
+  "titulo": "Search for resonant pair production of Higgs bosons in the $ \\textrm{b}\\overline{\\textrm{b}}\\textrm{b}\\overline{\\textrm{b}} $ final state using large-area jets in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2338,
+  "revista": "JHEP 02, 040",
+  "anio": 2025,
+  "doi": "10.1007/JHEP02(2025)040",
+  "arxiv": "2407.13872",
+  "tipo": "article",
+  "citas": 15,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:2789521",
   "inspire": 2789521,
   "ads": null,
@@ -863,7 +949,7 @@
   "doi": "10.1051/0004-6361/202450803",
   "arxiv": "2405.13496",
   "tipo": "article",
-  "citas": 60,
+  "citas": 65,
   "miembros": [
    "Javier Román García"
   ]
@@ -919,9 +1005,37 @@
   "doi": "10.1051/0004-6361/202450810",
   "arxiv": "2405.13491",
   "tipo": "article",
-  "citas": 1013,
+  "citas": 1067,
   "miembros": [
    "Javier Román García"
+  ]
+ },
+ {
+  "id": "inspire:2758138",
+  "inspire": 2758138,
+  "ads": null,
+  "titulo": "Differential cross section measurements for the production of top quark pairs and of additional jets using dilepton events from pp collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2392,
+  "revista": "JHEP 02, 064",
+  "anio": 2025,
+  "doi": "10.1007/JHEP02(2025)064",
+  "arxiv": "2402.08486",
+  "tipo": "article",
+  "citas": 63,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1009,7 +1123,7 @@
   "doi": "10.1088/1475-7516/2024/11/020",
   "arxiv": "2407.09400",
   "tipo": "article",
-  "citas": 22,
+  "citas": 23,
   "miembros": [
    "Fernando Cornet Gómez"
   ]
@@ -1136,6 +1250,174 @@
   ]
  },
  {
+  "id": "inspire:2140837",
+  "inspire": 2140837,
+  "ads": null,
+  "titulo": "Search for central exclusive production of top quark pairs in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV with tagged protons",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2456,
+  "revista": "JHEP 06, 187",
+  "anio": 2024,
+  "doi": "10.1007/JHEP06(2024)187",
+  "arxiv": "2310.11231",
+  "tipo": "article",
+  "citas": 16,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2688930",
+  "inspire": 2688930,
+  "ads": null,
+  "titulo": "Constraints on anomalous Higgs boson couplings to vector bosons and fermions from the production of Higgs bosons using the <math display=\"inline\"><mi>τ</mi><mi>τ</mi></math> final state",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2347,
+  "revista": "Phys.Rev.D 108, 032013",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevD.108.032013",
+  "arxiv": "2205.05120",
+  "tipo": "article",
+  "citas": 77,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2681861",
+  "inspire": 2681861,
+  "ads": null,
+  "titulo": "Search for Nonresonant Pair Production of Highly Energetic Higgs Bosons Decaying to Bottom Quarks",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2398,
+  "revista": "Phys.Rev.Lett. 131, 041803",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevLett.131.041803",
+  "arxiv": "2205.06667",
+  "tipo": "article",
+  "citas": 127,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2678649",
+  "inspire": 2678649,
+  "ads": null,
+  "titulo": "Search for direct pair production of supersymmetric partners of $\\tau$ leptons in the final state with two hadronically decaying $\\tau$ leptons and missing transverse momentum in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2359,
+  "revista": "Phys.Rev.D 108, 012011",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevD.108.012011",
+  "arxiv": "2207.02254",
+  "tipo": "article",
+  "citas": 70,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2676943",
+  "inspire": 2676943,
+  "ads": null,
+  "titulo": "Search for narrow resonances in the <math display=\"inline\"><mi>b</mi></math>-tagged dijet mass spectrum in proton-proton collisions at <math display=\"inline\"><msqrt><mi>s</mi></msqrt><mo>=</mo><mn>13</mn><mtext> </mtext><mtext> </mtext><mi>TeV</mi></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2361,
+  "revista": "Phys.Rev.D 108, 012009",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevD.108.012009",
+  "arxiv": "2205.01835",
+  "tipo": "article",
+  "citas": 48,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2675090",
+  "inspire": 2675090,
+  "ads": null,
+  "titulo": "Probing Heavy Majorana Neutrinos and the Weinberg Operator through Vector Boson Fusion Processes in Proton-Proton Collisions at <math display=\"inline\"><mrow><msqrt><mrow><mi>s</mi></mrow></msqrt><mo>=</mo><mn>13</mn><mtext> </mtext><mtext> </mtext><mi>TeV</mi></mrow></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2395,
+  "revista": "Phys.Rev.Lett. 131, 011803",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevLett.131.011803",
+  "arxiv": "2206.08956",
+  "tipo": "article",
+  "citas": 83,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:2669406",
   "inspire": 2669406,
   "ads": null,
@@ -1176,6 +1458,1042 @@
   "citas": 7,
   "miembros": [
    "Antonio José Cuesta Vázquez"
+  ]
+ },
+ {
+  "id": "inspire:2172990",
+  "inspire": 2172990,
+  "ads": null,
+  "titulo": "Azimuthal correlations in Z +jets events in proton–proton collisions at $\\sqrt{s} = 13\\,\\text {Te}\\hspace{-.08em}\\text {V} $",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2349,
+  "revista": "Eur.Phys.J.C 83, 722",
+  "anio": 2023,
+  "doi": "10.1140/epjc/s10052-023-11833-z",
+  "arxiv": "2210.16139",
+  "tipo": "article",
+  "citas": 10,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2170533",
+  "inspire": 2170533,
+  "ads": null,
+  "titulo": "Measurements of jet multiplicity and jet transverse momentum in multijet events in proton–proton collisions at ${\\sqrt{s}=13\\, \\text {TeV}}$",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2362,
+  "revista": "Eur.Phys.J.C 83, 742",
+  "anio": 2023,
+  "doi": "10.1140/epjc/s10052-023-11753-y",
+  "arxiv": "2210.13557",
+  "tipo": "article",
+  "citas": 5,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2164528",
+  "inspire": 2164528,
+  "ads": null,
+  "titulo": "Proton reconstruction with the CMS-TOTEM Precision Proton Spectrometer",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Del Valle, Alberto Escalante",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2446,
+  "revista": "JINST 18, P09009",
+  "anio": 2023,
+  "doi": "10.1088/1748-0221/18/09/P09009",
+  "arxiv": "2210.05854",
+  "tipo": "article",
+  "citas": 30,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2159368",
+  "inspire": 2159368,
+  "ads": null,
+  "titulo": "Search for new heavy resonances decaying to WW, WZ, ZZ, WH, or ZH boson pairs in the all-jets final state in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mspace width=\"0.2em\"/><mtext>TeV</mtext></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2392,
+  "revista": "Phys.Lett.B 844, 137813",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2023.137813",
+  "arxiv": "2210.00043",
+  "tipo": "article",
+  "citas": 54,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2142341",
+  "inspire": 2142341,
+  "ads": null,
+  "titulo": "Measurement of the Higgs boson inclusive and differential fiducial production cross sections in the diphoton decay channel with pp collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2401,
+  "revista": "JHEP 07, 091",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)091",
+  "arxiv": "2208.12279",
+  "tipo": "article",
+  "citas": 76,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2132369",
+  "inspire": 2132369,
+  "ads": null,
+  "titulo": "Search for $CP$ violation in ttH and tH production in multilepton channels in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2398,
+  "revista": "JHEP 07, 092",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)092",
+  "arxiv": "2208.02686",
+  "tipo": "article",
+  "citas": 85,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2132368",
+  "inspire": 2132368,
+  "ads": null,
+  "titulo": "Searches for additional Higgs bosons and for vector leptoquarks in $\\tau\\tau$ final states in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2400,
+  "revista": "JHEP 07, 073",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)073",
+  "arxiv": "2208.02717",
+  "tipo": "article",
+  "citas": 238,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2130106",
+  "inspire": 2130106,
+  "ads": null,
+  "titulo": "Search for the exotic decay of the Higgs boson into two light pseudoscalars with four photons in the final state in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2337,
+  "revista": "JHEP 07, 148",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)148",
+  "arxiv": "2208.01469",
+  "tipo": "article",
+  "citas": 62,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2129285",
+  "inspire": 2129285,
+  "ads": null,
+  "titulo": "Search for the Higgs boson decay to a pair of electrons in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mspace width=\"0.25em\"/><mtext>TeV</mtext></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2392,
+  "revista": "Phys.Lett.B 846, 137783",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2023.137783",
+  "arxiv": "2208.00265",
+  "tipo": "article",
+  "citas": 29,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2106483",
+  "inspire": 2106483,
+  "ads": null,
+  "titulo": "Measurement of the top quark pole mass using $ \\textrm{t}\\overline{\\textrm{t}} $+jet events in the dilepton final state in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2399,
+  "revista": "JHEP 07, 077",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)077",
+  "arxiv": "2207.02270",
+  "tipo": "article",
+  "citas": 48,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2105345",
+  "inspire": 2105345,
+  "ads": null,
+  "titulo": "Search for a charged Higgs boson decaying into a heavy neutral Higgs boson and a W boson in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2399,
+  "revista": "JHEP 09, 032",
+  "anio": 2023,
+  "doi": "10.1007/JHEP09(2023)032",
+  "arxiv": "2207.01046",
+  "tipo": "article",
+  "citas": 57,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2098277",
+  "inspire": 2098277,
+  "ads": null,
+  "titulo": "Search for Higgs boson pairs decaying to WW*WW*, WW*$\\tau\\tau$, and $\\tau\\tau\\tau\\tau$ in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2326,
+  "revista": "JHEP 07, 095",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)095",
+  "arxiv": "2206.10268",
+  "tipo": "article",
+  "citas": 96,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2098256",
+  "inspire": 2098256,
+  "ads": null,
+  "titulo": "Search for resonant and nonresonant production of pairs of dijet resonances in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2393,
+  "revista": "JHEP 07, 161",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)161",
+  "arxiv": "2206.09997",
+  "tipo": "article",
+  "citas": 80,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2098240",
+  "inspire": 2098240,
+  "ads": null,
+  "titulo": "Search for nonresonant Higgs boson pair production in final state with two bottom quarks and two tau leptons in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mtext> TeV</mtext></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2390,
+  "revista": "Phys.Lett.B 842, 137531",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2022.137531",
+  "arxiv": "2206.09401",
+  "tipo": "article",
+  "citas": 127,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2096380",
+  "inspire": 2096380,
+  "ads": null,
+  "titulo": "Precision measurement of the Z boson invisible width in pp collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn></math> TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2352,
+  "revista": "Phys.Lett.B 842, 137563",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2022.137563",
+  "arxiv": "2206.07110",
+  "tipo": "article",
+  "citas": 35,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2092995",
+  "inspire": 2092995,
+  "ads": null,
+  "titulo": "Search for Higgs boson decays into Z and J/ψ and for Higgs and Z boson decays into J/ψ or Y pairs in pp collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mtext> TeV</mtext></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2349,
+  "revista": "Phys.Lett.B 842, 137534",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2022.137534",
+  "arxiv": "2206.03525",
+  "tipo": "article",
+  "citas": 40,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2091619",
+  "inspire": 2091619,
+  "ads": null,
+  "titulo": "Observation of same-sign WW production from double parton scattering in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2393,
+  "revista": "Phys.Rev.Lett. 131, 091803",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevLett.131.091803",
+  "arxiv": "2206.02681",
+  "tipo": "article",
+  "citas": 44,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2088291",
+  "inspire": 2088291,
+  "ads": null,
+  "titulo": "Combination of inclusive top-quark pair production cross-section measurements using ATLAS and CMS data at $ \\sqrt{s} $ = 7 and 8 TeV",
+  "autores": [
+   "Aad, G.",
+   "Abbott, B.",
+   "Abbott, D.C.",
+   "Abed Abud, A.",
+   "Abeling, K.",
+   "Abhayasinghe, D.K.",
+   "Abidi, S.H.",
+   "Aboulhorma, A.",
+   "Abramowicz, H.",
+   "Abreu, H."
+  ],
+  "num_autores": 5244,
+  "revista": "JHEP 07, 213",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)213",
+  "arxiv": "2205.13830",
+  "tipo": "article",
+  "citas": 71,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2085373",
+  "inspire": 2085373,
+  "ads": null,
+  "titulo": "Search for electroweak production of charginos and neutralinos at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mspace width=\"0.25em\"/><mtext>TeV</mtext></math> in final states containing hadronic decays of WW, WZ, or WH and missing transverse momentum",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2330,
+  "revista": "Phys.Lett.B 842, 137460",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2022.137460",
+  "arxiv": "2205.09597",
+  "tipo": "article",
+  "citas": 89,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2083735",
+  "inspire": 2083735,
+  "ads": null,
+  "titulo": "Search for long-lived particles decaying to a pair of muons in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2384,
+  "revista": "JHEP 05, 228",
+  "anio": 2023,
+  "doi": "10.1007/JHEP05(2023)228",
+  "arxiv": "2205.08582",
+  "tipo": "article",
+  "citas": 62,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2082532",
+  "inspire": 2082532,
+  "ads": null,
+  "titulo": "Search for CP violating top quark couplings in pp collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas",
+   "Liko, Dietrich"
+  ],
+  "num_autores": 2317,
+  "revista": "JHEP 07, 023",
+  "anio": 2023,
+  "doi": "10.1007/JHEP07(2023)023",
+  "arxiv": "2205.07434",
+  "tipo": "article",
+  "citas": 14,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2081834",
+  "inspire": 2081834,
+  "ads": null,
+  "titulo": "Search for heavy resonances and quantum black holes in eμ, eτ, and μτ final states in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2356,
+  "revista": "JHEP 05, 227",
+  "anio": 2023,
+  "doi": "10.1007/JHEP05(2023)227",
+  "arxiv": "2205.06709",
+  "tipo": "article",
+  "citas": 46,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2080534",
+  "inspire": 2080534,
+  "ads": null,
+  "titulo": "Observation of electroweak W+W− pair production in association with two jets in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mspace width=\"0.2em\"/><mtext>TeV</mtext></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2344,
+  "revista": "Phys.Lett.B 841, 137495",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2022.137495",
+  "arxiv": "2205.05711",
+  "tipo": "article",
+  "citas": 49,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2080007",
+  "inspire": 2080007,
+  "ads": null,
+  "titulo": "Search for Higgs Boson Decay to a Charm Quark-Antiquark Pair in Proton-Proton Collisions at <math display=\"inline\"><msqrt><mi>s</mi></msqrt><mo>=</mo><mn>13</mn><mtext> </mtext><mtext> </mtext><mi>TeV</mi></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2379,
+  "revista": "Phys.Rev.Lett. 131, 061801",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevLett.131.061801",
+  "arxiv": "2205.05550",
+  "tipo": "article",
+  "citas": 179,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2079374",
+  "inspire": 2079374,
+  "ads": null,
+  "titulo": "Measurement of the mass dependence of the transverse momentum of lepton pairs in Drell-Yan production in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2360,
+  "revista": "Eur.Phys.J.C 83, 628",
+  "anio": 2023,
+  "doi": "10.1140/epjc/s10052-023-11631-7",
+  "arxiv": "2205.04897",
+  "tipo": "article",
+  "citas": 79,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2078075",
+  "inspire": 2078075,
+  "ads": null,
+  "titulo": "CMS pythia  8 colour reconnection tunes based on underlying-event data",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2337,
+  "revista": "Eur.Phys.J.C 83, 587",
+  "anio": 2023,
+  "doi": "10.1140/epjc/s10052-023-11630-8",
+  "arxiv": "2205.02905",
+  "tipo": "article",
+  "citas": 75,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2078067",
+  "inspire": 2078067,
+  "ads": null,
+  "titulo": "Measurement of differential cross sections for the production of a Z boson in association with jets in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2312,
+  "revista": "Phys.Rev.D 108, 052004",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevD.108.052004",
+  "arxiv": "2205.02872",
+  "tipo": "article",
+  "citas": 26,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2077553",
+  "inspire": 2077553,
+  "ads": null,
+  "titulo": "Search for CP violation using $ \\textrm{t}\\overline{\\textrm{t}} $ events in the lepton+jets channel in pp collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2345,
+  "revista": "JHEP 06, 081",
+  "anio": 2023,
+  "doi": "10.1007/JHEP06(2023)081",
+  "arxiv": "2205.02314",
+  "tipo": "article",
+  "citas": 23,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2075415",
+  "inspire": 2075415,
+  "ads": null,
+  "titulo": "Strange hadron collectivity in pPb and PbPb collisions",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2365,
+  "revista": "JHEP 05, 007",
+  "anio": 2023,
+  "doi": "10.1007/JHEP05(2023)007",
+  "arxiv": "2205.00080",
+  "tipo": "article",
+  "citas": 25,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2075414",
+  "inspire": 2075414,
+  "ads": null,
+  "titulo": "Azimuthal Correlations within Exclusive Dijets with Large Momentum Transfer in Photon-Lead Collisions",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas",
+   "Liko, Dietrich"
+  ],
+  "num_autores": 2328,
+  "revista": "Phys.Rev.Lett. 131, 051901",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevLett.131.051901",
+  "arxiv": "2205.00045",
+  "tipo": "article",
+  "citas": 33,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2074138",
+  "inspire": 2074138,
+  "ads": null,
+  "titulo": "Search for light Higgs bosons from supersymmetric cascade decays in $\\text {pp}$ collisions at $\\sqrt{s}=13\\,\\textrm{TeV}$",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2341,
+  "revista": "Eur.Phys.J.C 83, 571",
+  "anio": 2023,
+  "doi": "10.1140/epjc/s10052-023-11581-0",
+  "arxiv": "2204.13532",
+  "tipo": "article",
+  "citas": 6,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2074094",
+  "inspire": 2074094,
+  "ads": null,
+  "titulo": "Two-particle azimuthal correlations in γp interactions using pPb collisions at <math altimg=\"si1.svg\"><msqrt><mrow><msub><mrow><mi>s</mi></mrow><mrow><msub><mrow/><mrow><mi mathvariant=\"normal\">NN</mi></mrow></msub></mrow></msub></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>8.16</mn><mspace width=\"0.25em\"/><mtext>TeV</mtext></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas",
+   "Liko, Dietrich"
+  ],
+  "num_autores": 2328,
+  "revista": "Phys.Lett.B 844, 137905",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2023.137905",
+  "arxiv": "2204.13486",
+  "tipo": "article",
+  "citas": 39,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2072861",
+  "inspire": 2072861,
+  "ads": null,
+  "titulo": "Measurements of Higgs boson production in the decay channel with a pair of $\\tau $ leptons in proton–proton collisions at $\\sqrt{s}=13$ TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2353,
+  "revista": "Eur.Phys.J.C 83, 562",
+  "anio": 2023,
+  "doi": "10.1140/epjc/s10052-023-11452-8",
+  "arxiv": "2204.12957",
+  "tipo": "article",
+  "citas": 101,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2072831",
+  "inspire": 2072831,
+  "ads": null,
+  "titulo": "Search for Higgs boson decays to a Z boson and a photon in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2353,
+  "revista": "JHEP 05, 233",
+  "anio": 2023,
+  "doi": "10.1007/JHEP05(2023)233",
+  "arxiv": "2204.12945",
+  "tipo": "article",
+  "citas": 93,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2072383",
+  "inspire": 2072383,
+  "ads": null,
+  "titulo": "Search for a massive scalar resonance decaying to a light scalar and a Higgs boson in the four b quarks final state with boosted topology",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2344,
+  "revista": "Phys.Lett.B 842, 137392",
+  "anio": 2023,
+  "doi": "10.1016/j.physletb.2022.137392",
+  "arxiv": "2204.12413",
+  "tipo": "article",
+  "citas": 65,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2072381",
+  "inspire": 2072381,
+  "ads": null,
+  "titulo": "Reconstruction of decays to merged photons using end-to-end deep learning with domain continuation in the CMS detector",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2340,
+  "revista": "Phys.Rev.D 108, 052002",
+  "anio": 2023,
+  "doi": "10.1103/PhysRevD.108.052002",
+  "arxiv": "2204.12313",
+  "tipo": "article",
+  "citas": 23,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1965242",
+  "inspire": 1965242,
+  "ads": null,
+  "titulo": "Observation of triple J/ψ meson production in proton-proton collisions",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2371,
+  "revista": "Nature Phys. 19, 338",
+  "anio": 2023,
+  "doi": "10.1038/s41567-022-01838-y",
+  "arxiv": "2111.05370",
+  "tipo": "article",
+  "citas": 61,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1281,6 +2599,34 @@
   ]
  },
  {
+  "id": "inspire:2618188",
+  "inspire": 2618188,
+  "ads": null,
+  "titulo": "Search for new physics in the lepton plus missing transverse momentum final state in proton-proton collisions at $\\sqrt{s} =$ 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2374,
+  "revista": "JHEP 07, 067",
+  "anio": 2022,
+  "doi": "10.1007/JHEP07(2022)067",
+  "arxiv": "2202.06075",
+  "tipo": "article",
+  "citas": 81,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:2161664",
   "inspire": 2161664,
   "ads": null,
@@ -1359,7 +2705,7 @@
   "doi": null,
   "arxiv": "2209.08078",
   "tipo": "article",
-  "citas": 28,
+  "citas": 29,
   "miembros": [
    "Víctor Miralles Aznar"
   ]
@@ -1390,6 +2736,62 @@
   "citas": 11,
   "miembros": [
    "Yetli Mariana Rosas Guevara"
+  ]
+ },
+ {
+  "id": "inspire:2111572",
+  "inspire": 2111572,
+  "ads": null,
+  "titulo": "Search for Flavor-Changing Neutral Current Interactions of the Top Quark and Higgs Boson in Final States with Two Photons in Proton-Proton Collisions at $\\sqrt{s}=13\\text{ }\\text{ }\\mathrm{TeV}$",
+  "autores": [
+   "Tumasyan, A.",
+   "Adam, W.",
+   "Andrejkovic, J.W.",
+   "Bergauer, T.",
+   "Chatterjee, S.",
+   "Dragicevic, M.",
+   "Escalante Del Valle, A.",
+   "Frühwirth, R.",
+   "Jeitler, M.",
+   "Krammer, N."
+  ],
+  "num_autores": 2363,
+  "revista": "Phys.Rev.Lett. 129, 032001",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevLett.129.032001",
+  "arxiv": "2111.02219",
+  "tipo": "article",
+  "citas": 65,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2104672",
+  "inspire": 2104672,
+  "ads": null,
+  "titulo": "A portrait of the Higgs boson by the CMS experiment ten years after the discovery.",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Hussain, Priya Sajid",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2389,
+  "revista": "Nature 607, 60",
+  "anio": 2022,
+  "doi": "10.1038/s41586-022-04892-x",
+  "arxiv": "2207.00043",
+  "tipo": "article",
+  "citas": 1106,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1437,7 +2839,7 @@
   "doi": "10.1093/mnras/stac1413",
   "arxiv": "2203.07734",
   "tipo": "article",
-  "citas": 5,
+  "citas": 6,
   "miembros": [
    "Yetli Mariana Rosas Guevara"
   ]
@@ -1467,7 +2869,428 @@
   "tipo": "article",
   "citas": 303,
   "miembros": [
-   "Víctor Miralles Aznar"
+   "Víctor Miralles Aznar",
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2040549",
+  "inspire": 2040549,
+  "ads": null,
+  "titulo": "Search for new particles in an extended Higgs sector with four b quarks in the final state at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mrow><mspace width=\"0.20em\"/><mtext>TeV</mtext></mrow></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2349,
+  "revista": "Phys.Lett.B 835, 137566",
+  "anio": 2022,
+  "doi": "10.1016/j.physletb.2022.137566",
+  "arxiv": "2203.00480",
+  "tipo": "article",
+  "citas": 16,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2039384",
+  "inspire": 2039384,
+  "ads": null,
+  "titulo": "Search for a W′ boson decaying to a vector-like quark and a top or bottom quark in the all-jets final state at $ \\sqrt{\\mathrm{s}} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2357,
+  "revista": "JHEP 09, 088",
+  "anio": 2022,
+  "doi": "10.1007/JHEP09(2022)088",
+  "arxiv": "2202.12988",
+  "tipo": "article",
+  "citas": 28,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2038801",
+  "inspire": 2038801,
+  "ads": null,
+  "titulo": "Measurement of the Drell-Yan forward-backward asymmetry at high dilepton masses in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2348,
+  "revista": "JHEP 2022, 063",
+  "anio": 2022,
+  "doi": "10.1007/JHEP08(2022)063",
+  "arxiv": "2202.12327",
+  "tipo": "article",
+  "citas": 35,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2035644",
+  "inspire": 2035644,
+  "ads": null,
+  "titulo": "Search for Higgs Boson Pair Production in the Four <math display=\"inline\"><mi>b</mi></math> Quark Final State in Proton-Proton Collisions at <math display=\"inline\"><mrow><msqrt><mrow><mi>s</mi></mrow></msqrt><mo>=</mo><mn>13</mn><mtext> </mtext><mtext> </mtext><mi>TeV</mi></mrow></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2377,
+  "revista": "Phys.Rev.Lett. 129, 081802",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevLett.129.081802",
+  "arxiv": "2202.09617",
+  "tipo": "article",
+  "citas": 158,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2034279",
+  "inspire": 2034279,
+  "ads": null,
+  "titulo": "Inclusive nonresonant multilepton probes of new phenomena at $\\sqrt s$=13  TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2372,
+  "revista": "Phys.Rev.D 105, 112007",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.105.112007",
+  "arxiv": "2202.08676",
+  "tipo": "article",
+  "citas": 128,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2032090",
+  "inspire": 2032090,
+  "ads": null,
+  "titulo": "Measurement of the Higgs boson width and evidence of its off-shell contributions to ZZ production",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2363,
+  "revista": "Nature Phys. 18, 1329",
+  "anio": 2022,
+  "doi": "10.1038/s41567-022-01682-0",
+  "arxiv": "2202.06923",
+  "tipo": "article",
+  "citas": 187,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2020585",
+  "inspire": 2020585,
+  "ads": null,
+  "titulo": "Search for invisible decays of the Higgs boson produced via vector boson fusion in proton-proton collisions at <math display=\"inline\"><msqrt><mi>s</mi></msqrt><mo>=</mo><mn>13</mn><mtext> </mtext><mtext> </mtext><mi>TeV</mi></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2362,
+  "revista": "Phys.Rev.D 105, 092007",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.105.092007",
+  "arxiv": "2201.11585",
+  "tipo": "article",
+  "citas": 161,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2016388",
+  "inspire": 2016388,
+  "ads": null,
+  "titulo": "Observation of B$^0$$\\to$$\\psi$(2S)K$^0_\\mathrm{S}\\pi^+\\pi^-$ and B$^0_\\mathrm{S}$$\\to$$\\psi$(2S)K$^0_\\mathrm{S}$ decays",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2350,
+  "revista": "Eur.Phys.J.C 82, 499",
+  "anio": 2022,
+  "doi": "10.1140/epjc/s10052-022-10315-y",
+  "arxiv": "2201.09131",
+  "tipo": "article",
+  "citas": 9,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2016054",
+  "inspire": 2016054,
+  "ads": null,
+  "titulo": "Identification of hadronic tau lepton decays using a deep neural network",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2366,
+  "revista": "JINST 17, P07023",
+  "anio": 2022,
+  "doi": "10.1088/1748-0221/17/07/P07023",
+  "arxiv": "2201.08458",
+  "tipo": "article",
+  "citas": 241,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2015402",
+  "inspire": 2015402,
+  "ads": null,
+  "titulo": "Search for resonances decaying to three W bosons in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2367,
+  "revista": "Phys.Rev.Lett. 129, 021802",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevLett.129.021802",
+  "arxiv": "2201.08476",
+  "tipo": "article",
+  "citas": 14,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2014153",
+  "inspire": 2014153,
+  "ads": null,
+  "titulo": "Precision measurement of the W boson decay branching fractions in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2376,
+  "revista": "Phys.Rev.D 105, 072008",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.105.072008",
+  "arxiv": "2201.07861",
+  "tipo": "article",
+  "citas": 78,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2014124",
+  "inspire": 2014124,
+  "ads": null,
+  "titulo": "Search for charged-lepton flavor violation in top quark production and decay in pp collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2370,
+  "revista": "JHEP 06, 082",
+  "anio": 2022,
+  "doi": "10.1007/JHEP06(2022)082",
+  "arxiv": "2201.07859",
+  "tipo": "article",
+  "citas": 48,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2013377",
+  "inspire": 2013377,
+  "ads": null,
+  "titulo": "Measurement of the inclusive and differential $\\mathrm{t\\bar{t}}\\gamma$ cross sections in the dilepton channel and effective field theory interpretation in proton-proton collisions at $\\sqrt{s}$ =13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2350,
+  "revista": "JHEP 05, 091",
+  "anio": 2022,
+  "doi": "10.1007/JHEP05(2022)091",
+  "arxiv": "2201.07301",
+  "tipo": "article",
+  "citas": 78,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2011095",
+  "inspire": 2011095,
+  "ads": null,
+  "titulo": "Search for long-lived heavy neutral leptons with displaced vertices in proton-proton collisions at $ \\sqrt{\\mathrm{s}} $ =13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2372,
+  "revista": "JHEP 07, 081",
+  "anio": 2022,
+  "doi": "10.1007/JHEP07(2022)081",
+  "arxiv": "2201.05578",
+  "tipo": "article",
+  "citas": 183,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2009652",
+  "inspire": 2009652,
+  "ads": null,
+  "titulo": "Search for higgsinos decaying to two Higgs bosons and missing transverse momentum in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2367,
+  "revista": "JHEP 05, 014",
+  "anio": 2022,
+  "doi": "10.1007/JHEP05(2022)014",
+  "arxiv": "2201.04206",
+  "tipo": "article",
+  "citas": 59,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1499,6 +3322,510 @@
   ]
  },
  {
+  "id": "inspire:2006858",
+  "inspire": 2006858,
+  "ads": null,
+  "titulo": "Observation of the $B_c^+$ Meson in Pb-Pb and pp Collisions at $\\sqrt{s_{NN}}$=5.02  TeV and Measurement of its Nuclear Modification Factor",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2371,
+  "revista": "Phys.Rev.Lett. 128, 252301",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevLett.128.252301",
+  "arxiv": "2201.02659",
+  "tipo": "article",
+  "citas": 47,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2006491",
+  "inspire": 2006491,
+  "ads": null,
+  "titulo": "Search for single production of a vector-like T quark decaying to a top quark and a Z boson in the final state with jets and missing transverse momentum at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2368,
+  "revista": "JHEP 05, 093",
+  "anio": 2022,
+  "doi": "10.1007/JHEP05(2022)093",
+  "arxiv": "2201.02227",
+  "tipo": "article",
+  "citas": 60,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2005439",
+  "inspire": 2005439,
+  "ads": null,
+  "titulo": "Search for high-mass resonances decaying to a jet and a Lorentz-boosted resonance in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mspace width=\"0.2em\"/><mtext>TeV</mtext></math>",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2361,
+  "revista": "Phys.Lett.B 832, 137263",
+  "anio": 2022,
+  "doi": "10.1016/j.physletb.2022.137263",
+  "arxiv": "2201.02140",
+  "tipo": "article",
+  "citas": 16,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2000853",
+  "inspire": 2000853,
+  "ads": null,
+  "titulo": "Search for flavor-changing neutral current interactions of the top quark and the Higgs boson decaying to a bottom quark-antiquark pair at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2376,
+  "revista": "JHEP 02, 169",
+  "anio": 2022,
+  "doi": "10.1007/JHEP02(2022)169",
+  "arxiv": "2112.09734",
+  "tipo": "article",
+  "citas": 50,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:2000816",
+  "inspire": 2000816,
+  "ads": null,
+  "titulo": "Search for resonances decaying to three $W$ bosons in the hadronic final state in proton-proton collisions at $\\sqrt s$ =13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2350,
+  "revista": "Phys.Rev.D 106, 012002",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.106.012002",
+  "arxiv": "2112.13090",
+  "tipo": "article",
+  "citas": 17,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1997201",
+  "inspire": 1997201,
+  "ads": null,
+  "titulo": "Search for long-lived particles decaying into muon pairs in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV collected with a dedicated high-rate data stream",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2370,
+  "revista": "JHEP 04, 062",
+  "anio": 2022,
+  "doi": "10.1007/JHEP04(2022)062",
+  "arxiv": "2112.13769",
+  "tipo": "article",
+  "citas": 107,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1996546",
+  "inspire": 1996546,
+  "ads": null,
+  "titulo": "Probing Charm Quark Dynamics via Multiparticle Correlations in Pb-Pb Collisions at $\\sqrt{s_\\mathrm{NN}}$ =5.02 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2347,
+  "revista": "Phys.Rev.Lett. 129, 022001",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevLett.129.022001",
+  "arxiv": "2112.12236",
+  "tipo": "article",
+  "citas": 28,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1994864",
+  "inspire": 1994864,
+  "ads": null,
+  "titulo": "Search for resonant production of strongly coupled dark matter in proton-proton collisions at 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2357,
+  "revista": "JHEP 06, 156",
+  "anio": 2022,
+  "doi": "10.1007/JHEP06(2022)156",
+  "arxiv": "2112.11125",
+  "tipo": "article",
+  "citas": 97,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1992937",
+  "inspire": 1992937,
+  "ads": null,
+  "titulo": "Measurement of the production cross section for Z+b jets in proton-proton collisions at $\\sqrt s$ = 13  TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2376,
+  "revista": "Phys.Rev.D 105, 092014",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.105.092014",
+  "arxiv": "2112.09659",
+  "tipo": "article",
+  "citas": 28,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1991955",
+  "inspire": 1991955,
+  "ads": null,
+  "titulo": "Measurement of the inclusive $ \\mathrm{t}\\overline{\\mathrm{t}} $ production cross section in proton-proton collisions at $ \\sqrt{s} $ = 5.02 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2369,
+  "revista": "JHEP 04, 144",
+  "anio": 2022,
+  "doi": "10.1007/JHEP04(2022)144",
+  "arxiv": "2112.09114",
+  "tipo": "article",
+  "citas": 44,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1987839",
+  "inspire": 1987839,
+  "ads": null,
+  "titulo": "Evidence for WW/WZ vector boson scattering in the decay channel ℓνqq produced in association with two jets in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn></math> TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2371,
+  "revista": "Phys.Lett.B 834, 137438",
+  "anio": 2022,
+  "doi": "10.1016/j.physletb.2022.137438",
+  "arxiv": "2112.05259",
+  "tipo": "article",
+  "citas": 45,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1986733",
+  "inspire": 1986733,
+  "ads": null,
+  "titulo": "Search for a right-handed W boson and a heavy neutrino in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2374,
+  "revista": "JHEP 04, 047",
+  "anio": 2022,
+  "doi": "10.1007/JHEP04(2022)047",
+  "arxiv": "2112.03949",
+  "tipo": "article",
+  "citas": 86,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1984855",
+  "inspire": 1984855,
+  "ads": null,
+  "titulo": "Search for heavy resonances decaying to a pair of Lorentz-boosted Higgs bosons in final states with leptons and a bottom quark pair at $ \\sqrt{s} $= 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2368,
+  "revista": "JHEP 05, 005",
+  "anio": 2022,
+  "doi": "10.1007/JHEP05(2022)005",
+  "arxiv": "2112.03161",
+  "tipo": "article",
+  "citas": 45,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1981531",
+  "inspire": 1981531,
+  "ads": null,
+  "titulo": "Strategies and performance of the CMS silicon tracker alignment during LHC Run 2",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Blöch, Dominic",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Hinger, Viktoria"
+  ],
+  "num_autores": 2607,
+  "revista": "Nucl.Instrum.Meth.A 1037, 166795",
+  "anio": 2022,
+  "doi": "10.1016/j.nima.2022.166795",
+  "arxiv": "2111.08757",
+  "tipo": "article",
+  "citas": 59,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1978840",
+  "inspire": 1978840,
+  "ads": null,
+  "titulo": "Measurement of W$^\\pm\\gamma$ differential cross sections in proton-proton collisions at $\\sqrt{s}$ = 13 TeV and effective field theory constraints",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2366,
+  "revista": "Phys.Rev.D 105, 052003",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.105.052003",
+  "arxiv": "2111.13948",
+  "tipo": "article",
+  "citas": 41,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1976980",
+  "inspire": 1976980,
+  "ads": null,
+  "titulo": "Search for heavy resonances decaying to ZZ or ZW and axion-like particles mediating nonresonant ZZ or ZH production at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2376,
+  "revista": "JHEP 04, 087",
+  "anio": 2022,
+  "doi": "10.1007/JHEP04(2022)087",
+  "arxiv": "2111.13669",
+  "tipo": "article",
+  "citas": 56,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1972986",
+  "inspire": 1972986,
+  "ads": null,
+  "titulo": "Measurement and QCD analysis of double-differential inclusive jet cross sections in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2372,
+  "revista": "JHEP 02, 142",
+  "anio": 2022,
+  "doi": "10.1007/JHEP02(2022)142",
+  "arxiv": "2111.10431",
+  "tipo": "article",
+  "citas": 115,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1972089",
+  "inspire": 1972089,
+  "ads": null,
+  "titulo": "Search for a heavy resonance decaying into a top quark and a W boson in the lepton+jets final state at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, A.",
+   "Adam, W.",
+   "Andrejkovic, J.W.",
+   "Bergauer, T.",
+   "Chatterjee, S.",
+   "Damanakis, K.",
+   "Dragicevic, M.",
+   "Escalante Del Valle, A.",
+   "Frühwirth, R.",
+   "Jeitler, M."
+  ],
+  "num_autores": 2368,
+  "revista": "JHEP 04, 048",
+  "anio": 2022,
+  "doi": "10.1007/JHEP04(2022)048",
+  "arxiv": "2111.10216",
+  "tipo": "article",
+  "citas": 31,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:1970917",
   "inspire": 1970917,
   "ads": null,
@@ -1517,6 +3844,342 @@
   "citas": 10,
   "miembros": [
    "Víctor Miralles Aznar"
+  ]
+ },
+ {
+  "id": "inspire:1966342",
+  "inspire": 1966342,
+  "ads": null,
+  "titulo": "Search for supersymmetry in final states with two or three soft leptons and missing transverse momentum in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2371,
+  "revista": "JHEP 04, 091",
+  "anio": 2022,
+  "doi": "10.1007/JHEP04(2022)091",
+  "arxiv": "2111.06296",
+  "tipo": "article",
+  "citas": 142,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1963239",
+  "inspire": 1963239,
+  "ads": null,
+  "titulo": "Study of dijet events with large rapidity separation in proton-proton collisions at $ \\sqrt{s} $ = 2.76 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2372,
+  "revista": "JHEP 03, 189",
+  "anio": 2022,
+  "doi": "10.1007/JHEP03(2022)189",
+  "arxiv": "2111.04605",
+  "tipo": "article",
+  "citas": 18,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1961934",
+  "inspire": 1961934,
+  "ads": null,
+  "titulo": "Search for low-mass dilepton resonances in Higgs boson decays to four-lepton final states in proton–proton collisions at $\\sqrt{s}=13\\,\\text {TeV} $",
+  "autores": [
+   "Tumasyan, A.",
+   "Adam, W.",
+   "Bergauer, T.",
+   "Dragicevic, M.",
+   "Erö, J.",
+   "Valle, A. Escalante Del",
+   "Frühwirth, R.",
+   "Jeitler, M.",
+   "Krammer, N.",
+   "Lechner, L."
+  ],
+  "num_autores": 2348,
+  "revista": "Eur.Phys.J.C 82, 290",
+  "anio": 2022,
+  "doi": "10.1140/epjc/s10052-022-10127-0",
+  "arxiv": "2111.01299",
+  "tipo": "article",
+  "citas": 62,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1961179",
+  "inspire": 1961179,
+  "ads": null,
+  "titulo": "A new calibration method for charm jet identification validated with proton-proton collision events at $\\sqrt{s}$ =13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2363,
+  "revista": "JINST 17, P03014",
+  "anio": 2022,
+  "doi": "10.1088/1748-0221/17/03/P03014",
+  "arxiv": "2111.03027",
+  "tipo": "article",
+  "citas": 47,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1961177",
+  "inspire": 1961177,
+  "ads": null,
+  "titulo": "Inclusive and differential cross section measurements of single top quark production in association with a Z boson in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2367,
+  "revista": "JHEP 02, 107",
+  "anio": 2022,
+  "doi": "10.1007/JHEP02(2022)107",
+  "arxiv": "2111.02860",
+  "tipo": "article",
+  "citas": 96,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1954276",
+  "inspire": 1954276,
+  "ads": null,
+  "titulo": "Search for long-lived particles produced in association with a Z boson in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2373,
+  "revista": "JHEP 03, 160",
+  "anio": 2022,
+  "doi": "10.1007/JHEP03(2022)160",
+  "arxiv": "2110.13218",
+  "tipo": "article",
+  "citas": 34,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1949191",
+  "inspire": 1949191,
+  "ads": null,
+  "titulo": "Measurement of the inclusive and differential WZ production cross sections, polarization angles, and triple gauge couplings in pp collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2370,
+  "revista": "JHEP 07, 032",
+  "anio": 2022,
+  "doi": "10.1007/JHEP07(2022)032",
+  "arxiv": "2110.11231",
+  "tipo": "article",
+  "citas": 140,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1942141",
+  "inspire": 1942141,
+  "ads": null,
+  "titulo": "First Search for Exclusive Diphoton Production at High Mass with Tagged Protons in Proton-Proton Collisions at $\\sqrt s$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2412,
+  "revista": "Phys.Rev.Lett. 129, 011801",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevLett.129.011801",
+  "arxiv": "2110.05916",
+  "tipo": "article",
+  "citas": 72,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1940976",
+  "inspire": 1940976,
+  "ads": null,
+  "titulo": "Search for long-lived particles decaying to leptons with large impact parameter in proton–proton collisions at $\\sqrt{s} = 13\\,\\text {Te}\\text {V} $",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Damanakis, Konstantinos",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2375,
+  "revista": "Eur.Phys.J.C 82, 153",
+  "anio": 2022,
+  "doi": "10.1140/epjc/s10052-022-10027-3",
+  "arxiv": "2110.04809",
+  "tipo": "article",
+  "citas": 80,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1940967",
+  "inspire": 1940967,
+  "ads": null,
+  "titulo": "Analysis of the $CP$ structure of the Yukawa coupling between the Higgs boson and $\\tau$ leptons in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2368,
+  "revista": "JHEP 06, 012",
+  "anio": 2022,
+  "doi": "10.1007/JHEP06(2022)012",
+  "arxiv": "2110.04836",
+  "tipo": "article",
+  "citas": 133,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1932460",
+  "inspire": 1932460,
+  "ads": null,
+  "titulo": "Measurement of double-parton scattering in inclusive production of four jets with low transverse momentum in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2359,
+  "revista": "JHEP 01, 177",
+  "anio": 2022,
+  "doi": "10.1007/JHEP01(2022)177",
+  "arxiv": "2109.13822",
+  "tipo": "article",
+  "citas": 42,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1923626",
+  "inspire": 1923626,
+  "ads": null,
+  "titulo": "Search for heavy resonances decaying to Z($\\nu\\bar{\\nu}$)V(q$\\bar{q}$') in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2379,
+  "revista": "Phys.Rev.D 106, 012004",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.106.012004",
+  "arxiv": "2109.08268",
+  "tipo": "article",
+  "citas": 28,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1539,6 +4202,90 @@
   "citas": 18,
   "miembros": [
    "Antonio José Cuesta Vázquez"
+  ]
+ },
+ {
+  "id": "inspire:1920983",
+  "inspire": 1920983,
+  "ads": null,
+  "titulo": "Search for heavy resonances decaying to WW, WZ, or WH boson pairs in the lepton plus merged jet final state in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2369,
+  "revista": "Phys.Rev.D 105, 032008",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.105.032008",
+  "arxiv": "2109.06055",
+  "tipo": "article",
+  "citas": 74,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1920187",
+  "inspire": 1920187,
+  "ads": null,
+  "titulo": "Study of quark and gluon jet substructure in Z+jet and dijet events from pp collisions",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2368,
+  "revista": "JHEP 01, 188",
+  "anio": 2022,
+  "doi": "10.1007/JHEP01(2022)188",
+  "arxiv": "2109.03340",
+  "tipo": "article",
+  "citas": 87,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1898933",
+  "inspire": 1898933,
+  "ads": null,
+  "titulo": "Exotic meson $\\pi_1(1600)$ with $J^{PC} = 1^{-+}$ and its decay into $\\rho(770)\\pi$",
+  "autores": [
+   "Alexeev, M.G.",
+   "Alexeev, G.D.",
+   "Amoroso, A.",
+   "Andrieux, V.",
+   "Anosov, V.",
+   "Augsten, K.",
+   "Augustyniak, W.",
+   "Azevedo, C.D.R.",
+   "Badelek, B.",
+   "Balestra, F."
+  ],
+  "num_autores": 199,
+  "revista": "Phys.Rev.D 105, 012005",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevD.105.012005",
+  "arxiv": "2108.01744",
+  "tipo": "article",
+  "citas": 50,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1566,20 +4313,451 @@
   ]
  },
  {
-  "id": "orcid:0000-0003-2579-2676:176805437",
-  "inspire": null,
+  "id": "inspire:1894790",
+  "inspire": 1894790,
   "ads": null,
-  "titulo": "Supermassive black holes in cosmological simulations I: M<sub>BH</sub> − M<sub>*</sub> relation and black hole mass function",
-  "autores": [],
-  "num_autores": 0,
-  "revista": "Monthly Notices of the Royal Astronomical Society",
+  "titulo": "Measurement of the inclusive and differential Higgs boson production cross sections in the decay mode to a pair of $\\tau$ leptons in pp collisions at $\\sqrt{s} = $ 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2369,
+  "revista": "Phys.Rev.Lett. 128, 081805",
+  "anio": 2022,
+  "doi": "10.1103/PhysRevLett.128.081805",
+  "arxiv": "2107.11486",
+  "tipo": "article",
+  "citas": 66,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1872976",
+  "inspire": 1872976,
+  "ads": null,
+  "titulo": "Search for electroweak production of charginos and neutralinos in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2344,
+  "revista": "JHEP 04, 147",
+  "anio": 2022,
+  "doi": "10.1007/JHEP04(2022)147",
+  "arxiv": "2106.14246",
+  "tipo": "article",
+  "citas": 143,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1869502",
+  "inspire": 1869502,
+  "ads": null,
+  "titulo": "Search for W$\\gamma$ resonances in proton-proton collisions at $\\sqrt{s} =$ 13 TeV using hadronic decays of Lorentz-boosted W bosons",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2336,
+  "revista": "Phys.Lett.B 826, 136888",
+  "anio": 2022,
+  "doi": "10.1016/j.physletb.2022.136888",
+  "arxiv": "2106.10509",
+  "tipo": "article",
+  "citas": 18,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1864485",
+  "inspire": 1864485,
+  "ads": null,
+  "titulo": "Search for strongly interacting massive particles generating trackless jets in proton–proton collisions at $\\sqrt{s} = 13\\,\\text {TeV} $",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2367,
+  "revista": "Eur.Phys.J.C 82, 213",
+  "anio": 2022,
+  "doi": "10.1140/epjc/s10052-022-10095-5",
+  "arxiv": "2105.09178",
+  "tipo": "article",
+  "citas": 12,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1861148",
+  "inspire": 1861148,
+  "ads": null,
+  "titulo": "Probing transversity by measuring Λ polarisation in SIDIS",
+  "autores": [
+   "Alexeev, M.G.",
+   "Alexeev, G.D.",
+   "Amoroso, A.",
+   "Andrieux, V.",
+   "Anosov, V.",
+   "Augsten, K.",
+   "Augustyniak, W.",
+   "Azevedo, C.D.R.",
+   "Badełek, B.",
+   "Balestra, F."
+  ],
+  "num_autores": 199,
+  "revista": "Phys.Lett.B 824, 136834",
+  "anio": 2022,
+  "doi": "10.1016/j.physletb.2021.136834",
+  "arxiv": "2104.13585",
+  "tipo": "article",
+  "citas": 13,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:3229784",
+  "inspire": 3229784,
+  "ads": null,
+  "titulo": "Supermassive black holes in cosmological simulations I: <i>M</i>BH − <i>M</i>⋆ relation and black hole mass function",
+  "autores": [
+   "Habouzit, Melanie",
+   "Li, Yuan",
+   "Somerville, Rachel S.",
+   "Genel, Shy",
+   "Pillepich, Annalisa",
+   "Volonteri, Marta",
+   "Davé, Romeel",
+   "Rosas-Guevara, Yetli",
+   "McAlpine, Stuart",
+   "Peirani, Sébastien"
+  ],
+  "num_autores": 18,
+  "revista": "Mon.Not.Roy.Astron.Soc. 503, 1940",
   "anio": 2021,
   "doi": "10.1093/mnras/stab496",
-  "arxiv": null,
-  "tipo": "journal article",
-  "citas": null,
+  "arxiv": "2006.10094",
+  "tipo": "article",
+  "citas": 122,
   "miembros": [
    "Yetli Mariana Rosas Guevara"
+  ]
+ },
+ {
+  "id": "inspire:1917152",
+  "inspire": 1917152,
+  "ads": null,
+  "titulo": "Observation of tW production in the single-lepton channel in pp collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2377,
+  "revista": "JHEP 11, 111",
+  "anio": 2021,
+  "doi": "10.1007/JHEP11(2021)111",
+  "arxiv": "2109.01706",
+  "tipo": "article",
+  "citas": 53,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1911567",
+  "inspire": 1911567,
+  "ads": null,
+  "titulo": "Measurement of the top quark mass using events with a single reconstructed top quark in pp collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2381,
+  "revista": "JHEP 12, 161",
+  "anio": 2021,
+  "doi": "10.1007/JHEP12(2021)161",
+  "arxiv": "2108.10407",
+  "tipo": "article",
+  "citas": 43,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1901295",
+  "inspire": 1901295,
+  "ads": null,
+  "titulo": "Measurement of differential $t \\bar t$ production cross sections in the full kinematic range using lepton+jets events from proton-proton collisions at $\\sqrt {s}$ = 13  TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2367,
+  "revista": "Phys.Rev.D 104, 092013",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevD.104.092013",
+  "arxiv": "2108.02803",
+  "tipo": "article",
+  "citas": 191,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1895530",
+  "inspire": 1895530,
+  "ads": null,
+  "titulo": "Probing effective field theory operators in the associated production of top quarks with a Z boson in multilepton final states at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Lee, Kyeongpil",
+   "Jain, Sandhya",
+   "Wang, Jin",
+   "Wang, Qun",
+   "Finger, Miroslav",
+   "Finger Jr, Michael",
+   "Kim, Min Suk",
+   "Ghosh, Shamik",
+   "Ghosh, Saranya",
+   "Meyer, Arnd"
+  ],
+  "num_autores": 2365,
+  "revista": "JHEP 12, 083",
+  "anio": 2021,
+  "doi": "10.1007/JHEP12(2021)083",
+  "arxiv": "2107.13896",
+  "tipo": "article",
+  "citas": 79,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1895525",
+  "inspire": 1895525,
+  "ads": null,
+  "titulo": "Search for chargino-neutralino production in events with Higgs and W bosons using 137 fb$^{−1}$ of proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2367,
+  "revista": "JHEP 10, 045",
+  "anio": 2021,
+  "doi": "10.1007/JHEP10(2021)045",
+  "arxiv": "2107.12553",
+  "tipo": "article",
+  "citas": 51,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1894408",
+  "inspire": 1894408,
+  "ads": null,
+  "titulo": "Search for new particles in events with energetic jets and large missing transverse momentum in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2369,
+  "revista": "JHEP 11, 153",
+  "anio": 2021,
+  "doi": "10.1007/JHEP11(2021)153",
+  "arxiv": "2107.13021",
+  "tipo": "article",
+  "citas": 285,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1893826",
+  "inspire": 1893826,
+  "ads": null,
+  "titulo": "Combined searches for the production of supersymmetric top quark partners in proton–proton collisions at $\\sqrt{s} = 13\\,\\text {Te}\\text {V} $",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2373,
+  "revista": "Eur.Phys.J.C 81, 970",
+  "anio": 2021,
+  "doi": "10.1140/epjc/s10052-021-09721-5",
+  "arxiv": "2107.10892",
+  "tipo": "article",
+  "citas": 105,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1883075",
+  "inspire": 1883075,
+  "ads": null,
+  "titulo": "Search for Long-Lived Particles Decaying in the CMS End Cap Muon Detectors in Proton-Proton Collisions at $\\sqrt s$ =13  TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2367,
+  "revista": "Phys.Rev.Lett. 127, 261804",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevLett.127.261804",
+  "arxiv": "2107.04838",
+  "tipo": "article",
+  "citas": 94,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1876579",
+  "inspire": 1876579,
+  "ads": null,
+  "titulo": "Measurement of the inclusive and differential t$ \\overline{t} $γ cross sections in the single-lepton channel and EFT interpretation at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2370,
+  "revista": "JHEP 12, 180",
+  "anio": 2021,
+  "doi": "10.1007/JHEP12(2021)180",
+  "arxiv": "2107.01508",
+  "tipo": "article",
+  "citas": 78,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1876311",
+  "inspire": 1876311,
+  "ads": null,
+  "titulo": "Measurements of the electroweak diboson production cross sections in proton-proton collisions at $\\sqrt{s} =$ 5.02 TeV using leptonic decays",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2368,
+  "revista": "Phys.Rev.Lett. 127, 191801",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevLett.127.191801",
+  "arxiv": "2107.01137",
+  "tipo": "article",
+  "citas": 45,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1601,6 +4779,90 @@
   "citas": 16,
   "miembros": [
    "Víctor Miralles Aznar"
+  ]
+ },
+ {
+  "id": "inspire:1869513",
+  "inspire": 1869513,
+  "ads": null,
+  "titulo": "Measurement of the electroweak production of Z$\\gamma$ and two jets in proton-proton collisions at $\\sqrt{s} =$ 13 TeV and constraints on anomalous quartic gauge couplings",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2362,
+  "revista": "Phys.Rev.D 104, 072001",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevD.104.072001",
+  "arxiv": "2106.11082",
+  "tipo": "article",
+  "citas": 78,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1869505",
+  "inspire": 1869505,
+  "ads": null,
+  "titulo": "Search for a heavy Higgs boson decaying into two lighter Higgs bosons in the $\\tau\\tau$bb final state at 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2375,
+  "revista": "JHEP 11, 057",
+  "anio": 2021,
+  "doi": "10.1007/JHEP11(2021)057",
+  "arxiv": "2106.10361",
+  "tipo": "article",
+  "citas": 113,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1866118",
+  "inspire": 1866118,
+  "ads": null,
+  "titulo": "Study of Z boson plus jets events using variables sensitive to double-parton scattering in pp collisions at 13 TeV",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2344,
+  "revista": "JHEP 10, 176",
+  "anio": 2021,
+  "doi": "10.1007/JHEP10(2021)176",
+  "arxiv": "2105.14511",
+  "tipo": "article",
+  "citas": 23,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1627,6 +4889,902 @@
   ]
  },
  {
+  "id": "inspire:1865855",
+  "inspire": 1865855,
+  "ads": null,
+  "titulo": "Measurements of the pp $\\to$ W$^\\pm\\gamma\\gamma$ and pp $\\to$ Z$\\gamma\\gamma$ cross sections at $\\sqrt{s} =$ 13 TeV and limits on anomalous quartic gauge couplings",
+  "autores": [
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2337,
+  "revista": "JHEP 10, 174",
+  "anio": 2021,
+  "doi": "10.1007/JHEP10(2021)174",
+  "arxiv": "2105.12780",
+  "tipo": "article",
+  "citas": 68,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1862497",
+  "inspire": 1862497,
+  "ads": null,
+  "titulo": "Search for lepton-flavor violating decays of the Higgs boson in the $\\mu\\tau$ and e$\\tau$ final states in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2351,
+  "revista": "Phys.Rev.D 104, 032013",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevD.104.032013",
+  "arxiv": "2105.03007",
+  "tipo": "article",
+  "citas": 139,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1861146",
+  "inspire": 1861146,
+  "ads": null,
+  "titulo": "Search for long-lived particles decaying to jets with displaced vertices in proton-proton collisions at $\\sqrt{s}=$ 13 TeV",
+  "autores": [
+   "Sirunyan, A.M.",
+   "Tumasyan, A.",
+   "Adam, W.",
+   "Bergauer, T.",
+   "Dragicevic, M.",
+   "Escalante Del Valle, A.",
+   "Frühwirth, R.",
+   "Jeitler, M.",
+   "Krammer, N.",
+   "Lechner, L."
+  ],
+  "num_autores": 2335,
+  "revista": "Phys.Rev.D 104, 052011",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevD.104.052011",
+  "arxiv": "2104.13474",
+  "tipo": "article",
+  "citas": 70,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1860980",
+  "inspire": 1860980,
+  "ads": null,
+  "titulo": "Search for a heavy resonance decaying to a top quark and a W boson at $ \\sqrt{s} $ = 13 TeV in the fully hadronic final state",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2333,
+  "revista": "JHEP 12, 106",
+  "anio": 2021,
+  "doi": "10.1007/JHEP12(2021)106",
+  "arxiv": "2104.12853",
+  "tipo": "article",
+  "citas": 22,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1860903",
+  "inspire": 1860903,
+  "ads": null,
+  "titulo": "Constraints on anomalous Higgs boson couplings to vector bosons and fermions in its production and decay using the four-lepton final state",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2349,
+  "revista": "Phys.Rev.D 104, 052004",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevD.104.052004",
+  "arxiv": "2104.12152",
+  "tipo": "article",
+  "citas": 167,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1857811",
+  "inspire": 1857811,
+  "ads": null,
+  "titulo": "Search for charged Higgs bosons produced in vector boson fusion processes and decaying into vector boson pairs in proton–proton collisions at $\\sqrt{s} = 13\\,{\\text {TeV}} $",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2369,
+  "revista": "Eur.Phys.J.C 81, 723",
+  "anio": 2021,
+  "doi": "10.1140/epjc/s10052-021-09472-3",
+  "arxiv": "2104.04762",
+  "tipo": "article",
+  "citas": 96,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1857809",
+  "inspire": 1857809,
+  "ads": null,
+  "titulo": "Search for W′ bosons decaying to a top and a bottom quark at s=13TeV in the hadronic final state",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2333,
+  "revista": "Phys.Lett.B 820, 136535",
+  "anio": 2021,
+  "doi": "10.1016/j.physletb.2021.136535",
+  "arxiv": "2104.04831",
+  "tipo": "article",
+  "citas": 39,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1856090",
+  "inspire": 1856090,
+  "ads": null,
+  "titulo": "Precision luminosity measurement in proton-proton collisions at $\\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2341,
+  "revista": "Eur.Phys.J.C 81, 800",
+  "anio": 2021,
+  "doi": "10.1140/epjc/s10052-021-09538-2",
+  "arxiv": "2104.01927",
+  "tipo": "article",
+  "citas": 944,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1851456",
+  "inspire": 1851456,
+  "ads": null,
+  "titulo": "Measurements of Higgs boson production cross sections and couplings in the diphoton decay channel at $ \\sqrt{\\mathrm{s}} $ = 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2342,
+  "revista": "JHEP 07, 027",
+  "anio": 2021,
+  "doi": "10.1007/JHEP07(2021)027",
+  "arxiv": "2103.06956",
+  "tipo": "article",
+  "citas": 264,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1850544",
+  "inspire": 1850544,
+  "ads": null,
+  "titulo": "Measurements of production cross sections of the Higgs boson in the four-lepton final state in proton–proton collisions at $\\sqrt{s} = 13\\,\\text {Te}\\text {V} $",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2333,
+  "revista": "Eur.Phys.J.C 81, 488",
+  "anio": 2021,
+  "doi": "10.1140/epjc/s10052-021-09200-x",
+  "arxiv": "2103.04956",
+  "tipo": "article",
+  "citas": 183,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1849964",
+  "inspire": 1849964,
+  "ads": null,
+  "titulo": "Search for resonant and nonresonant new phenomena in high-mass dilepton final states at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2349,
+  "revista": "JHEP 07, 208",
+  "anio": 2021,
+  "doi": "10.1007/JHEP07(2021)208",
+  "arxiv": "2103.02708",
+  "tipo": "article",
+  "citas": 443,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1849522",
+  "inspire": 1849522,
+  "ads": null,
+  "titulo": "Search for top squark production in fully-hadronic final states in proton-proton collisions at $\\sqrt{s} =$ 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2334,
+  "revista": "Phys.Rev.D 104, 052001",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevD.104.052001",
+  "arxiv": "2103.01290",
+  "tipo": "article",
+  "citas": 123,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1846987",
+  "inspire": 1846987,
+  "ads": null,
+  "titulo": "Search for a heavy vector resonance decaying to a ${\\mathrm{Z}}_{\\mathrm{}}^{\\mathrm{}}$  boson and a Higgs boson in proton-proton collisions at $\\sqrt{s} = 13\\,\\text {Te}\\text {V} $",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2364,
+  "revista": "Eur.Phys.J.C 81, 688",
+  "anio": 2021,
+  "doi": "10.1140/epjc/s10052-021-09348-6",
+  "arxiv": "2102.08198",
+  "tipo": "article",
+  "citas": 58,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1846679",
+  "inspire": 1846679,
+  "ads": null,
+  "titulo": "Search for top squarks in final states with two top quarks and several light-flavor jets in proton-proton collisions at $\\sqrt {s}$ = 13  TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2333,
+  "revista": "Phys.Rev.D 104, 032006",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevD.104.032006",
+  "arxiv": "2102.06976",
+  "tipo": "article",
+  "citas": 65,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1845579",
+  "inspire": 1845579,
+  "ads": null,
+  "titulo": "Observation of a New Excited Beauty Strange Baryon Decaying to $\\Xi^-_\\mathrm{b} \\pi^+ \\pi^-$",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2367,
+  "revista": "Phys.Rev.Lett. 126, 252003",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevLett.126.252003",
+  "arxiv": "2102.04524",
+  "tipo": "article",
+  "citas": 83,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1844754",
+  "inspire": 1844754,
+  "ads": null,
+  "titulo": "Measurement of the W$\\gamma$ Production Cross Section in Proton-Proton Collisions at $\\sqrt {s}$=13  TeV and Constraints on Effective Field Theory Coefficients",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Andrejkovic, Janik Walter",
+   "Bergauer, Thomas",
+   "Chatterjee, Suman",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred"
+  ],
+  "num_autores": 2329,
+  "revista": "Phys.Rev.Lett. 126, 252002",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevLett.126.252002",
+  "arxiv": "2102.02283",
+  "tipo": "article",
+  "citas": 40,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1840683",
+  "inspire": 1840683,
+  "ads": null,
+  "titulo": "In-medium modification of dijets in PbPb collisions at $ \\sqrt{s_{\\mathrm{NN}}} $ = 5.02 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2351,
+  "revista": "JHEP 05, 116",
+  "anio": 2021,
+  "doi": "10.1007/JHEP05(2021)116",
+  "arxiv": "2101.04720",
+  "tipo": "article",
+  "citas": 44,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1837084",
+  "inspire": 1837084,
+  "ads": null,
+  "titulo": "Measurement of the Z boson differential production cross section using its invisible decay mode (Z$\\nu\\bar{\\nu}$) in proton-proton collisions at $\\sqrt{s}=$ 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2326,
+  "revista": "JHEP 05, 205",
+  "anio": 2021,
+  "doi": "10.1007/JHEP05(2021)205",
+  "arxiv": "2012.09254",
+  "tipo": "article",
+  "citas": 17,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1837083",
+  "inspire": 1837083,
+  "ads": null,
+  "titulo": "First measurement of the cross section for top quark pair production with additional charm jets using dileptonic final states in pp collisions at s=13TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2325,
+  "revista": "Phys.Lett.B 820, 136565",
+  "anio": 2021,
+  "doi": "10.1016/j.physletb.2021.136565",
+  "arxiv": "2012.09225",
+  "tipo": "article",
+  "citas": 52,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1836850",
+  "inspire": 1836850,
+  "ads": null,
+  "titulo": "Search for supersymmetry in final states with two oppositely charged same-flavor leptons and missing transverse momentum in proton-proton collisions at $\\sqrt{s} =$ 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2333,
+  "revista": "JHEP 04, 123",
+  "anio": 2021,
+  "doi": "10.1007/JHEP04(2021)123",
+  "arxiv": "2012.08600",
+  "tipo": "article",
+  "citas": 209,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1836363",
+  "inspire": 1836363,
+  "ads": null,
+  "titulo": "Electron and photon reconstruction and identification with the CMS experiment at the CERN LHC",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2333,
+  "revista": "JINST 16, P05014",
+  "anio": 2021,
+  "doi": "10.1088/1748-0221/16/05/P05014",
+  "arxiv": "2012.06888",
+  "tipo": "article",
+  "citas": 969,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1835318",
+  "inspire": 1835318,
+  "ads": null,
+  "titulo": "Search for new physics in top quark production with additional leptons in proton-proton collisions at $\\sqrt{s} = $ 13 TeV using effective field theory",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2333,
+  "revista": "JHEP 03, 095",
+  "anio": 2021,
+  "doi": "10.1007/JHEP03(2021)095",
+  "arxiv": "2012.04120",
+  "tipo": "article",
+  "citas": 105,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1835316",
+  "inspire": 1835316,
+  "ads": null,
+  "titulo": "Search for singly and pair-produced leptoquarks coupling to third-generation fermions in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mtext> TeV</mtext></math>",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2353,
+  "revista": "Phys.Lett.B 819, 136446",
+  "anio": 2021,
+  "doi": "10.1016/j.physletb.2021.136446",
+  "arxiv": "2012.04178",
+  "tipo": "article",
+  "citas": 140,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1832782",
+  "inspire": 1832782,
+  "ads": null,
+  "titulo": "Search for nonresonant Higgs boson pair production in final states with two bottom quarks and two photons in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2325,
+  "revista": "JHEP 03, 257",
+  "anio": 2021,
+  "doi": "10.1007/JHEP03(2021)257",
+  "arxiv": "2011.12373",
+  "tipo": "article",
+  "citas": 208,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1829749",
+  "inspire": 1829749,
+  "ads": null,
+  "titulo": "Search for the rare decay of the W boson into a pion and a photon in proton-proton collisions at <math altimg=\"si1.svg\"><msqrt><mrow><mi>s</mi></mrow></msqrt><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>13</mn><mspace width=\"0.2em\"/><mtext>TeV</mtext></math>",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2352,
+  "revista": "Phys.Lett.B 819, 136409",
+  "anio": 2021,
+  "doi": "10.1016/j.physletb.2021.136409",
+  "arxiv": "2011.06028",
+  "tipo": "article",
+  "citas": 21,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1828962",
+  "inspire": 1828962,
+  "ads": null,
+  "titulo": "Measurement of the Higgs boson production rate in association with top quarks in final states with electrons, muons, and hadronically decaying tau leptons at $\\sqrt{s} =$ 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2356,
+  "revista": "Eur.Phys.J.C 81, 378",
+  "anio": 2021,
+  "doi": "10.1140/epjc/s10052-021-09014-x",
+  "arxiv": "2011.03652",
+  "tipo": "article",
+  "citas": 242,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1826544",
+  "inspire": 1826544,
+  "ads": null,
+  "titulo": "Angular analysis of the decay B$^+$ $\\to$ K$^*$(892)$^+\\mu^+\\mu^-$ in proton-proton collisions at $\\sqrt{s} =$ 8 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha",
+   "Lechner, Lukas"
+  ],
+  "num_autores": 2333,
+  "revista": "JHEP 04, 124",
+  "anio": 2021,
+  "doi": "10.1007/JHEP04(2021)124",
+  "arxiv": "2010.13968",
+  "tipo": "article",
+  "citas": 61,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1820106",
+  "inspire": 1820106,
+  "ads": null,
+  "titulo": "Search for dark photons in Higgs boson production via vector boson fusion in proton-proton collisions at $ \\sqrt{s} $ = 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2353,
+  "revista": "JHEP 03, 011",
+  "anio": 2021,
+  "doi": "10.1007/JHEP03(2021)011",
+  "arxiv": "2009.14009",
+  "tipo": "article",
+  "citas": 53,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1818160",
+  "inspire": 1818160,
+  "ads": null,
+  "titulo": "Measurements of production cross sections of polarized same-sign W boson pairs in association with two jets in proton-proton collisions at $\\sqrt{s} =$ 13 TeV",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2352,
+  "revista": "Phys.Lett.B 812, 136018",
+  "anio": 2021,
+  "doi": "10.1016/j.physletb.2020.136018",
+  "arxiv": "2009.09429",
+  "tipo": "article",
+  "citas": 112,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1815813",
+  "inspire": 1815813,
+  "ads": null,
+  "titulo": "Evidence for Higgs boson decay to a pair of muons",
+  "autores": [
+   "Sirunyan, Albert M",
+   "Tumasyan, Armen",
+   "Adam, Wolfgang",
+   "Bergauer, Thomas",
+   "Dragicevic, Marko",
+   "Erö, Janos",
+   "Escalante Del Valle, Alberto",
+   "Fruehwirth, Rudolf",
+   "Jeitler, Manfred",
+   "Krammer, Natascha"
+  ],
+  "num_autores": 2357,
+  "revista": "JHEP 01, 148",
+  "anio": 2021,
+  "doi": "10.1007/JHEP01(2021)148",
+  "arxiv": "2009.04363",
+  "tipo": "article",
+  "citas": 393,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1815459",
+  "inspire": 1815459,
+  "ads": null,
+  "titulo": "Spin density matrix elements in exclusive $\\omega $ meson muoproduction",
+  "autores": [
+   "Alexeev, M.G.",
+   "Alexeev, G.D.",
+   "Amoroso, A.",
+   "Andrieux, V.",
+   "Anosov, V.",
+   "Antoshkin, A.",
+   "Augsten, K.",
+   "Augustyniak, W.",
+   "Azevedo, C.D.R.",
+   "Badełek, B."
+  ],
+  "num_autores": 202,
+  "revista": "Eur.Phys.J.C 81, 126",
+  "anio": 2021,
+  "doi": "10.1140/epjc/s10052-020-08740-y",
+  "arxiv": "2009.03271",
+  "tipo": "article",
+  "citas": 18,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1800396",
+  "inspire": 1800396,
+  "ads": null,
+  "titulo": "Triangle Singularity as the Origin of the $a_1(1420)$",
+  "autores": [
+   "Alexeev, G.D.",
+   "Alexeev, M.G.",
+   "Amoroso, A.",
+   "Andrieux, V.",
+   "Anosov, V.",
+   "Antoshkin, A.",
+   "Augsten, K.",
+   "Augustyniak, W.",
+   "Azevedo, C.D.R.",
+   "Badełek, B."
+  ],
+  "num_autores": 197,
+  "revista": "Phys.Rev.Lett. 127, 082501",
+  "anio": 2021,
+  "doi": "10.1103/PhysRevLett.127.082501",
+  "arxiv": "2006.05342",
+  "tipo": "article",
+  "citas": 64,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:1799192",
   "inspire": 1799192,
   "ads": null,
@@ -1648,6 +5806,34 @@
   ]
  },
  {
+  "id": "inspire:1788430",
+  "inspire": 1788430,
+  "ads": null,
+  "titulo": "Antiproton over proton and K− over K+ multiplicity ratios at high z in DIS",
+  "autores": [
+   "Alexeev, G.D.",
+   "Alexeev, M. G.",
+   "Amoroso, A.",
+   "Andrieux, V.",
+   "Anosov, V.",
+   "Antoshkin, A.",
+   "Augsten, K.",
+   "Augustyniak, W.",
+   "Azevedo, C.D.R.",
+   "Badelek, B."
+  ],
+  "num_autores": 199,
+  "revista": "Phys.Lett.B 807, 135600",
+  "anio": 2020,
+  "doi": "10.1016/j.physletb.2020.135600",
+  "arxiv": "2003.11791",
+  "tipo": "article",
+  "citas": 6,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:1777828",
   "inspire": 1777828,
   "ads": null,
@@ -1666,9 +5852,37 @@
   "doi": "10.1093/mnras/staa1399",
   "arxiv": "2001.10548",
   "tipo": "article",
-  "citas": 67,
+  "citas": 68,
   "miembros": [
    "Yetli Mariana Rosas Guevara"
+  ]
+ },
+ {
+  "id": "inspire:1772229",
+  "inspire": 1772229,
+  "ads": null,
+  "titulo": "Contribution of exclusive diffractive processes to the measured azimuthal asymmetries in SIDIS",
+  "autores": [
+   "Agarwala, J.",
+   "Alexeev, M.G.",
+   "Alexeev, G.D.",
+   "Amoroso, A.",
+   "Andrieux, V.",
+   "Anfimov, N.V.",
+   "Anosov, V.",
+   "Augsten, K.",
+   "Augustyniak, W.",
+   "Azevedo, C.D.R."
+  ],
+  "num_autores": 206,
+  "revista": "Nucl.Phys.B 956, 115039",
+  "anio": 2020,
+  "doi": "10.1016/j.nuclphysb.2020.115039",
+  "arxiv": "1912.10322",
+  "tipo": "article",
+  "citas": 14,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -1719,7 +5933,7 @@
   "doi": "10.1140/epjc/s10052-020-7904-z",
   "arxiv": "1910.14012",
   "tipo": "article",
-  "citas": 205,
+  "citas": 206,
   "miembros": [
    "Víctor Miralles Aznar"
   ]
@@ -1893,6 +6107,34 @@
   ]
  },
  {
+  "id": "inspire:1684784",
+  "inspire": 1684784,
+  "ads": null,
+  "titulo": "Letter of Intent: A New QCD facility at the M2 beam line of the CERN SPS (COMPASS++/AMBER)",
+  "autores": [
+   "Adams, B.",
+   "Aidala, C.A.",
+   "Akhunzyanov, R.",
+   "Alexeev, G.D.",
+   "Alexeev, M.G.",
+   "Amoroso, A.",
+   "Andrieux, V.",
+   "Anfimov, N.V.",
+   "Anosov, V.",
+   "Antoshkin, A."
+  ],
+  "num_autores": 265,
+  "revista": null,
+  "anio": 2018,
+  "doi": null,
+  "arxiv": "1808.00848",
+  "tipo": "article",
+  "citas": 207,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:1665448",
   "inspire": 1665448,
   "ads": null,
@@ -1960,7 +6202,7 @@
   "doi": "10.1093/mnras/sty571",
   "arxiv": "1610.03506",
   "tipo": "article",
-  "citas": 122,
+  "citas": 123,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -1986,6 +6228,34 @@
   "citas": 31,
   "miembros": [
    "Fernando Cornet Gómez"
+  ]
+ },
+ {
+  "id": "inspire:1515202",
+  "inspire": 1515202,
+  "ads": null,
+  "titulo": "Tracking within Hadronic Showers in the CALICE SDHCAL prototype using a Hough Transform Technique",
+  "autores": [
+   "Deng, Z.",
+   "Li, Y.",
+   "Wang, Y.",
+   "Yue, Q.",
+   "Yang, Z.",
+   "Boumediene, D.",
+   "Carloganu, C.",
+   "Français, V.",
+   "Cho, G.",
+   "Kim, D-W."
+  ],
+  "num_autores": 114,
+  "revista": "JINST 12, P05009",
+  "anio": 2017,
+  "doi": "10.1088/1748-0221/12/05/P05009",
+  "arxiv": "1702.08082",
+  "tipo": "article",
+  "citas": 25,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -2034,7 +6304,7 @@
   "doi": "10.1038/s41550-017-0216-z",
   "arxiv": "1701.08165",
   "tipo": "article",
-  "citas": 560,
+  "citas": 563,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2062,7 +6332,7 @@
   "doi": "10.1093/mnras/stx721",
   "arxiv": "1607.03155",
   "tipo": "article",
-  "citas": 3501,
+  "citas": 3506,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2202,7 +6472,7 @@
   "doi": "10.1093/mnras/stw3298",
   "arxiv": "1607.03150",
   "tipo": "article",
-  "citas": 399,
+  "citas": 400,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2286,7 +6556,7 @@
   "doi": "10.1093/mnras/stw2372",
   "arxiv": "1607.03145",
   "tipo": "article",
-  "citas": 297,
+  "citas": 298,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2408,6 +6678,118 @@
   ]
  },
  {
+  "id": "inspire:1448102",
+  "inspire": 1448102,
+  "ads": null,
+  "titulo": "Resistive Plate Chamber Digitization in a Hadronic Shower Environment",
+  "autores": [
+   "Deng, Z.",
+   "Li, Y.",
+   "Wang, Y.",
+   "Yue, Q.",
+   "Yang, Z.",
+   "Boumediene, D.",
+   "Carloganu, C.",
+   "Français, V.",
+   "Cho, G.",
+   "Kim, D.W."
+  ],
+  "num_autores": 128,
+  "revista": "JINST 11, P06014",
+  "anio": 2016,
+  "doi": "10.1088/1748-0221/11/06/P06014",
+  "arxiv": "1604.04550",
+  "tipo": "article",
+  "citas": 22,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1426572",
+  "inspire": 1426572,
+  "ads": null,
+  "titulo": "DHCAL with Minimal Absorber: Measurements with Positrons",
+  "autores": [
+   "Freund, B.",
+   "Neubüser, C.",
+   "Repond, J.",
+   "Schlereth, J.",
+   "Xia, L.",
+   "Dotti, A.",
+   "Grefe, C.",
+   "Ivantchenko, V.",
+   "Antequera, J.Berenguer",
+   "Calvo Alamillo, E."
+  ],
+  "num_autores": 103,
+  "revista": "JINST 11, P05008",
+  "anio": 2016,
+  "doi": "10.1088/1748-0221/11/05/P05008",
+  "arxiv": "1603.01652",
+  "tipo": "article",
+  "citas": 13,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1424899",
+  "inspire": 1424899,
+  "ads": null,
+  "titulo": "Hadron shower decomposition in the highly granular CALICE analogue hadron calorimeter",
+  "autores": [
+   "Eigen, G.",
+   "Price, T.",
+   "Watson, N.K.",
+   "Marshall, J.S.",
+   "Thomson, M.A.",
+   "Ward, D.R.",
+   "Benchekroun, D.",
+   "Hoummada, A.",
+   "Khoulaki, Y.",
+   "Apostolakis, J."
+  ],
+  "num_autores": 159,
+  "revista": "JINST 11, P06013",
+  "anio": 2016,
+  "doi": "10.1088/1748-0221/11/06/P06013",
+  "arxiv": "1602.08578",
+  "tipo": "article",
+  "citas": 21,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
+  "id": "inspire:1420148",
+  "inspire": 1420148,
+  "ads": null,
+  "titulo": "First results of the CALICE SDHCAL technological prototype",
+  "autores": [
+   "Buridon, V.",
+   "Combaret, C.",
+   "Caponetto, L.",
+   "Ete, R.",
+   "Garillot, G.",
+   "Grenier, G.",
+   "Han, R.",
+   "Ianigro, J.C.",
+   "Kieffer, R.",
+   "Laktineh, I."
+  ],
+  "num_autores": 121,
+  "revista": "JINST 11, P04001",
+  "anio": 2016,
+  "doi": "10.1088/1748-0221/11/04/P04001",
+  "arxiv": "1602.02276",
+  "tipo": "article",
+  "citas": 65,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:1405403",
   "inspire": 1405403,
   "ads": null,
@@ -2522,7 +6904,7 @@
   "doi": "10.1093/mnras/stv2826",
   "arxiv": "1509.06400",
   "tipo": "article",
-  "citas": 346,
+  "citas": 349,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2654,7 +7036,7 @@
   "doi": "10.1093/mnras/stw1535",
   "arxiv": "1312.4889",
   "tipo": "article",
-  "citas": 171,
+  "citas": 173,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2728,6 +7110,34 @@
   ]
  },
  {
+  "id": "inspire:1376481",
+  "inspire": 1376481,
+  "ads": null,
+  "titulo": "Construction and commissioning of a technological prototype of a high-granularity semi-digital hadronic calorimeter",
+  "autores": [
+   "Baulieu, G.",
+   "Bedjidian, M.",
+   "Belkadhi, K.",
+   "Berenguer, J.",
+   "Boudry, V.",
+   "Calabria, P.",
+   "Callier, S.",
+   "Calvo Almillo, E.",
+   "Cap, S.",
+   "Caponetto, L."
+  ],
+  "num_autores": 46,
+  "revista": "JINST 10, P10039",
+  "anio": 2015,
+  "doi": "10.1088/1748-0221/10/10/P10039",
+  "arxiv": "1506.05316",
+  "tipo": "article",
+  "citas": 62,
+  "miembros": [
+   "Jorge Berenguer Antequera"
+  ]
+ },
+ {
   "id": "inspire:1336557",
   "inspire": 1336557,
   "ads": null,
@@ -2750,7 +7160,7 @@
   "doi": "10.1088/0067-0049/219/1/12",
   "arxiv": "1501.00963",
   "tipo": "article",
-  "citas": 1180,
+  "citas": 1184,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2778,9 +7188,37 @@
   "doi": "10.1088/1475-7516/2015/03/036",
   "arxiv": "1412.5948",
   "tipo": "article",
-  "citas": 53,
+  "citas": 54,
   "miembros": [
    "Antonio José Cuesta Vázquez"
+  ]
+ },
+ {
+  "id": "inspire:1333229",
+  "inspire": 1333229,
+  "ads": null,
+  "titulo": "Pion and proton showers in the CALICE scintillator-steel analogue hadron calorimeter",
+  "autores": [
+   "Bilki, B.",
+   "Repond, J.",
+   "Xia, L.",
+   "Eigen, G.",
+   "Thomson, M.A.",
+   "Ward, D.R.",
+   "Benchekroun, D.",
+   "Hoummada, A.",
+   "Khoulaki, Y.",
+   "Chang, S."
+  ],
+  "num_autores": 170,
+  "revista": "JINST 10, P04014",
+  "anio": 2015,
+  "doi": "10.1088/1748-0221/10/04/P04014",
+  "arxiv": "1412.2653",
+  "tipo": "article",
+  "citas": 36,
+  "miembros": [
+   "Jorge Berenguer Antequera"
   ]
  },
  {
@@ -2800,7 +7238,7 @@
   "doi": "10.1093/mnras/stv261",
   "arxiv": "1411.1094",
   "tipo": "article",
-  "citas": 103,
+  "citas": 104,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
@@ -2855,7 +7293,7 @@
   "doi": "10.1093/mnras/stv1359",
   "arxiv": "1408.0027",
   "tipo": "article",
-  "citas": 91,
+  "citas": 92,
   "miembros": [
    "Antonio José Cuesta Vázquez"
   ]
