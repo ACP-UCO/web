@@ -3,11 +3,41 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block titulo %}{% endblock %}{{ sitio.siglas }} · {{ sitio.codigo }} · {{ sitio.universidad }}</title>
-<meta name="description" content="{{ t('Grupo de investigación {codigo} «{nombre}» de la {universidad}.', codigo=sitio.codigo, nombre=sitio.nombre, universidad=sitio.universidad) }}">
-<link rel="alternate" hreflang="{{ 'en' if idioma == 'es' else 'es' }}" href="{{ otro_idioma }}{{ pagina }}">
+{% set titulo_bloque %}{% block titulo %}{% endblock %}{% endset %}
+{% set titulo_pagina = titulo_bloque ~ sitio.siglas ~ ' · ' ~ sitio.codigo ~ ' · ' ~ sitio.universidad %}
+{% set descripcion_pagina = descripcion or t('Grupo de investigación {codigo} «{nombre}» de la {universidad}.', codigo=sitio.codigo, nombre=sitio.nombre, universidad=sitio.universidad) %}
+<title>{{ titulo_pagina }}</title>
+<meta name="description" content="{{ descripcion_pagina }}">
+<link rel="canonical" href="{{ canonica }}">
+<link rel="alternate" hreflang="es" href="{{ url_es }}">
+<link rel="alternate" hreflang="en" href="{{ url_en }}">
+<link rel="alternate" hreflang="x-default" href="{{ url_es }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ sitio.siglas }} · {{ sitio.codigo }}">
+<meta property="og:locale" content="{{ 'es_ES' if idioma == 'es' else 'en_US' }}">
+<meta property="og:title" content="{{ titulo_pagina }}">
+<meta property="og:description" content="{{ descripcion_pagina }}">
+<meta property="og:url" content="{{ canonica }}">
+<meta property="og:image" content="{{ url_base }}img/logo-acp.svg">
+<meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="{{ raiz }}{{ recurso('css/estilo.css') }}">
 <link rel="icon" href="{{ raiz }}{{ recurso('img/icono.svg') }}" type="image/svg+xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": {{ sitio.nombre | tojson }},
+  "alternateName": {{ (sitio.siglas ~ ' · ' ~ sitio.codigo) | tojson }},
+  "url": "{{ url_base }}",
+  "logo": "{{ url_base }}img/logo-acp.svg",
+  "email": {{ sitio.correo | tojson }},
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": {{ sitio.universidad | tojson }},
+    "url": "https://www.uco.es"
+  }
+}
+</script>
 </head>
 <body>
 <a class="saltar" href="#principal">{{ t("Saltar al contenido") }}</a>

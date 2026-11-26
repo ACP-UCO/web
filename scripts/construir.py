@@ -236,10 +236,29 @@ def generar(idioma, tr, datos_es, comun):
                        iniciales=iniciales, saltos=saltos)
 
     hoy = comun["hoy"]
+    url_base = d["sitio"]["url"].rstrip("/") + "/"
+    # Descripción propia de cada página (sale en Google y al compartir en redes)
+    descripciones = {
+        "index.html": tr("Grupo de investigación FQM-429 «Astrofísica, Cosmología y "
+            "Partículas» de la Universidad de Córdoba. Física de partículas, "
+            "astrofísica y cosmología."),
+        "miembros.html": tr("Investigadoras e investigadores del grupo ACP (FQM-429), "
+            "Departamento de Física de la Universidad de Córdoba."),
+        "investigacion.html": tr("Líneas de investigación del grupo ACP: física de "
+            "partículas, astrofísica y cosmología, y las colaboraciones en que participa."),
+        "publicaciones.html": tr("Publicaciones científicas del grupo ACP (FQM-429), "
+            "actualizadas desde INSPIRE-HEP, NASA ADS y ORCID."),
+        "seminarios.html": tr("Seminarios y charlas del grupo ACP (FQM-429) de la "
+            "Universidad de Córdoba."),
+        "noticias.html": tr("Noticias y novedades del grupo de investigación ACP "
+            "(FQM-429) de la Universidad de Córdoba."),
+        "contacto.html": tr("Cómo contactar con el grupo ACP (FQM-429), Departamento "
+            "de Física de la Universidad de Córdoba."),
+    }
     # Sin seminarios en seminarios.yml, la sección se oculta (menú, portada y página)
     base = dict(sitio=d["sitio"], anio=hoy.year, actualizado=fecha_larga(hoy, idioma),
                 hay_seminarios=comun["hay_seminarios"], **IDIOMAS[idioma],
-                otro_idioma=("en/" if idioma == "es" else "../"))
+                url_base=url_base, otro_idioma=("en/" if idioma == "es" else "../"))
     paginas = {
         "index.html": dict(lineas=d["lineas"], noticias=d["noticias"][:3],
                            proximos=d["proximos"][:3], recientes=comun["recientes"]),
@@ -255,9 +274,39 @@ def generar(idioma, tr, datos_es, comun):
     carpeta = SITE / IDIOMAS[idioma]["carpeta"]
     carpeta.mkdir(parents=True, exist_ok=True)
     for nombre, datos in paginas.items():
-        html = env.get_template(nombre).render(**base, **datos, pagina=nombre)
+        seo = dict(descripcion=descripciones.get(nombre),
+                   url_es=url_pagina(url_base, "es", nombre),
+                   url_en=url_pagina(url_base, "en", nombre),
+                   canonica=url_pagina(url_base, idioma, nombre))
+        html = env.get_template(nombre).render(**base, **datos, **seo, pagina=nombre)
         (carpeta / nombre).write_text(html, encoding="utf-8")
     return list(paginas)
+
+
+def url_pagina(base, idioma, pagina):
+    """Dirección absoluta y canónica de una página (la portada sin 'index.html')."""
+    hoja = "" if pagina == "index.html" else pagina
+    return base + IDIOMAS[idioma]["carpeta"] + hoja
+
+
+def escribir_sitemap(base, paginas, hoy):
+    """Mapa del sitio para los buscadores: lista todas las páginas (en español e
+    inglés) y enlaza cada una con su versión en el otro idioma."""
+    filas = []
+    for idioma in IDIOMAS:
+        for pagina in paginas:
+            alternas = "".join(
+                f'\n    <xhtml:link rel="alternate" hreflang="{h}" '
+                f'href="{url_pagina(base, i, pagina)}"/>'
+                for h, i in (("es", "es"), ("en", "en"), ("x-default", "es")))
+            filas.append(
+                f'  <url>\n    <loc>{url_pagina(base, idioma, pagina)}</loc>'
+                f'{alternas}\n    <lastmod>{hoy.isoformat()}</lastmod>\n  </url>')
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+           '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+           + "\n".join(filas) + "\n</urlset>\n")
+    (SITE / "sitemap.xml").write_text(xml, encoding="utf-8")
 
 
 def main():
@@ -304,6 +353,7 @@ def main():
     for idioma in IDIOMAS:
         tr = trad if idioma == "en" else Traductor(None, "es")
         paginas = generar(idioma, tr, datos_es, comun)
+    escribir_sitemap(sitio["url"].rstrip("/") + "/", paginas, hoy)
     sin_traducir = trad.guardar()
 
     # Salvaguarda: nunca publicar archivos .ht* (protegen el .htpasswd del servidor)

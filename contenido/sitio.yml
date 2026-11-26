@@ -8,6 +8,11 @@ codigo: FQM-429
 universidad: Universidad de Córdoba
 departamento: Departamento de Física
 correo: infoacp@uco.es
+
+# Dirección oficial de la web (con la barra final). Se usa para que Google
+# encuentre la web (sitemap) y para evitar que penalice por tenerla en dos
+# direcciones. La web también funciona en www.uco.es/acp/, pero esta es la buena.
+url: https://www.uco.es/investiga/grupos/acp/
 direccion: |
   Campus de Rabanales, Edificio Albert Einstein (C2)
   Ctra. N-IV, km 396
